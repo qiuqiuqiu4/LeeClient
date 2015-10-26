@@ -1,0 +1,97 @@
+EntryQueueList = {
+  [1] = {
+    BattleFieldName = "火山峡谷",
+    DisplayBattleFieldName = "火山峡谷(Lv 80)",
+    AllianceNum = 6,
+    EnemyNum = 6,
+    PrivateApply = 1,
+    PartyApply = 1,
+    GuildApply = 1,
+    JobGroup = 4,
+    EnterCondType = 2,
+    EnterCondValue1 = 80,
+    EnterCondValue2 = 0,
+    RewardWin = "奖励 3 个勇猛徽章",
+    RewardDraw = "奖励 1 个勇猛徽章",
+    RewardLose = "奖励 1 个勇猛徽章",
+    VictoryCond = "摧毁敌方的仓库",
+    MiniMapFile = "bat_a01.bmp"
+  },
+  [2] = {
+    BattleFieldName = "弗拉菲乌斯",
+    DisplayBattleFieldName = "弗拉菲乌斯 (Lv 80)",
+    AllianceNum = 6,
+    EnemyNum = 6,
+    PrivateApply = 1,
+    PartyApply = 1,
+    GuildApply = 1,
+    JobGroup = 4,
+    EnterCondType = 2,
+    EnterCondValue1 = 80,
+    EnterCondValue2 = 0,
+    RewardWin = "奖励 9 个特攻徽章",
+    RewardDraw = "奖励 3 个特攻徽章",
+    RewardLose = "奖励 3 个特攻徽章",
+    VictoryCond = "摧毁敌方的水晶",
+    MiniMapFile = "bat_b01.bmp"
+  },
+  [3] = {
+    BattleFieldName = "KVM (Lv 80 以上)",
+    DisplayBattleFieldName = "KVM (Lv 80 以上)",
+    AllianceNum = 5,
+    EnemyNum = 5,
+    PrivateApply = 1,
+    PartyApply = 1,
+    GuildApply = 1,
+    JobGroup = 0,
+    EnterCondType = 2,
+    EnterCondValue1 = 80,
+    EnterCondValue2 = 0,
+    RewardWin = "奖励 5 个KVM点数",
+    RewardDraw = "奖励 1 个KVM点数",
+    RewardLose = "奖励 1 个KVM点数",
+    VictoryCond = "让对方全军覆没",
+    MiniMapFile = "bat_c01.bmp"
+  },
+  [4] = {
+    BattleFieldName = "KVM (Lv 60~79)",
+    DisplayBattleFieldName = "KVM (Lv 60~79)",
+    AllianceNum = 5,
+    EnemyNum = 5,
+    PrivateApply = 1,
+    PartyApply = 1,
+    GuildApply = 1,
+    JobGroup = 0,
+    EnterCondType = 3,
+    EnterCondValue1 = 60,
+    EnterCondValue2 = 79,
+    RewardWin = "奖励 2 个KVM点数",
+    RewardDraw = "奖励 1 个KVM点数",
+    RewardLose = "没有奖励",
+    VictoryCond = "让对方全军覆没",
+    MiniMapFile = "bat_c01.bmp"
+  },
+  [5] = {
+    BattleFieldName = "KVM (Lv 59 以下)",
+    DisplayBattleFieldName = "KVM (Lv 59 以下)",
+    AllianceNum = 5,
+    EnemyNum = 5,
+    PrivateApply = 1,
+    PartyApply = 1,
+    GuildApply = 1,
+    JobGroup = 0,
+    EnterCondType = 1,
+    EnterCondValue1 = 59,
+    EnterCondValue2 = 0,
+    RewardWin = "奖励 1 个KVM点数",
+    RewardDraw = "没有奖励",
+    RewardLose = "没有奖励",
+    VictoryCond = "让对方全军覆没",
+    MiniMapFile = "bat_c01.bmp"
+  }
+}
+function ReadEntryQueueList()
+  for id, table in pairs(EntryQueueList) do
+    AddEntryQueue(id, table.BattleFieldName, table.DisplayBattleFieldName, table.AllianceNum, table.EnemyNum, table.PrivateApply, table.PartyApply, table.GuildApply, table.JobGroup, table.EnterCondType, table.EnterCondValue1, table.EnterCondValue2, table.RewardWin, table.RewardDraw, table.RewardLose, table.VictoryCond, table.MiniMapFile)
+  end
+end

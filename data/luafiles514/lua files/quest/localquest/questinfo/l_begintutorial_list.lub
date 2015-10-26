@@ -1,0 +1,21 @@
+BeginTutorialQuest_List = {
+		[7472] = { 
+				NPCFromName = [[船长卡鲁]],
+				NPCFromMap = [[izlude]],
+				NPCFromSpr = [[4_M_REINDEER]],
+				NPCFromX = 198,
+				NPCFromY = 213,
+				NPCToName = [[勋]],
+				NPCToMap = [[izlude]],
+				NPCToSpr = [[4_M_KHKYEL]],
+				NPCToX = 122,
+				NPCToY = 207,
+				Item = [[]],
+				PrizeItem = [[]],
+				Title = [[世界的地一步]],
+				Info = [[去见克里图拉学院的职员'勋']],
+				Hunt = [[]],
+				Time = [[0]],
+				LV = [[0]],
+			},
+}

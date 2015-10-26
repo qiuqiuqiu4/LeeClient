@@ -1,0 +1,19 @@
+LOCAL_BeginTuTorialQuest_list = {
+					{
+						name = [[新手教学]],
+						imagefile = [[ep_test_sample.bmp]],
+						list = {
+									{
+										name  =	[[仙境传说的起步]],
+										list = {
+												{
+													name =[[世界的第一步]],
+													scrfilename = [[BeginTutorialQuest]],
+													questID = 7472,
+												},
+											}
+									},
+
+							},
+					},
+		}
