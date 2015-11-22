@@ -1,0 +1,31 @@
+[Dir] admin
+[Dir] battelfield
+[Dir] battlefield
+[Dir] chatwndinfo			完全转换
+[Dir] datainfo				完全转换(有几个失败)
+[Dir] debugui
+[Dir] dressroom
+[Dir] effecttool
+[Dir] emotion
+[Dir] entryqueue
+[Dir] exmacro
+[Dir] hateffectinfo			完全转换
+[Dir] navigation
+[Dir] newskillinfo
+[Dir] optioninfo
+[Dir] premiumcampain
+[Dir] quest
+[Dir] ridingspreditinfo
+[Dir] seekparty
+[Dir] skilleffectinfo
+[Dir] skillinfoz
+[Dir] spreditinfo
+[Dir] sprite
+[Dir] stateicon				完全转换
+[Dir] worldviewdata
+      common.lub
+      deletefiles.lub
+      deletefiles_f.lub
+      hotkey.lub
+      msgstring_kr.lub
+      wndinfo.lub

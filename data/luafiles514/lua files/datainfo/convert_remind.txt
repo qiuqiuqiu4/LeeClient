@@ -1,0 +1,11 @@
+以下文件转换失败，需要再寻找解决办法
+------------------------------------
+changedirectorylist.lub
+jobname_f.lub
+pcjobnamegender.lub
+weapontable_f.lub
+
+应该可以删掉的文件(待确认)
+--------------------------
+accname_eng.lub
+itemInfo.lub
