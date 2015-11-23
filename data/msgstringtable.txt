@@ -15,7 +15,7 @@ Please Enter Room Title.#
 Foul Language Detected.#
 Please enter Password.#
 Please enter Password. Passwords must be at least 4 characters long.#
-Are you sure that you want to quit?#
+您确认要结束游戏吗？#
 Passwords are at least 4 characters long. Please try again.#
 Are you sure that you want to delete this character?#
 Foul Language Detected.#
@@ -95,16 +95,16 @@ Please select a Deal Type.#
  Party has sent you an invitation. Would you like to join?#
 Invalid Command#
 Leave party#
-Expel from party#
+踢出队伍#
 Send Messages#
-1:1 Chat#
+一对一聊天#
 Information#
-Party Setup#
-Friend#
-Party#
-Equip#
-Status#
-Inventory#
+组队设置#
+好友#
+队伍#
+装备#
+能力#
+背包#
 /organize ''Party Name'' To organize a party. Type /leave To leave a Party.#
 If you are the party master, you can invite someone into your party by right-clicking on a Character.#
 Recover#
@@ -123,13 +123,13 @@ Please wait...#
 Please wait...#
 Please wait...#
 Please wait...#
-Make a Room#
+创建聊天室#
 Room Setup#
 Kick Character Out#
 Give Master Authority#
 View Information#
-Chat Room#
-Ppl#
+聊天室#
+人#
 /sit: Sit command. If you are sitting, you will stand instead.#
 /stand: Stand command. If you are standing, you will sit instead.#
 /chat: Creates a Chat Room#
@@ -198,8 +198,8 @@ No Whisper List.#
 : Command has failed.#
 : Command has failed. Block List is full.#
 You cannot put a space at the beginning or end of a name.#
-Private#
-Public#
+私有#
+公开#
 Not Enough SP#
 Not Enough HP#
 Skill has failed.#
@@ -236,7 +236,7 @@ Select a Target.#
 /pk on: Turns PK On. /pk off: Turns PK Off.#
 Shop#
 Cart Items [Alt+W]#
-Basic Information#
+基本信息#
 The skill cannot be used with this weapon.#
 Buying %s has been failed. Out of Stock. Current Stock %d.#
 You've been disconnected due to a time gap between you and the server.#
@@ -281,17 +281,17 @@ You cannot carry more than 30,000 of one kind of item.#
 You cannot delete a Character with a level greater than 30. If you want to delete the character please contact a Game Master.#
 You cannot use an NPC shop while in a trade.#
 Name#
-Skill Tree#
-Skill Point: %d#
+技能列表#
+ 可用技能点: %d#
 Skill has failed.#
 Passive#
-Each Take #
-Even Share#
-Each Take#
-Party Share#
-Party Setup#
-How to share EXP#
-How to share Items#
+各自取得#
+均等分配#
+各自取得#
+均可捡取#
+组队设置#
+经验分配方式#
+道具取得方式#
 Only the Party Leader can change this setting.#
 Toggle Item Amount.#
 Character will be deleted after ^ff0000%d^000000 seconds. Press Cancel to quit.#
@@ -320,7 +320,7 @@ Shows ''Miss''#
 Camera Zooming On#
 Camera Zooming Off#
 /camera: Camera Zooming On or Off. /miss: Toggle ''Miss'' display#
-View Skill Info#
+查看技能说明#
 Change Skill#
 Sprite Resolution#
 Texture Resolution#
@@ -349,11 +349,11 @@ Whispering List#
 Open Whispering Window#
 How to Open Whispering List: Press [Alt] + [H]#
 Open Whispering List Automatically#
-Delete#
+删除#
 Close since next#
 Last Log-in Time#
 Last Log-in IP#
-Friend Setup#
+好友设置#
 Are you sure that you want to delete?#
 Are you sure that you want to leave?#
 Register as a Friend#
@@ -540,7 +540,7 @@ You paid with the Time Limit for Internet Cafe. Available time is xx hrs xx mins
 You are free for the test of Internet Cafe version .#
 You are free for the Internet Cafe version.#
 You paid on the Time Limit Website.#
-Emotion icon List#
+表情符号列表#
 /emo#
 /!#
 /?#
@@ -736,9 +736,9 @@ Chat content will not be displayed in the chat window. [Display OFF]#
 /set1: /noctrl + /showname + /skillfail#
 /fog: Fog effect. On | Off#
 You have received a marriage proposal. Do you accept?#
-Item sharing type#
-Individual#
-Shared#
+物品分配方式#
+各自取得#
+均等分配#
 nProtect KeyCrypt#
 Keyboard Driver has been detected. \n\nDo you want to install a program for keyboard security?    \n\n(After installation, System Reboot is required)#
 Installation has been completed.  \n\nSystem will be rebooted.#
@@ -1091,7 +1091,7 @@ You have failed to place a bid.#
 You do not have enough zeny.#
 Armor#
 Card#
-Misc#
+其他#
 Bid#
 Search#
 You have ended the auction.#
@@ -1322,9 +1322,9 @@ Failed to book Memorial Dungeon, '%s'.#
 Memorial Dungeon, '%s' is already booked.#
 Memorial Dungeon, '%s' is created.\n Please enter in 5 minutes.#
 Failed to create Memorial Dungeon, '%s'.\n Please try again.#
-The character blocked the party invitation.#
-Block all party invitations.#
-Allow all party invitations.#
+对方不希望加入任何队伍#
+拒绝所有组队邀请#
+询问所有组队邀请#
 This item will be permanently bound to this character once it is equipped. Do you really want to equip this item?#
 %s is now permanently bound to this character.#
 You do not have enough Kafra Credit Points. Please enter whether you have free credit points.#
@@ -1356,11 +1356,11 @@ Not Yet Implemented#
 You are not eligible to open the Character Slot.#
 This character cannot be deleted.#
 This character's equipment information is not open to the public.#
-Equipment information not open to the public.#
-Equipment information open to the public.#
+拒绝他人查看我的装备信息#
+准许他人查看我的装备信息#
 Check %s's Equipment Info#
 '%s's Equipment#
-Show Equip#
+将装备公开#
 This service is only available for premium users.#
 Free Trial users can only hold up to 50,000 zeny.#
 Battlefield Chat has been activated.#
@@ -1374,10 +1374,10 @@ This account has not been confirmed by connecting to the safe communication key.
 The number of accounts connected to this IP has exceeded the limit.#
 You have received a new quest.#
 ^777777Acquirement conditions:#
-View Skill Info#
+显示技能说明#
 Once used, skill points cannot be re-allocated. Would you like to use the skill points?#
-1stJob#
-2ndJob#
+初心者&一转技能#
+二转&转生技能#
 This account has been used for illegal program or hacking program. Block Time: %s#
 The possibility of exposure to illegal program, PC virus infection or Hacking Tool has been detected. Please execute licensed client. Our team is trying to make a best environment for Ro players.#
 You are currently playing in the best game environment. Please enjoy the Ragnarok.#
@@ -1393,7 +1393,7 @@ RoK Point: %d RoK Point#
 Free Cash: %d Cash#
 An user of this server cannot connect to free server#
 Your password has expired. Please log in again#
-3rdJob#
+三转技能#
 This skill can't be used on that target.#
 You can't use skill because you have exceeded the number Ancilla possession limit#
 Holy water is required.#
@@ -1463,13 +1463,13 @@ Deletion is impossible for over level %d#
 Can't be used while on Magic Gear.#
 Dismount Dragon#
 Dismount Magic Gear#
-Con#
+消耗#
 Cash#
 Armors#
 Weapons#
 Ammo#
 Card#
-Etc#
+其它#
 Client response time has passed so connection is terminated#
 Incorrect version of hack shield file. Please reinstall the client#
 [Magic Book] is required.#
@@ -1481,7 +1481,7 @@ Brush is required.#
 Waiting time has passed. Please log in again#
 Watch out! Same account is already logged in. Stop mobile verification and log in again after changing your password#
 Watch out! Same account is waiting for mobile verification. Stop mobile verification and log in again after changing your password#
-Game option                                                                                                 #
+游戏设置#
 Graphic setting#
 Sound setting#
 Press a key to assign. Pressing 'ESC' will remove the assigned key.#
@@ -1803,8 +1803,8 @@ Enter the card name or prefix/suffix.#
 Searches left: %d#
 No result has been found.#
 The item price is too high.#
-General#
-Costume#
+常规#
+时装#
 minute#
 second#
 Please enter the name of the item.#
@@ -2048,14 +2048,14 @@ Input your party ad.#
 Only party leader can register party ad.#
 You have already accepted this ad.#
 For#
-Eqp#
-Fav#
- Drop Lock: On/Off#
+装备#
+收藏#
+ 禁止丢弃物品#
 Party Alarm#
-Create Party#
+创建队伍#
 Leave Party#
 Party Invitation#
-Party Name:#
+要创建的队名:#
 Player Name:#
  has recieved an invitation to join your party.#
  rejected your party invitation.#
@@ -2072,15 +2072,15 @@ Only the leader can invite.#
 Search item:#
 You must enter a character name.#
 You must enter the name of the party.#
-Guild Companion#
-Join a guild or start your own!#
-Create Guild#
-Guild Name#
+公会指南#
+加入公会或自己创建一个公会！#
+创建公会#
+请输入公会名称#
 Guild System#
 What is the guild system#
-You must enter the name of your guild.#
+您必须输入公会名称才能创建公会.#
 Supported at the party was rejected.#
-Select Service:#
+选择线路#
 Possible escape area.#
 Replay File List#
 File info#
@@ -2095,7 +2095,7 @@ This user is currently participating in the siege.#
 It is only possible to change the party leader while on the same map.#
 In the current region it is not possible to change the party.#
 Gryphon making#
-Delete: %d/%d - %d:%d:%d#
+%d月%d日 %d:%d:%d 可删#
 You can't invite characters in WoE maps.#
 You are now in the battlefield queue.#
 Queuing has finished.#
@@ -2366,7 +2366,7 @@ Castles Owned#
 Clan Chat Messages#
 Go to Page Charged.#
 https://gfb.gameflier.com/Billing/ingame/index_new.asp?#
-Create char#
+创建角色#
 Name does not match#
 Enter the name of character#
 Sex Selection Window#
@@ -2417,7 +2417,7 @@ CBT is not an invited user#
 4) $$lv30 monsters are placed in the output #
 5) $$lv20~30 monsters in that level range are placed in the output #
 1 vs 1#
-Costume#
+时装#
 %d First character of the profession is more than information. Please contact the Customer Care Center. ErrorCode(%d)#
 (%s) %d / %d#
 %s-%s(%d/%d)#
@@ -2489,7 +2489,7 @@ Swallowed countless adventurers to put a hell of confusion, wandering in the for
 You can enter only numbers.#
 Exchange or store window is active and can not register the withdrawal.#
 Go to#
-Compare#
+装备对比#
 Now you are trying to mount the gun equipped with bullet does not meet#
 Now you are trying to mount the guns and bullets will not fit mounted#
 Has not registered to sell the item. Please register to sell the item#
@@ -2683,7 +2683,7 @@ You cannot add anymore.#
 only otp user login allow#
 When this button pressed, you will receive a specified initialized roulette item.#
 When this button pressed, the flashing arrows from the lines of the roulette wheel begins.#
-Title#
+称号#
 Title release#
 Can't create a Guild in this area.#
 Can't disband a Guild in this area.#
