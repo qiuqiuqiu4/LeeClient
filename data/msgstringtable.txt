@@ -2453,8 +2453,8 @@ Average#
 Low#
 Very Low#
 The bank is not available. Please try again in a few minutes.#
-Bank Balance is not enough.#
-You don't have enough zeny#
+很抱歉，您在银行的存款不足，无法提现#
+很抱歉，您没有足够的现金可以存入银行#
 Minimum Deposit Amount: 1 zeny#
 Minimum Withdrawal Amount: 1 zeny#
 You cannot hold more than 2,147,483,647 Zeny#
@@ -2486,7 +2486,7 @@ For thousands of years, a mysterious melody has mesmerized the guardian. After a
 When the melody reached its peak, a giant crevice appeared in Bifrost, the bridge between Splendide, the end of the world and the floating continent of Alfheim. As a result, the two worlds were cut off from each other, causing a big problem for the people.#
 Now, the only way to get to Bifrost is through the Labyrinth Forest. Nobody knows how the forest came to exist, and nobody has ever come out of it alive...#
 Swallowed countless adventurers to put a hell of confusion, wandering in the forest labyrinth of nowhere, like the heart of a woman was being extend deeper confusion.#
-You can enter only numbers.#
+很抱歉，您只能在输入框中填写数字#
 Exchange or store window is active and can not register the withdrawal.#
 Go to#
 装备对比#
@@ -2766,25 +2766,25 @@ Hair style#
 Cloth color#
 Cloth pattern#
 Unsupported Map.#
-Enter Zeny Below 2,147,483,647.#
-Please Enter atleast 1 zeny.#
+很抱歉，您填写的金额不能超过 2,147,483,647 Zeny#
+很抱歉，您填写的金额至少要有 1 Zeny#
 You do not hold any zeny.#
-Zeny Storage#
-in bank#
-on hand#
-Deposit#
-Withdraw#
-1 z UP#
-1 z Down#
-Max#
-There is no Input value#
+银行#
+银行存款#
+持有现金#
+将现金存入银行#
+从银行提取现金#
+增加 1z#
+减少 1z#
+全部#
+很抱歉，输入框的内容不能为空#
 Not enough zeny#
-Input Required#
-Numbers only#
-Exceeded max input#
-Below Minimum Input#
-Not enough zeny#
-Insufficient funds#
+请输入要存取款的金额#
+抱歉，您只能填写数字#
+您填写的金额超过上限#
+您填写的金额小于下限#
+没有足够的现金可存入#
+您的存款不足无法提现#
 Exceeded max zeny#
 Drop X#
 Storage X#
