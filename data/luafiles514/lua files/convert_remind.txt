@@ -23,9 +23,9 @@
 [Dir] sprite
 [Dir] stateicon				完全转换
 [Dir] worldviewdata
-      common.lub
-      deletefiles.lub
-      deletefiles_f.lub
-      hotkey.lub
-      msgstring_kr.lub
-      wndinfo.lub
+      common.lub			完全转换
+      deletefiles.lub		完全转换
+      deletefiles_f.lub		完全转换
+      hotkey.lub			失败
+      msgstring_kr.lub		完全转换
+      wndinfo.lub			完全转换
