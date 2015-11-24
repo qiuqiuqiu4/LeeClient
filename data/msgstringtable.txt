@@ -15,7 +15,7 @@ Please Enter Room Title.#
 Foul Language Detected.#
 Please enter Password.#
 Please enter Password. Passwords must be at least 4 characters long.#
-您确认要结束游戏吗？#
+您确定要结束游戏吗？#
 Passwords are at least 4 characters long. Please try again.#
 Are you sure that you want to delete this character?#
 Foul Language Detected.#
@@ -246,22 +246,22 @@ You can't use skills because you've exceeded the Weight Limit.#
 Ammunition has been equipped.#
 Red Gemstone required.#
 Blue Gemstone required.#
-Strength#
-Agility#
-Vitality#
-Intelligence#
-Dexterity#
-Luck#
-Physical Attack#
-Physical Defense#
-Accuracy Rate#
-Critical Attack Rate#
-Assigned Guild#
-Status Points to allocate#
-Magical Attack#
-Magical Defense#
-Flee Rate#
-Attack Speed#
+Str - 力量#
+Agi - 敏捷#
+Vit - 体力#
+Int - 智力#
+Dex - 灵巧#
+Luk - 运气#
+Atk - 物理攻击力#
+Def - 物理防御力#
+Hit - 命中率#
+Critical - 暴击率#
+Guild - 玩家隶属公会#
+Status Point - 可分配的能力点数#
+Matk - 魔法攻击力#
+Mdef - 魔法防御力#
+Flee - 回避率#
+Aspd - 攻击速度#
 Server is jammed due to over population. Please try again shortly.#
 Option#
 Account ID blocked by the Game Master Team.#
