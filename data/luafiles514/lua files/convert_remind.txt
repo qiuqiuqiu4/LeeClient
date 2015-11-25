@@ -6,7 +6,7 @@
 [Dir] debugui
 [Dir] dressroom
 [Dir] effecttool
-[Dir] emotion
+[Dir] emotion				完全转换
 [Dir] entryqueue
 [Dir] exmacro
 [Dir] hateffectinfo			完全转换
@@ -16,8 +16,8 @@
 [Dir] premiumcampain
 [Dir] quest
 [Dir] ridingspreditinfo
-[Dir] seekparty
-[Dir] skilleffectinfo
+[Dir] seekparty				完全转换
+[Dir] skilleffectinfo		完全转换
 [Dir] skillinfoz
 [Dir] spreditinfo
 [Dir] sprite

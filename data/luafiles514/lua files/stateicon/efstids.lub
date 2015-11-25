@@ -848,7 +848,7 @@ EFST_IDs = {
 	EFST_PERIOD_PLUSEXP = 923,
 	EFST_PERIOD_PLUSJOBEXP = 924,
 	__newindex = function()
-	error("unknown state")
+		error("unknown state")
 	end
 }
 setmetatable(EFST_IDs, EFST_IDs)
