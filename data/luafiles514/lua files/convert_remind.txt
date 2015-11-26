@@ -1,25 +1,25 @@
-[Dir] admin
+[Dir] admin					完全转换
 [Dir] battelfield			完全转换
 [Dir] battlefield			完全转换
 [Dir] chatwndinfo			完全转换
 [Dir] datainfo				完全转换(有几个失败)
 [Dir] debugui				完全转换
 [Dir] dressroom				完全转换
-[Dir] effecttool
+[Dir] effecttool			完全转换
 [Dir] emotion				完全转换
 [Dir] entryqueue			完全转换
-[Dir] exmacro
+[Dir] exmacro				完全转换(不确定正确与否, 程序不加载他们)
 [Dir] hateffectinfo			完全转换
-[Dir] navigation
-[Dir] newskillinfo
+[Dir] navigation			完全转换(格式未排版)
+[Dir] newskillinfo			完全转换
 [Dir] optioninfo			完全转换
 [Dir] premiumcampain		完全转换
-[Dir] quest
-[Dir] ridingspreditinfo
+[Dir] quest					完全转换(格式未排版)
+[Dir] ridingspreditinfo		完全转换(格式未排版)
 [Dir] seekparty				完全转换
 [Dir] skilleffectinfo		完全转换
-[Dir] skillinfoz
-[Dir] spreditinfo
+[Dir] skillinfoz			完全转换(有1个失败)
+[Dir] spreditinfo			完全转换
 [Dir] sprite				无需转换(里面一个lub都没有)
 [Dir] stateicon				完全转换
 [Dir] worldviewdata			完全转换(有1个失败)

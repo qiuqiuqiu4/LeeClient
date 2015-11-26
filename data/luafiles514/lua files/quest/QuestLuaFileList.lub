@@ -1,14 +1,9 @@
+-- Decompiled using luadec 2.2 GBK r120 from http://luadec.googlecode.com
+-- Command line: QuestLuaFileList.lub 
 
-
-
--- 파일의 상대경로와 파일명으로 구성됩니다.
--- 파일의 확장자 명은 무시됩니다.
--- \data\LuaFiles514\Lua Files\quest\
-QuestLuaFileList = {};
-
-
-function Add( luafilename )
-	QuestLuaFileList[ #QuestLuaFileList + 1 ] =  luafilename;
+QuestLuaFileList = {}
+Add = function(luafilename)
+QuestLuaFileList[#QuestLuaFileList + 1] = luafilename
 end
 
--- Add([[sample\sample.lua]]);
+

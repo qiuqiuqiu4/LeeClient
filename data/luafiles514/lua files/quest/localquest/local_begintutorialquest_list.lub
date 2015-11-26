@@ -1,25 +1,11 @@
+-- Decompiled using luadec 2.2 GBK r120 from http://luadec.googlecode.com
+-- Command line: local_begintutorialquest_list.lub 
+
 LOCAL_BeginTuTorialQuest_list = {
-					{
-						name = [[초보자튜토리얼]],
-						imagefile = [[ep_test_sample.bmp]],
-						list = {
-									{
-										name  =	[[라그나로크 시작의 길]],
-										list = {
-												{
-													name =[[세상을 위한 첫걸음]],
-													scrfilename = [[BeginTutorialQuest]],
-													questID = 7472,
-												},
-												{
-													name =[[세상에서 제일맛있는..]],
-													scrfilename = [[BeginTutorialQuest]],
-													questID = 11339,
-												},
+{name = "초보자튜토리얼", imagefile = "ep_test_sample.bmp", 
+list = {
+{name = "라그나로크 시작의 길", 
+list = {
+{name = "세상을 위한 첫걸음", scrfilename = "BeginTutorialQuest", questID = 7472}, 
+{name = "세상에서 제일맛있는..", scrfilename = "BeginTutorialQuest", questID = 11339}}}}}}
 
-											}
-									},
-
-							},
-					},
-		}
