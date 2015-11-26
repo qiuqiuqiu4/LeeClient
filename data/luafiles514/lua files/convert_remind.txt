@@ -1,28 +1,28 @@
 [Dir] admin
-[Dir] battelfield
-[Dir] battlefield
+[Dir] battelfield			完全转换
+[Dir] battlefield			完全转换
 [Dir] chatwndinfo			完全转换
 [Dir] datainfo				完全转换(有几个失败)
-[Dir] debugui
-[Dir] dressroom
+[Dir] debugui				完全转换
+[Dir] dressroom				完全转换
 [Dir] effecttool
 [Dir] emotion				完全转换
-[Dir] entryqueue
+[Dir] entryqueue			完全转换
 [Dir] exmacro
 [Dir] hateffectinfo			完全转换
 [Dir] navigation
 [Dir] newskillinfo
-[Dir] optioninfo
-[Dir] premiumcampain
+[Dir] optioninfo			完全转换
+[Dir] premiumcampain		完全转换
 [Dir] quest
 [Dir] ridingspreditinfo
 [Dir] seekparty				完全转换
 [Dir] skilleffectinfo		完全转换
 [Dir] skillinfoz
 [Dir] spreditinfo
-[Dir] sprite
+[Dir] sprite				无需转换(里面一个lub都没有)
 [Dir] stateicon				完全转换
-[Dir] worldviewdata
+[Dir] worldviewdata			完全转换(有1个失败)
       common.lub			完全转换
       deletefiles.lub		完全转换
       deletefiles_f.lub		完全转换
