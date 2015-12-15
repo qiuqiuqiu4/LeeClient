@@ -1,13 +1,13 @@
-Do you agree?#
+请问您是否同意?#
 连接服务器失败，请稍候重试...#
 Disconnected from Server.#
 Disconnected from Server.#
 服务器已经关闭，请稍候重试...#
 Someone has Logged in with this ID.#
 Unregistered ID. Please make sure you have a registered account and you have correctly typed in the user ID.#
-Incorrect User ID or Password. Please try again.#
+您的账号或者密码有误！请重试...#
 This ID is expired.#
-服务器拒绝连接，请稍候重试...#
+服务器拒绝连接，请重试...#
 Character Name already exists.#
 Character Creation is denied.#
 Character Deletion is denied.#
@@ -265,7 +265,7 @@ Aspd - 攻击速度#
 Server is jammed due to over population. Please try again shortly.#
 Option#
 Account ID blocked by the Game Master Team.#
-Incorrect User ID or Password. Please try again.#
+您的账号或者密码有误！请重试...#
 Choose Hairstyle#
 ATK#
 DEF#
@@ -276,7 +276,7 @@ Skill Snap Off#
 /snap: Turns snap On | Off for fights, /skillsnap: Turns snap On | Off for skills. /itemsnap: Turns snap On | Off for items on the grounds.#
 Item Snap On#
 Item Snap Off#
-Snap#
+鼠标锁#
 You cannot carry more than 30,000 of one kind of item.#
 You cannot delete a Character with a level greater than 30. If you want to delete the character please contact a Game Master.#
 You cannot use an NPC shop while in a trade.#
@@ -322,8 +322,8 @@ Camera Zooming Off#
 /camera: Camera Zooming On or Off. /miss: Toggle ''Miss'' display#
 查看技能说明#
 Change Skill#
-Sprite Resolution#
-Texture Resolution#
+角色画质#
+贴图画质#
 Arrange Detail#
 You got %s Zeny#
 Guild Name#
@@ -480,13 +480,13 @@ Power-Thrust Initiated.#
 Power-Thrust Canceled.#
 Maximize-Power Initiated.#
 Maximize-Power Canceled.#
-[New Server]#
-(%d)#
-(On the maintenance)#
-Guildsman %s has connected.#
-Guildsman %s has disconnected.#
-You got %s Base EXP.#
-You got %s Job EXP.#
+[新] #
+ 目前有 %d 人在线#
+[正在维护] #
+公会成员 %s 上线#
+公会成员 %s 离线#
+取得 %s 基础经验值#
+取得 %s 职业经验值#
 You left the guild.#
 You have been expelled from the Guild.#
 Item Appraisal has completed successfully.#
@@ -1482,8 +1482,8 @@ Waiting time has passed. Please log in again#
 Watch out! Same account is already logged in. Stop mobile verification and log in again after changing your password#
 Watch out! Same account is waiting for mobile verification. Stop mobile verification and log in again after changing your password#
 游戏设置#
-Graphic setting#
-Sound setting#
+图像设置#
+声音设置#
 Press a key to assign. Pressing 'ESC' will remove the assigned key.#
 Unable to specify a single key.#
 Unable to specify the key assigned.#
@@ -1492,10 +1492,10 @@ Initialization is stored in the shortcut key settings. Do you want to initialize
 Skill Bar#
 Interface#
 Macros#
-Shortcut Settings#
-BGM#
-Effect#
-Skin#
+快捷键设置#
+背景音#
+效果音#
+皮肤#
 Chat room entrance sound on#
 Chat room entrance sound off#
 /tingonly: you can hear only sound like a chat room entry.#
@@ -1516,7 +1516,7 @@ Chat room entrance sound off#
 /ene#
 /panic#
 /whisp#
-Not Assigned#
+--#
 Only available when cart is mounted.#
 [Thorny Seed] is required.#
 [Bloodsucker Seed] is required.#
@@ -1996,10 +1996,10 @@ Total: %s C#
 Base Lv. %d#
 Job Lv. %d#
 Zeny: %s#
-Trilinear#
-attack#
-skill#
-item#
+三线性过滤#
+普攻#
+技能#
+物品#
 NoCtrl#
 Battleground#
 (Character/Total Slot)#
