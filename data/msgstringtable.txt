@@ -1,23 +1,23 @@
 请问您是否同意?#
-连接服务器失败，请稍候重试...#
+连接服务器失败, 请稍候重试...#
 Disconnected from Server.#
 Disconnected from Server.#
-服务器已经关闭，请稍候重试...#
+服务器已经关闭, 请稍候重试...#
 Someone has Logged in with this ID.#
 Unregistered ID. Please make sure you have a registered account and you have correctly typed in the user ID.#
-您的账号或者密码有误！请重试...#
+您的账号或者密码有误! 请重试...#
 This ID is expired.#
 服务器拒绝连接，请重试...#
-Character Name already exists.#
-Character Creation is denied.#
+这个名称已经有人使用了, 换一个试试吧...#
+创建角色失败！可能是角色名不合法.#
 Character Deletion is denied.#
 Please Enter Room Title.#
 Foul Language Detected.#
-Please enter Password.#
-Please enter Password. Passwords must be at least 4 characters long.#
-您确定要结束游戏吗？#
-账号或密码的长度至少要有四个字，请仔细确认后再试一次。#
-您确定要删除这个角色吗？#
+请输入密码.#
+请输入密码. 密码至少要有四个字.#
+您确定要结束游戏吗?#
+账号或密码的长度至少要有四个字, 请仔细确认后再试一次.#
+您确定要删除这个角色吗?#
 Foul Language Detected.#
 Character Name must be at least 4 characters long.#
 Command List: /h | /help#
@@ -177,11 +177,11 @@ Tip of the Day#
 Display at startup#
 /tip: Opens ''Tip of the Day''#
 There are %d Players Currently Connected.#
-(%s) has entered.#
-(%s) has left.#
-(%s) was kicked out.#
-%d ea.#
-%s: %d ea.#
+(%s) 进入了聊天室#
+(%s) 退出了聊天室#
+(%s) 被踢出了聊天室#
+%d 个#
+%s: %d 个#
 %s %s: %d#
 可出售的物品#
 可购买的物品#
@@ -251,7 +251,7 @@ Agi - 敏捷#
 Vit - 体力#
 Int - 智力#
 Dex - 灵巧#
-Luk - 运气#
+Luk - 幸运#
 Atk - 物理攻击力#
 Def - 物理防御力#
 Hit - 命中率#
@@ -489,8 +489,8 @@ Maximize-Power Canceled.#
 取得 %s 职业经验值#
 You left the guild.#
 You have been expelled from the Guild.#
-Item Appraisal has completed successfully.#
-Item appraisal has failed.#
+已完成物品鉴定#
+很遗憾，物品鉴定失败#
 Compounding has completed successfully.#
 Compounding has failed.#
 Antagonist has been set.#
@@ -519,7 +519,7 @@ Guild Name#
 Guild Lvl#
 Guildsmen#
 Ranking#
-Item Appraisal#
+可鉴定的物品#
 Insert Card#
 Please enter the reason of Secession.#
 Please enter the reason of Expulsion.#
@@ -1304,7 +1304,7 @@ Weapon#
 Armor#
 Insufficient Skill Level for joining a Party#
 [%s]'s Free Cash: %d Cash#
-Use Free Cash: #
+使用免费点券: #
 Cash#
 http://payment.ro.hangame.com/index.asp#
 You need to accept the Privacy Policy from Gravity in order to use the service.#
@@ -1855,8 +1855,8 @@ Other#
 Cost#
 Quantity#
 Total#
-Free Cash : %s C#
-CashPoints : %s C#
+免费点券 : %s C#
+现金点券 : %s C#
 You cannot summon a monster in this area.#
 Exceeded total free cash#
 Content has been saved in [SaveData_ExMacro%d]#
@@ -2069,7 +2069,7 @@ Party Leader is on a map that is restricted to summon players.#
 Summon has been denied.#
 Can not be summoned.#
 Only the leader can invite.#
-Search item:#
+要搜索的物品名称:#
 You must enter a character name.#
 You must enter the name of the party.#
 公会指南#

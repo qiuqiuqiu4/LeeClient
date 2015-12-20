@@ -21,6 +21,7 @@
 47 Use Ragnarok Icon
 48 Use Plain Text Descriptions (Recommended)
 49 Enable Multiple GRFs (Recommended)
+51 Always Show License Screen
 53 Use Ascii on All LangTypes (Recommended)
 64 @ Bug Fix (Recommended)
 67 Disable Quake skill effect
@@ -29,6 +30,7 @@
 71 Ignore Resource Errors
 72 Ignore Missing Palette Error
 73 Remove Hourly Announce (Recommended)
+204 Increase Attack Display
 205 Enable Monster Tables
 213 Disable Help Message on Login (Recommended)
 84 Remove Serial Display (Recommended)
