@@ -1,6 +1,8 @@
--- Decompiled using luadec 2.2 GBK r120 from http://luadec.googlecode.com
+-- Decompiled using luadec 2.2 rev:  for Lua 5.1 from https://github.com/viruscamp/luadec
 -- Command line: premiumcampain_msg.lub 
 
+-- params : ...
+-- function num : 0
 PREMIUM_CAMPAIN_BAR_COLOR = {255, 176, 98}
 PREMIUM_CAMPAIN_MSG = {}
 

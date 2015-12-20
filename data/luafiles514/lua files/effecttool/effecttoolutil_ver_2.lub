@@ -1,24 +1,29 @@
--- Decompiled using luadec 2.2 GBK r120 from http://luadec.googlecode.com
--- Command line: EffectToolUtil_ver_2.lub 
+-- Decompiled using luadec 2.2 rev:  for Lua 5.1 from https://github.com/viruscamp/luadec
+-- Command line: effecttoolutil_ver_2.lub 
 
+-- params : ...
+-- function num : 0
 GetValue = function(valueName)
-return _G[valueName]
+  -- function num : 0_0
+  return _G[valueName]
 end
 
 IsExistValue = function(valueName)
-local value = _G[valueName]
-if value ~= nil then
-  return true
-end
-return false
+  -- function num : 0_1
+  local value = _G[valueName]
+  if value ~= nil then
+    return true
+  end
+  return false
 end
 
 IsOpenedEmitterInfoFiles = function(InfoTableName)
-local EmitterInfoTable = _G[InfoTableName]
-if EmitterInfoTable ~= nil then
-  return true
-end
-return false
+  -- function num : 0_2
+  local EmitterInfoTable = _G[InfoTableName]
+  if EmitterInfoTable ~= nil then
+    return true
+  end
+  return false
 end
 
 

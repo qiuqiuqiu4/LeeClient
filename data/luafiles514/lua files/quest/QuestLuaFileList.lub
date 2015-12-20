@@ -1,9 +1,0 @@
--- Decompiled using luadec 2.2 GBK r120 from http://luadec.googlecode.com
--- Command line: QuestLuaFileList.lub 
-
-QuestLuaFileList = {}
-Add = function(luafilename)
-QuestLuaFileList[#QuestLuaFileList + 1] = luafilename
-end
-
-

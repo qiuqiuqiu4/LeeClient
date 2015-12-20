@@ -1,15 +1,18 @@
--- Decompiled using luadec 2.2 GBK r120 from http://luadec.googlecode.com
+-- Decompiled using luadec 2.2 rev:  for Lua 5.1 from https://github.com/viruscamp/luadec
 -- Command line: shadowtable_f.lub 
 
+-- params : ...
+-- function num : 0
 ReqshadowFactor = function(shadowID)
-if ShadowFactorTable == nil then
-  return -1
-end
-if ShadowFactorTable[shadowID] ~= nil then
-  return ShadowFactorTable[shadowID]
-else
-  return -1
-end
+  -- function num : 0_0
+  if ShadowFactorTable == nil then
+    return -1
+  end
+  if ShadowFactorTable[shadowID] ~= nil then
+    return ShadowFactorTable[shadowID]
+  else
+    return -1
+  end
 end
 
 

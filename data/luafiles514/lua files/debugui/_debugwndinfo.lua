@@ -1,5 +1,5 @@
 DebugWndInfo = {
-	ShowWnd = 1,
+	ShowWnd = 0,
 	AddedTabCount = 0,
 	ScrollOffset = 0,
 	CurTabNum = 0,

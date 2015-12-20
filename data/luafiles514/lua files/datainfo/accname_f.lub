@@ -1,29 +1,33 @@
--- Decompiled using luadec 2.2 GBK r120 from http://luadec.googlecode.com
+-- Decompiled using luadec 2.2 rev:  for Lua 5.1 from https://github.com/viruscamp/luadec
 -- Command line: accname_f.lub 
 
+-- params : ...
+-- function num : 0
 ReqAccName = function(index)
-if AccNameTable == nil then
-  return ""
-end
-local NameMsg = AccNameTable[index]
-if NameMsg ~= nil then
-  return NameMsg
-end
-do return end
-return ""
+  -- function num : 0_0
+  if AccNameTable == nil then
+    return ""
+  end
+  local NameMsg = AccNameTable[index]
+  if NameMsg ~= nil then
+    return NameMsg
+  else
+    return ""
+  end
 end
 
 ReqAccName_V2 = function(index)
-if iAccNameTable_Eng == nil then
-  return ReqAccName(index)
-else
-  local NameMsg = AccNameTable_Eng[index]
-  if NameMsg ~= nil then
-    return NameMsg
+  -- function num : 0_1
+  if iAccNameTable_Eng == nil then
+    return ReqAccName(index)
+  else
+    local NameMsg = AccNameTable_Eng[index]
+    if NameMsg ~= nil then
+      return NameMsg
+    else
+      return ReqAccName(index)
+    end
   end
-  do return end
-  return ReqAccName(index)
-end
 end
 
 

@@ -1,34 +1,38 @@
--- Decompiled using luadec 2.2 GBK r120 from http://luadec.googlecode.com
+-- Decompiled using luadec 2.2 rev:  for Lua 5.1 from https://github.com/viruscamp/luadec
 -- Command line: spriterobename_f.lub 
 
+-- params : ...
+-- function num : 0
 ReqRobSprName = function(index)
-if RobeNameTable[index] == nil then
-  return ""
-end
-local NameMsg = RobeNameTable[index]
-if NameMsg ~= nil then
-  return NameMsg
-end
-do return end
-return ""
+  -- function num : 0_0
+  if RobeNameTable[index] == nil then
+    return ""
+  end
+  local NameMsg = RobeNameTable[index]
+  if NameMsg ~= nil then
+    return NameMsg
+  else
+    return ""
+  end
 end
 
 ReqRobSprName_V2 = function(index, in_bResEnglishName)
-if in_bResEnglishName == true then
-  if RobeNameTable_Eng[index] == nil then
-    return ""
+  -- function num : 0_1
+  if in_bResEnglishName == true then
+    if RobeNameTable_Eng[index] == nil then
+      return ""
+    end
+    local NameMsg = RobeNameTable_Eng[index]
+    if NameMsg ~= nil then
+      return NameMsg
+    else
+      return ""
+    end
+  else
+    do
+      do return ReqRobSprName(index) end
+    end
   end
-  local NameMsg = RobeNameTable_Eng[index]
-  if NameMsg ~= nil then
-    return NameMsg
-  end
-  do return end
-  return ""
-else
-  do
-    return ReqRobSprName(index)
-  end
-end
 end
 
 

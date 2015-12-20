@@ -1,15 +1,18 @@
--- Decompiled using luadec 2.2 GBK r120 from http://luadec.googlecode.com
+-- Decompiled using luadec 2.2 rev:  for Lua 5.1 from https://github.com/viruscamp/luadec
 -- Command line: exmacro_f.lub 
 
+-- params : ...
+-- function num : 0
 GetExMacroFileName = function(index, str)
-if index == 0 or index > 9 then
-  index = 1
-end
-local obj = SaveData_ExMacro_FileNames[index]
-if obj ~= nil or obj == "" then
-  return obj
-end
-return str
+  -- function num : 0_0
+  if index == 0 or index > 9 then
+    index = 1
+  end
+  local obj = SaveData_ExMacro_FileNames[index]
+  if obj ~= nil or obj == "" then
+    return obj
+  end
+  return str
 end
 
 

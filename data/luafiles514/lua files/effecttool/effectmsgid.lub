@@ -1,6 +1,8 @@
--- Decompiled using luadec 2.2 GBK r120 from http://luadec.googlecode.com
+-- Decompiled using luadec 2.2 rev:  for Lua 5.1 from https://github.com/viruscamp/luadec
 -- Command line: effectmsgid.lub 
 
+-- params : ...
+-- function num : 0
 MSG_SET_INIT = 0
 MSG_SET_SPAWNDIR1 = 1
 MSG_SET_SPAWNDIR2 = 2
