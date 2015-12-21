@@ -1,4 +1,20 @@
-//-- 최종갱신 오후 5:14 2015-10-06 본서버
+//-- 최종갱신 오전 11:26 2015-10-20사크라이
+
+// 교황 메모리얼 낮에나온 반달
+1@pop1.rsw#교황 집무실#
+1@pop2.rsw#집으로 가는 길#
+1@pop3.rsw#하늘 정원#
+
+// 신종족 도람 라자냐 마을
+lasagna.rsw#항구도시 라자냐#
+lasa_fild01.rsw#라비올 평원 경계초소#
+lasa_fild02.rsw#라비올 숲#
+lasa_dun01.rsw#용의 둥지#
+lasa_dun02.rsw#용의 둥지#
+lasa_dun03.rsw#용의 둥지#
+conch_in.rsw#콘-킬리나 호 내부#
+lasa_in01.rsw#라자냐 내부#
+lasa_dun_q.rsw#용의 둥지#
 
 //인트로 개편
 iz_int.rsw#좌초된 여객선#
