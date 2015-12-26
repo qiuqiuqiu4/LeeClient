@@ -1,12 +1,12 @@
 请问您是否同意?#
 连接服务器失败, 请稍候重试...#
-Disconnected from Server.#
-Disconnected from Server.#
+您已被服务器断开连接.#
+您已被服务器断开连接.#
 服务器已经关闭, 请稍候重试...#
-Someone has Logged in with this ID.#
-Unregistered ID. Please make sure you have a registered account and you have correctly typed in the user ID.#
+已经有其他人使用此账号登录游戏.#
+尚未注册的游戏账号. 请确认您是否已经注册此账号并填写了正确的账号名称.#
 您的账号或者密码有误! 请重试...#
-This ID is expired.#
+此帐号已超过使用期限.#
 服务器拒绝连接，请重试...#
 这个名称已经有人使用了, 换一个试试吧...#
 创建角色失败！可能是角色名不合法.#
@@ -47,15 +47,15 @@ BGM Off#
 /exall: Blocks whispers from everyone#
 Right click on a character and select [Register as a Friend] to add a person to your Friend List.#
 F12 Brings up a Hotkey Window which allows you to drag and drop Recovery Items, Equipment and Skills into it for faster access.#
-You can't type the same word/phrase more than 3 times.#
+同一句话您不能连续发送超过 3 次.#
 Chat Filter: Yeah, uh, I don't think so buddy...#
 You cannot overlap items on a window.#
 You cannot carry more items because you are overweight.#
 You cannot get the item.#
 您的交易已经顺利完成#
-You do not have enough zeny.#
+您没有足够的金钱.#
 You are over your Weight Limit.#
-The deal has failed.#
+很遗憾, 交易失败了.#
 You've blocked whispers from everyone.#
 You've failed to block all whispers.#
 You've allowed whispers from everyone.#
@@ -67,7 +67,7 @@ Room Limit Exceeded.#
 Same Room exists.#
 The Room is full.#
 You have been kicked out of this room.#
-The deal has been rejected.#
+您的交易请求被对方拒绝了.#
 You are too far away from the person to trade.#
 The Character is not currently online or does not exist.#
 The person is in another deal.#
@@ -91,7 +91,7 @@ Pri:#
 Pub:#
 Click ''Restart'' to go back to your save point or click ''Exit'' to select another character.#
 请问您想“购买”还是“出售”物品？#
- requests a deal.#
+ 请求与您进行交易.#
  Party has sent you an invitation. Would you like to join?#
 Invalid Command#
 Leave party#
