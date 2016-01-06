@@ -83,8 +83,8 @@ Request for party rejected.#
 Request for party accepted.#
 Party Capacity exceeded.#
 You left the party.#
-Send to All#
-Send to Party#
+公开发言频道#
+队伍发言频道#
 Request a deal with %s#
 Ask %s to join your party#
 Pri:#
@@ -435,7 +435,7 @@ Too high lvl for this job.#
 Not the suitable job for this type of work.#
 Record a message in the Talkie Box#
 Please type a message for the Talkie Box#
-Send to Guild#
+公会发言频道#
 You didn't pay for this ID. Would you like to pay for it now?#
 Server is jammed due to overpopulation. Please try again after few minutes.#
 Server still recognizes your last log-in. Please try again after a few minutes.#
@@ -1953,21 +1953,21 @@ This skill is only available in the siege.#
 This skill is available only to the player.#
 Forbidden to wear the state can not be worn.#
 Current location of the shop and chat room creation is disabled.#
-Elapsed time: %d:%d:%d / %d:%d:%d#
-Speed : X 1/4 #
-Speed : X 1/2 #
-Speed : X 1   #
-Speed : X 2   #
-Speed : X 4   #
-Speed : X 8   #
-Speed : X 16  #
-Speed : Unknown#
-Service Info : %s#
-Character Name : %s#
-Map Name : %s#
-Record Time: %d-%01d-%01d %d: %02d: %02d#
-Play Time: %02d: %02d: %02d#
-No Replay File.#
+时间: %d:%d:%d / %d:%d:%d#
+速度 : 1/4 倍速 #
+速度 : 1/2 倍速 #
+速度 : 正常 #
+速度 : 2 倍速  #
+速度 : 4 倍速  #
+速度 : 8 倍速  #
+速度 : 16 倍速  #
+速度 : 未知 #
+  服务器 : %s#
+角色名称 : %s#
+地图名称 : %s#
+录制时间 : %d-%01d-%01d %d:%02d:%02d#
+录像时长 : %02d:%02d:%02d#
+没有录像文件, 请先进行录像#
 Server No Matching#
 Replay Option Setting#
 Enter File Name#
@@ -2082,9 +2082,9 @@ What is the guild system#
 Supported at the party was rejected.#
 选择线路#
 Possible escape area.#
-Replay File List#
-File info#
-File List#
+录像回放列表#
+文件信息#
+文件列表#
 %s Item deal not possible.#
 Disband the Guild#
 Enter Guild Name#
@@ -2359,7 +2359,7 @@ Clan Name#
 Clan Mark#
 Ally Clan#
 Hostile Clan#
-Send to Clan#
+部落发言频道#
 ClanMaster Name#
 Number of Members#
 Castles Owned#
