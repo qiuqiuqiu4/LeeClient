@@ -1489,9 +1489,9 @@ Unable to specify a single key.#
 Unable to specify the key assigned.#
 Duplicated with ['%s']. Do you still want to change?#
 Initialization is stored in the shortcut key settings. Do you want to initialized?#
-Skill Bar#
-Interface#
-Macros#
+技能栏#
+界面#
+宏指令#
 快捷键设置#
 背景音#
 效果音#
@@ -1705,7 +1705,7 @@ Status Information Off: Status icon description is disabled.#
 It is not possible to purchase the same item more than %d pieces at a time#
 It is not possible to purchase the same item more than %d pieces at a time#
 Can purchase upto %d pieces of the same item at a time.#
-User customized key is saved to [%s\%s]#
+玩家的自定义快捷键已经保存到 [%s\%s]#
 [%s] is currently on trade and cannot accept the request.#
 RO_HELP#
 Anvil does not exist.#
@@ -1773,7 +1773,7 @@ Please enter levels between 1~150.#
 Nothing found in the selected map.#
 You cannot equip this item with your current level.#
 You cannot use this item with your current level.#
-Enable Battlemode#
+按回车可以开/关聊天栏#
 Failed to add because you have reached the limit.#
 频道 - 内容设置#
 Sell#
@@ -1969,27 +1969,27 @@ Current location of the shop and chat room creation is disabled.#
 录像时长 : %02d:%02d:%02d#
 没有录像文件, 请先进行录像#
 Server No Matching#
-Replay Option Setting#
-Enter File Name#
-Set Replay Save Data#
-Set Rec Option#
+录像回放设置#
+填写要保存的录像文件名#
+录制回放内容#
+录像设置#
 %.1f %% Pos->:%d:%d:%d#
 %.1f %% Pos->:cannot move#
-Start#
-Stop#
-Input FileName -> Start#
-Open Option#
-Close Option#
-End#
+开始录制#
+结束录制#
+填写录像文件名 -> 开始录制#
+打开设置#
+关闭设置#
+关闭#
 Time#
 Party & Friends#
 Chat#
 Shortcuts#
 Automatic filename generation#
 Checking for duplicate files#
-The same file exists already.#
-Record Start#
- is Saved.#
+已经存在同名的录像文件.#
+开始录制#
+ 录像文件已保存.#
 Weight: %3d / %3d#
 Total: %s C#
 [Shuriken] must be equipped.#
