@@ -142,14 +142,14 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		NeedSkillList = {
 			[JOBID.JT_BARD_H] = {
-			{SKID.AC_DOUBLE, 5},
-			{SKID.AC_SHOWER, 5},
-			{SKID.BA_MUSICALSTRIKE, 1}
+				{SKID.AC_DOUBLE, 5},
+				{SKID.AC_SHOWER, 5},
+				{SKID.BA_MUSICALSTRIKE, 1}
 			},
 			[JOBID.JT_DANCER_H] = {
-			{SKID.AC_DOUBLE, 5},
-			{SKID.AC_SHOWER, 5},
-			{SKID.DC_THROWARROW, 1}
+				{SKID.AC_DOUBLE, 5},
+				{SKID.AC_SHOWER, 5},
+				{SKID.DC_THROWARROW, 1}
 			}
 		}
 	},
@@ -162,12 +162,12 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		NeedSkillList = {
 			[JOBID.JT_BARD_H] = {
-			{SKID.AC_CONCENTRATION, 5},
-			{SKID.BA_MUSICALLESSON, 7}
+				{SKID.AC_CONCENTRATION, 5},
+				{SKID.BA_MUSICALLESSON, 7}
 			},
 			[JOBID.JT_DANCER_H] = {
-			{SKID.AC_CONCENTRATION, 5},
-			{SKID.DC_DANCINGLESSON, 7}
+				{SKID.AC_CONCENTRATION, 5},
+				{SKID.DC_DANCINGLESSON, 7}
 			}
 		}
 	},
@@ -180,12 +180,12 @@ SKILL_INFO_LIST = {
 		AttackRange = {7},
 		NeedSkillList = {
 			[JOBID.JT_BARD_H] = {
-			{SKID.AC_CONCENTRATION, 10},
-			{SKID.BA_MUSICALLESSON, 5}
+				{SKID.AC_CONCENTRATION, 10},
+				{SKID.BA_MUSICALLESSON, 5}
 			},
 			[JOBID.JT_DANCER_H] = {
-			{SKID.AC_CONCENTRATION, 10},
-			{SKID.DC_DANCINGLESSON, 5}
+				{SKID.AC_CONCENTRATION, 10},
+				{SKID.DC_DANCINGLESSON, 5}
 			}
 		}
 	},
@@ -756,8 +756,8 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		NeedSkillList = {
 			[JOBID.JT_CRUSADER] = {
-			{SKID.CR_TRUST, 10},
-			{SKID.AL_DEMONBANE, 5}
+				{SKID.CR_TRUST, 10},
+				{SKID.AL_DEMONBANE, 5}
 			}
 		}
 	},
@@ -1214,14 +1214,14 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		NeedSkillList = {
 			[JOBID.JT_BARD_H] = {
-			{SKID.CG_MARIONETTE, 1},
-			{SKID.BA_DISSONANCE, 3},
-			{SKID.BA_MUSICALLESSON, 10}
+				{SKID.CG_MARIONETTE, 1},
+				{SKID.BA_DISSONANCE, 3},
+				{SKID.BA_MUSICALLESSON, 10}
 			},
 			[JOBID.JT_DANCER_H] = {
-			{SKID.CG_MARIONETTE, 1},
-			{SKID.DC_UGLYDANCE, 3},
-			{SKID.DC_DANCINGLESSON, 10}
+				{SKID.CG_MARIONETTE, 1},
+				{SKID.DC_UGLYDANCE, 3},
+				{SKID.DC_DANCINGLESSON, 10}
 			}
 		}
 	},
@@ -1234,12 +1234,12 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		NeedSkillList = {
 			[JOBID.JT_BARD_H] = {
-			{SKID.AC_CONCENTRATION, 10},
-			{SKID.BA_MUSICALLESSON, 10}
+				{SKID.AC_CONCENTRATION, 10},
+				{SKID.BA_MUSICALLESSON, 10}
 			},
 			[JOBID.JT_DANCER_H] = {
-			{SKID.AC_CONCENTRATION, 10},
-			{SKID.DC_DANCINGLESSON, 10}
+				{SKID.AC_CONCENTRATION, 10},
+				{SKID.DC_DANCINGLESSON, 10}
 			}
 		}
 	},
@@ -1252,12 +1252,12 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9},
 		NeedSkillList = {
 			[JOBID.JT_BARD_H] = {
-			{SKID.AC_CONCENTRATION, 10},
-			{SKID.BA_DISSONANCE, 3}
+				{SKID.AC_CONCENTRATION, 10},
+				{SKID.BA_DISSONANCE, 3}
 			},
 			[JOBID.JT_DANCER_H] = {
-			{SKID.AC_CONCENTRATION, 10},
-			{SKID.DC_UGLYDANCE, 3}
+				{SKID.AC_CONCENTRATION, 10},
+				{SKID.DC_UGLYDANCE, 3}
 			}
 		}
 	},
@@ -2103,10 +2103,10 @@ SKILL_INFO_LIST = {
 		AttackRange = {9},
 		_NeedSkillList = {
 			{SKID.AL_HEAL, 2}
-	},
+		},
 		NeedSkillList = {
 			[JOBID.JT_CRUSADER] = {
-			{SKID.CR_TRUST, 5}
+				{SKID.CR_TRUST, 5}
 			}
 		}
 	},
@@ -3131,7 +3131,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		_NeedSkillList = {
 			{SKID.AC_OWL, 3}
-	},
+		},
 		NeedSkillList = {
 			[JOBID.JT_ROGUE] = {}
 		}
@@ -3156,7 +3156,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9},
 		NeedSkillList = {
 			[JOBID.JT_ROGUE] = {
-			{SKID.AC_VULTURE, 10}
+				{SKID.AC_VULTURE, 10}
 			}
 		}
 	},
@@ -3456,10 +3456,10 @@ SKILL_INFO_LIST = {
 			{SKID.SM_TWOHAND, 5},
 			{SKID.KN_TWOHANDQUICKEN, 10},
 			{SKID.KN_AUTOCOUNTER, 5}
-	},
+		},
 		NeedSkillList = {
 			[JOBID.JT_SUPERNOVICE2] = {
-			{SKID.KN_AUTOCOUNTER, 5}
+				{SKID.KN_AUTOCOUNTER, 5}
 			}
 		}
 	},
@@ -4117,10 +4117,10 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.PR_KYRIE, 4},
 			{SKID.PR_MAGNIFICAT, 3}
-	},
+		},
 		NeedSkillList = {
 			[JOBID.JT_SUPERNOVICE2] = {
-			{SKID.PR_SANCTUARY, 7}
+				{SKID.PR_SANCTUARY, 7}
 			}
 		}
 	},
@@ -4166,14 +4166,14 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		NeedSkillList = {
 			[JOBID.JT_MINSTREL] = {
-			{SKID.MI_HARMONIZE, 1},
-			{SKID.MI_RUSH_WINDMILL, 1},
-			{SKID.MI_ECHOSONG, 1}
+				{SKID.MI_HARMONIZE, 1},
+				{SKID.MI_RUSH_WINDMILL, 1},
+				{SKID.MI_ECHOSONG, 1}
 			},
 			[JOBID.JT_WANDERER] = {
-			{SKID.WA_SWING_DANCE, 1},
-			{SKID.WA_SYMPHONY_OF_LOVER, 1},
-			{SKID.WA_MOONLIT_SERENADE, 1}
+				{SKID.WA_SWING_DANCE, 1},
+				{SKID.WA_SYMPHONY_OF_LOVER, 1},
+				{SKID.WA_MOONLIT_SERENADE, 1}
 			}
 		}
 	},
@@ -4514,10 +4514,10 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.MG_STONECURSE, 1}
-	},
+		},
 		NeedSkillList = {
 			[JOBID.JT_SAGE] = {
-			{SKID.SA_SEISMICWEAPON, 1}
+				{SKID.SA_SEISMICWEAPON, 1}
 			}
 		}
 	},
@@ -4530,10 +4530,10 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9},
 		_NeedSkillList = {
 			{SKID.WZ_EARTHSPIKE, 3}
-	},
+		},
 		NeedSkillList = {
 			[JOBID.JT_SAGE] = {
-			{SKID.WZ_EARTHSPIKE, 1}
+				{SKID.WZ_EARTHSPIKE, 1}
 			}
 		}
 	},
@@ -5027,10 +5027,10 @@ SKILL_INFO_LIST = {
 		AttackRange = {2},
 		_NeedSkillList = {
 			{SKID.HT_LANDMINE, 1}
-	},
+		},
 		NeedSkillList = {
 			[JOBID.JT_ROGUE] = {
-			{SKID.AC_DOUBLE, 5}
+				{SKID.AC_DOUBLE, 5}
 			}
 		}
 	},
@@ -6138,11 +6138,11 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{SKID.MG_NAPALMBEAT, 7},
 			{SKID.MG_SOULSTRIKE, 5}
-	},
+		},
 		NeedSkillList = {
 			[JOBID.JT_PRIEST] = {
-			{SKID.PR_SANCTUARY, 3},
-			{SKID.PR_ASPERSIO, 4}
+				{SKID.PR_SANCTUARY, 3},
+				{SKID.PR_ASPERSIO, 4}
 			}
 		}
 	},
@@ -7956,14 +7956,14 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		NeedSkillList = {
 			[JOBID.JT_MINSTREL] = {
-			{SKID.MI_HARMONIZE, 1},
-			{SKID.MI_RUSH_WINDMILL, 1},
-			{SKID.MI_ECHOSONG, 1}
+				{SKID.MI_HARMONIZE, 1},
+				{SKID.MI_RUSH_WINDMILL, 1},
+				{SKID.MI_ECHOSONG, 1}
 			},
 			[JOBID.JT_WANDERER] = {
-			{SKID.WA_SWING_DANCE, 1},
-			{SKID.WA_SYMPHONY_OF_LOVER, 1},
-			{SKID.WA_MOONLIT_SERENADE, 1}
+				{SKID.WA_SWING_DANCE, 1},
+				{SKID.WA_SYMPHONY_OF_LOVER, 1},
+				{SKID.WA_MOONLIT_SERENADE, 1}
 			}
 		}
 	},
@@ -7984,14 +7984,14 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		NeedSkillList = {
 			[JOBID.JT_MINSTREL] = {
-			{SKID.MI_HARMONIZE, 1},
-			{SKID.MI_RUSH_WINDMILL, 1},
-			{SKID.MI_ECHOSONG, 1}
+				{SKID.MI_HARMONIZE, 1},
+				{SKID.MI_RUSH_WINDMILL, 1},
+				{SKID.MI_ECHOSONG, 1}
 			},
 			[JOBID.JT_WANDERER] = {
-			{SKID.WA_SWING_DANCE, 1},
-			{SKID.WA_SYMPHONY_OF_LOVER, 1},
-			{SKID.WA_MOONLIT_SERENADE, 1}
+				{SKID.WA_SWING_DANCE, 1},
+				{SKID.WA_SYMPHONY_OF_LOVER, 1},
+				{SKID.WA_MOONLIT_SERENADE, 1}
 			}
 		}
 	},
@@ -8465,10 +8465,10 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9},
 		NeedSkillList = {
 			[JOBID.JT_MINSTREL] = {
-			{SKID.BA_MUSICALSTRIKE, 5}
+				{SKID.BA_MUSICALSTRIKE, 5}
 			},
 			[JOBID.JT_WANDERER] = {
-			{SKID.DC_THROWARROW, 5}
+				{SKID.DC_THROWARROW, 5}
 			}
 		}
 	},
@@ -8508,10 +8508,10 @@ SKILL_INFO_LIST = {
 		AttackRange = {9, 9, 9, 9, 9},
 		NeedSkillList = {
 			[JOBID.JT_MINSTREL] = {
-			{SKID.BA_DISSONANCE, 5}
+				{SKID.BA_DISSONANCE, 5}
 			},
 			[JOBID.JT_WANDERER] = {
-			{SKID.DC_UGLYDANCE, 5}
+				{SKID.DC_UGLYDANCE, 5}
 			}
 		}
 	},
@@ -8654,10 +8654,10 @@ SKILL_INFO_LIST = {
 		AttackRange = {1},
 		NeedSkillList = {
 			[JOBID.JT_BARD] = {
-			{SKID.BA_WHISTLE, 10}
+				{SKID.BA_WHISTLE, 10}
 			},
 			[JOBID.JT_DANCER] = {
-			{SKID.DC_HUMMING, 10}
+				{SKID.DC_HUMMING, 10}
 			}
 		}
 	},
@@ -8726,10 +8726,10 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		NeedSkillList = {
 			[JOBID.JT_BARD] = {
-			{SKID.BA_APPLEIDUN, 10}
+				{SKID.BA_APPLEIDUN, 10}
 			},
 			[JOBID.JT_DANCER] = {
-			{SKID.DC_SERVICEFORYOU, 10}
+				{SKID.DC_SERVICEFORYOU, 10}
 			}
 		}
 	},
@@ -8776,10 +8776,10 @@ SKILL_INFO_LIST = {
 		AttackRange = {1},
 		NeedSkillList = {
 			[JOBID.JT_BARD] = {
-			{SKID.BA_ASSASSINCROSS, 10}
+				{SKID.BA_ASSASSINCROSS, 10}
 			},
 			[JOBID.JT_DANCER] = {
-			{SKID.DC_DONTFORGETME, 10}
+				{SKID.DC_DONTFORGETME, 10}
 			}
 		}
 	},
@@ -8822,10 +8822,10 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1},
 		NeedSkillList = {
 			[JOBID.JT_BARD] = {
-			{SKID.BA_POEMBRAGI, 10}
+				{SKID.BA_POEMBRAGI, 10}
 			},
 			[JOBID.JT_DANCER] = {
-			{SKID.DC_FORTUNEKISS, 10}
+				{SKID.DC_FORTUNEKISS, 10}
 			}
 		}
 	},
@@ -9641,7 +9641,7 @@ SKILL_INFO_LIST = {
 		AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 		NeedSkillList = {
 			[JOBID.JT_CRUSADER] = {
-			{SKID.AL_CURE, 1}
+				{SKID.AL_CURE, 1}
 			}
 		}
 	},
