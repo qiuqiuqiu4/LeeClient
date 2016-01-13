@@ -283,8 +283,8 @@ You cannot use an NPC shop while in a trade.#
 Name#
 技能#
  可用技能点: %d#
-Skill has failed.#
-Passive#
+使用技能失败#
+被动技能#
 各自取得#
 均等分配#
 各自取得#
@@ -292,7 +292,7 @@ Passive#
 组队设置#
 经验分配方式#
 道具取得方式#
-Only the Party Leader can change this setting.#
+只有队长可以改变此设置#
 不询问物品数量，默认出售全部#
 Character will be deleted after ^ff0000%d^000000 seconds. Press Cancel to quit.#
 You cannot trade more than 10 types of items per trade.#
@@ -2761,10 +2761,10 @@ Record#
 %s [%d Property] %d -> %s %s#
 %s [%d Property] %s %s#
 The minimum trading unit must be 100 crackers or more.#
-Hair color#
-Hair style#
-Cloth color#
-Cloth pattern#
+预览头色#
+预览发型#
+预览服装颜色#
+预览服装风格#
 Unsupported Map.#
 很抱歉，您填写的金额不能超过 2,147,483,647 Zeny#
 很抱歉，您填写的金额至少要有 1 Zeny#
