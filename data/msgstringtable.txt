@@ -1058,7 +1058,7 @@ Product List#
 Register#
 Sale Status#
 Purchase Status#
-Item#
+物品#
 Name#
 Current Bid / Buyout#
 Seller#
@@ -1776,17 +1776,17 @@ You cannot use this item with your current level.#
 按回车可以开/关聊天栏#
 Failed to add because you have reached the limit.#
 频道 - 内容设置#
-Sell#
-Purchase#
-Search for Vends#
-Shop Name#
-Amount#
-Price#
+出售#
+采购#
+搜索商店#
+商店名称#
+数量#
+价格#
 Too much results have been found. Please do a more precisely search.#
 Do you want to open a street stall?#
 Failed to recognize SSO.#
 Cannot move to the applied area.#
-searching  item including the word#
+搜索包括此名称的物品#
 User has been expelled.#
 You have not accepted the user agreements yet.#
 You will not be disconnect from the game.#
@@ -1800,7 +1800,7 @@ Failed to search any further.#
 The selected item does not exist.#
 Cannot search yet.#
 Enter the card name or prefix/suffix.#
-Searches left: %d#
+剩余可搜索次数: %d#
 No result has been found.#
 The item price is too high.#
 常规#
