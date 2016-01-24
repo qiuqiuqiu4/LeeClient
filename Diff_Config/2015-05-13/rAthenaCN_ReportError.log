@@ -1,4 +1,4 @@
-6 Force Send Client Hash Packet (Experimental)
+6 Force Send Client Hash Packet
 8 Custom Window Title
 9 Disable 1rag1 type parameters (Recommended)
 13 Disable Ragexe Filename Check (Recommended)
@@ -28,13 +28,10 @@
 68 Enable 64k Hairstyle
 69 Extend Npc Dialog Box
 73 Remove Hourly Announce (Recommended)
-204 Increase Attack Display
-205 Enable Monster Tables
-213 Disable Help Message on Login (Recommended)
 84 Remove Serial Display (Recommended)
 86 Only First Login Background
 90 Enable DNS Support (Recommended)
-92 Packet First Key Encryption
-93 Packet Second Key Encryption
-94 Packet Third Key Encryption
 97 Cancel to Login Window (Recommended)
+204 Increase Attack Display
+205 Enable Monster Tables
+213 Disable Help Message on Login (Recommended)
