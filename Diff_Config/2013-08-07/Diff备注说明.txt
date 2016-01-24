@@ -17,10 +17,6 @@ DIFF说明
 --------
 使用NEMO作为DIFF工具，请使用最新版本的NEMO
 
-已知问题
---------
-目前使用NEMO进行DIFF的时候，若选择“Increase Attack Display”选项，则会导致打怪时客户端崩溃。
-
 最后更新
 --------
 2015-11-26 14:49:46 By CairoLee
