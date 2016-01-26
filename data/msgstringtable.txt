@@ -11,7 +11,7 @@
 这个名称已经有人使用了, 换一个试试吧...#
 创建角色失败！可能是角色名不合法.#
 Character Deletion is denied.#
-Please Enter Room Title.#
+请输入聊天室的名称.#
 Foul Language Detected.#
 请输入密码.#
 请输入密码. 密码至少要有四个字.#
@@ -47,10 +47,10 @@ BGM Off#
 /exall: Blocks whispers from everyone#
 Right click on a character and select [Register as a Friend] to add a person to your Friend List.#
 F12 Brings up a Hotkey Window which allows you to drag and drop Recovery Items, Equipment and Skills into it for faster access.#
-同一句话您不能连续发送超过 3 次.#
-Chat Filter: Yeah, uh, I don't think so buddy...#
+同一句话您不能重复发送超过 3 次.#
+内容含有不雅的词语, 将其发送出去将有碍和谐...#
 You cannot overlap items on a window.#
-You cannot carry more items because you are overweight.#
+超过最大负重量, 无法取得物品#
 You cannot get the item.#
 您的交易已经顺利完成#
 您没有足够的金钱.#
@@ -82,13 +82,13 @@ The Character already joined another party.#
 Request for party rejected.#
 Request for party accepted.#
 Party Capacity exceeded.#
-You left the party.#
+您已经离开了队伍.#
 公开发言频道#
 队伍发言频道#
 Request a deal with %s#
 Ask %s to join your party#
-Pri:#
-Pub:#
+私密:#
+公开:#
 Click ''Restart'' to go back to your save point or click ''Exit'' to select another character.#
 请问您想“购买”还是“出售”物品？#
  请求与您进行交易.#
@@ -157,23 +157,23 @@ Kill has failed.#
 How to Whisper: Enter a Character's Name on the left side of chat window and type your message on the right side. The Tab key helps you move between these boxes.#
 /!,/?,/ho,/lv,/lv2,/swt,/ic,/an,/ag,/$,/a�|.,/thx,/wah,/sry,/heh,/swt2,/hmm,/no1,/??,/omg,/oh,/X,/hp,/go,/sob,/gg,/kis,/kis2,/pif,/ok: Emotion icons corresponding to Alt + (1~9) Ctrl + (-=\\)#
 How to Speak to Party: Add '%' in front of every message.(Example: \%Hello\)#
-You haven't learned enough Basic Skills to Trade.#
-You haven't learned enough Basic Skills to use Emotion icons.#
-You haven't learned enough Basic Skills to Sit.#
-You haven't learned enough Basic Skills to create a chat room.#
-You haven't learned enough Basic Skills to Party.#
-You haven't learned enough skills to Shout.#
-You haven't learned enough skills for Pking.#
+您的“基本技能”等级不足, 无法使用交易! 请先修练“基本技能”至1级.#
+您的“基本技能”等级不足, 无法使用表情符号! 请先修练“基本技能”至2级.#
+您的“基本技能”等级不足, 无法坐到地上! 请先修练“基本技能”至3级.#
+您的“基本技能”等级不足, 无法开启聊天室! 请先修练“基本技能”至4级.#
+您的“基本技能”等级不足, 无法创建队伍! 请先修练“基本技能”至7级.#
+您的“基本技能”等级不足, 无法使用仓库! 请先修练“基本技能”至6级.#
+您的“基本技能”等级不足, 无法与其他玩家进行PK! 请先修练“基本技能”至8级.#
 想购买的物品#
 Item Shop#
 想出售的物品#
-Storage#
- is put on.#
- is taken off.#
+仓库物品清单#
+ 已穿戴完成#
+ 已卸下完成#
 To add names on the Whispering List#
 How to Take Screen Shots: Press [Print Screen] or [Scroll Lock]#
-Tip of the Day#
-^3850a0Did you know...?^709fed#
+每日提示#
+^3850a0您知道吗...?^709fed#
 Display at startup#
 /tip: Opens ''Tip of the Day''#
 There are %d Players Currently Connected.#
@@ -197,11 +197,11 @@ No Whisper List.#
 : Whispering accepted.#
 : Command has failed.#
 : Command has failed. Block List is full.#
-You cannot put a space at the beginning or end of a name.#
+名字第一个字和最后一个字不能是空格#
 私有#
 公开#
-Not Enough SP#
-Not Enough HP#
+SP不足, 无法使用技能#
+HP不足, 无法使用技能#
 Skill has failed.#
 Steal has failed.#
 Trade#
@@ -220,8 +220,8 @@ Cancel#
 There is a Delay after using a Skill.#
 You can't have this item because you will exceed the weight limit.#
 Out of the maximum capacity#
-Cart Items#
-Take off Cart#
+手推车物品清单#
+放弃手推车#
 开设露天商店#
 Please Name your Shop.#
 我的商店#
@@ -231,21 +231,21 @@ Please Name your Shop.#
 Out of Stock#
 %s %d sold.#
 可以卖的物品#
-Skill has failed because you do not have enough zeny.#
-Select a Target.#
+很抱歉, 由于您的金钱不足而导致技能使用失败#
+请选择技能的目标或区域#
 /pk on: Turns PK On. /pk off: Turns PK Off.#
 Shop#
-Cart Items [Alt+W]#
+查看手推车内的物品 [Alt+W]#
 基本信息#
-The skill cannot be used with this weapon.#
+使用当前装备的武器无法发动此技能#
 Buying %s has been failed. Out of Stock. Current Stock %d.#
 You've been disconnected due to a time gap between you and the server.#
-Please equip the proper ammunition first.#
-You can't attack or use skills because you've exceeded the Weight Limit.#
-You can't use skills because you've exceeded the Weight Limit.#
-Ammunition has been equipped.#
-Red Gemstone required.#
-Blue Gemstone required.#
+请先装备箭矢、子弹、飞镖、飞刀或加农炮弹#
+由于您的负重量过大, 无法攻击和使用技能#
+由于您的负重量过大, 无法使用技能#
+已装备箭矢、子弹、飞镖、飞刀或加农炮弹#
+发动此技能需要消耗红色魔力矿石#
+发动此技能需要消耗蓝色魔力矿石#
 Str - 力量#
 Agi - 敏捷#
 Vit - 体力#
@@ -325,7 +325,7 @@ Change Skill#
 角色画质#
 贴图画质#
 Arrange Detail#
-You got %s Zeny#
+您获得了 %s 金币#
 公会名称#
 公会等级#
 会长名称#
@@ -368,24 +368,24 @@ You have failed to disband the guild.#
 Disband Reason: %s#
 This ID has been removed.#
 售价: #
-%s has been expelled from our guild.#
-Expulsion Reason: %s#
+%s 遭到公会管理层驱逐.#
+驱逐原因: %s#
 You can't put this item on.#
 You can't modify Party Setup.#
-Guild has been Created.#
+恭喜您, 您的公会已经创建完毕!#
 You are already in a Guild.#
-That Guild Name already exists.#
- Guild has sent you an invitation. Would you like to join this Guild?#
+此公会名称已被人使用#
+公会送来了邀请函. 请问您是否愿意加入此公会?#
 He/She is already in a Guild.#
-Offer Rejected#
-Offer Accepted#
+很遗憾, 对方拒绝加入公会#
+太好啦, 对方接受了邀请, 加入了公会#
 Your Guild is Full.#
-Send (%s) a Guild invitation#
+邀请 (%s) 加入公会#
 You haven't learned enough skills for aligning.#
 Alignning completed.#
 You already spent your point for today.#
 Hasn't been a month yet since you aligned this person.#
-Remember, Spamming isn't nice.#
+请记住, 被禁言不是什么好事情, 因为这代表您没礼貌, 或者对他人造成了困扰!#
 Please refrain from ill-mannered conduct, thank you.#
 Align with a Good Point#
 Align with a Bad Point#
@@ -403,7 +403,7 @@ You have failed to disband the guild due to your incorrect SSN.#
 You have failed to disband the guild because there are guildsmen still present.#
 Set this guild as an Antagonist#
 Choose Hair Color#
-You need the necessary item to create a Guild.#
+您需要拥有华丽金属才能创建公会.#
 Monster Info#
 名称#
 等级#
@@ -457,9 +457,9 @@ You are prohibited to log in until %s.#
 6900#
 http://www.ragnarok.co.kr#
 强制 (%s) 下线#
-Very Strong #
-Very Very Strong #
-Very Very Very Strong #
+一级强悍 #
+二级强悍 #
+三级强悍 #
 逐出公会的原因#
 Attack Speed is up.#
 Attack Speed is down.#
@@ -487,12 +487,12 @@ Maximize-Power Canceled.#
 公会成员 %s 离线#
 取得 %s 基础经验值#
 取得 %s 职业经验值#
-You left the guild.#
-You have been expelled from the Guild.#
-已完成物品鉴定#
+您已经退出公会了.#
+退出原因：被公会管理层驱逐.#
+已成功完成物品鉴定#
 很遗憾，物品鉴定失败#
-Compounding has completed successfully.#
-Compounding has failed.#
+已成功将卡片插入装备#
+很遗憾, 卡片插入失败#
 Antagonist has been set.#
 Guild has too many Antagonists.#
 Already set as an Antagonist#
@@ -577,31 +577,31 @@ Your account is suspended.#
 Your connection is terminated due to change in the billing policy. Please connect again.#
 Your connection is terminated because your IP doesn't match the authorized IP from the account server.#
 Your connection is terminated to prevent charging from your account's play time.#
-You have been forced to disconnect by the Game Master Team.#
-You can't use this Skill because you are over your Weight Limit.#
+您已经被游戏管理员强制结束游戏.#
+您的负重量已经超过90%, 无法使用技能了, 将暂时不用的物品存到仓库吧.#
 Nameless#
 Congratulations! %s's rank has gone up to %d.#
 What a pity! %s's rank has gone down to %d.#
-Pet Info#
-Hunger#
-Intimacy#
+宠物信息#
+饱足感#
+亲密度#
 Please avoid opening a chatroom while vending.#
 ea#
 You have knocked down %s.#
 You have been knocked down by %s.#
-Feed - "%s" is not available.#
-Feed Pet#
-Performance#
-Return to Egg#
-Unequip Accessory#
-Check Pet Status#
-Accessory#
-Equipped#
-Pet List#
-Unequipped#
-Are you sure that you want to feed your pet?#
+喂食失败, 您的身上没有 %s 这款饲料#
+喂食饲料#
+宠物表演#
+变回宠物蛋#
+移除装饰#
+查看信息#
+装饰品#
+已经佩戴装饰品#
+宠物清单#
+尚未装备#
+您确定要喂养您的宠物吗?#
 Only the numbers (0~9) are available.#
-You cannot sell unidentified items.#
+很抱歉, 您不能出售未鉴定的物品.#
 Item at 0 Zeny exists. Do you wish to continue?#
 [New Emotion List]#
 N/A#
@@ -655,7 +655,7 @@ Weapon has just been released from destroyed status.#
 Invisibility initiated.#
 Invisibility canceled.#
 Sorry. It is delayed due to the process of payment. Please re-connect in a minute.#
-You must unequip ammunition first.#
+需要卸下使用中的箭矢、子弹、飞镖、飞刀或加农炮弹#
 Arrow List#
 Cart List#
 You must have a cart.#
@@ -664,12 +664,12 @@ Registering an account is the first step to accessing the game. Do you want to v
 You cannot use this item while sitting.#
 Your use of skills and chat will be blocked for the next %d minutes.#
 Your use of skills and chat have been reinstated.#
-- [Not equipped]#
- Very Hungry#
- Hungry#
- Neutral#
- Satisfied#
- Stuffed#
+- [尚未装备]#
+ 非常饥饿#
+ 饥饿#
+ 普通#
+ 吃饱#
+ 非常饱#
  Awkward#
  Shy#
  Cordial#
@@ -681,7 +681,7 @@ Your account has play time of %d hour %d minute.#
 Your account is a free account.#
 This account can't connect the Sakray server.#
 Your pet name must be 23 characters or less.#
-You may change your pet's name only once. Your pet's name will be changed to ^0000ff^0000ff %s^000000^000000.  Do you wish to continue?#
+宠物名称只能更换一次, 即将把宠物的名称变更为^0000ff%s^000000, 请问您要继续吗?#
 /font#
 Your guild lacks the funds to pay for this venture.#
 Your guild zeny limit prevents you from performing this action.#
@@ -715,8 +715,8 @@ Chat block record %d times#
 Chat block list#
 /showname: Change the name font type.#
 /noctrl | /nc: Auto attack without pressing ctrl key. On | Off#
-Use auto attack without Ctrl. [Auto attack ON]#
-Use auto attack with Ctrl. [Auto attack OFF]#
+不用按Ctrl键, 也可以自动连续攻击魔物. [自动攻击已启用]#
+需要按Ctrl键, 才可以自动连续攻击魔物. [自动攻击已禁用]#
 Mute this player.#
 Unmute player & Erase mute time.#
 Decrease Player Mute time.#
@@ -754,7 +754,7 @@ NPX.DLL register error or there is no necessary file to run FindHack. Please dow
 Exceptional Error. Please contact the customer support. Return Value: (%d)#
 Exit button has been clicked.#
 Unable to connect Findhack Update Server. Please try again or contact the customer support.#
-Beloved #
+受宠爱的 #
 /report: Save a chat log file.#
 Chat logs are not accepted as evidence for any ill-mannered violation on account of possible file modifications. However this feature is provided for players' personal reference.#
 I love you.#
@@ -934,10 +934,10 @@ GameGuard is currently running. Please wait for sometime and restart the game.#
 The Game or GameGuard is already running. Please close the game and restart the game.#
 Failed to intialize GameGuard. Please try again after rebooting the system or closing other programs.#
 Failed to load the scan module of virus and hacking tool. It's caused by lack of memory or PC virus infection.#
-Homunculus Info#
-Homunculus Skill List#
-Please give your Homunculus a name no longer than 23 letters.#
-You can name a Homunculus only once. You have entered the name, ^0000ff%s^000000. Would you like to continue?#
+生命体信息#
+生命体技能列表#
+生命体名称英文不超过23个字母, 中文不超过11个汉字.#
+生命体名称只能更换一次, 即将把生命体的名称变更为^0000ff%s^000000, 请问您要继续吗?#
 (Away)#
 [Automated Message]#
 Send an automated message while you are away.#
@@ -953,7 +953,7 @@ Please enter Away Message.#
 /pk: Shows top 10 Slayers in the server.#
 [POINT] You have been rewarded with %d Slayer rank points. Your point total is %d.#
 Evolution Available#
-You have decided to delete this Homunculus ^ff0000^ff0000. When deleted, the homunculus and its history will be deleted and they cannot be restored in the future. Would you like to continue?#
+如果删除生命体, ^ff0000那么到目前所饲养的生命体记录都会被删除, 请问您要继续吗^000000?#
 Save Homunculus status as a file.#
 Do not save Homunculus status as a file.#
 Crusader#
@@ -1110,9 +1110,9 @@ You can now open a shop with a single left-click and close your shop with a sing
 You can open a shop by double-clicking. [/sh OFF]#
 Please enter zeny amount before sending mail.#
 You do not have enough zeny to pay the Auction Fee.#
-View Status#
-Feed#
-Stand By#
+查看信息#
+喂食#
+等候#
 Super Novice (Male)#
 Super Novice (Female)#
 Taekwon Boy#
@@ -1126,8 +1126,8 @@ Your account is using monthly payment. (Remaining day: %d day)#
 Your account is using time limited. (Remaining time: %d hour %d minute %d second)#
 This item cannot be mailed.#
 You cannot accept any more items. Please try again later.#
-Male#
-Female#
+男性#
+女性#
 New User.#
 E-mail address is required to delete a character.#
 Please enter the correct information.#
@@ -1179,13 +1179,13 @@ The mail no longer exists.#
 More than 30 players sharing the same IP have logged into the game for an hour. Please check this matter.#
 More than 10 connections sharing the same IP have logged into the game for an hour. Please check this matter.#
 Please restart the game.#
-Mercenary: Archer#
-Mercenary: Swordman#
-Mercenary: Spearman#
-Expiration#
-Loyalty#
-Summons#
-Kill#
+佣兵信息: 弓手型#
+佣兵信息: 剑士型#
+佣兵信息: 枪兵型#
+到期时间#
+忠诚度#
+召唤次数#
+杀敌数#
 You can feel hatred from your pet for neglecting to feed it.#
 [POINT] You earned %d Taming Mission Ranking Points, giving you a total of %d points.#
 [Taming Mission] Target Monster: %s#
@@ -1330,19 +1330,19 @@ This item will be permanently bound to this character once it is equipped. Do yo
 You do not have enough Kafra Credit Points. Please enter whether you have free credit points.#
 Request to Join Party#
 Display WOE Info#
-Memorial Dungeon %s's reservation has been canceled.#
-Failed to create Memorial Dungeon %s. Please try again.#
+%s 副本的预约已取消.#
+%s 副本创建失败, 请再试一次.#
 This skill cannot be used within this area.#
 This item cannot be used within this area.#
-Memorial Dungeon#
-%s in Standby#
-%s Available#
-%s in Progress#
-No one entered the Memorial Dungeon within its duration; the dungeon has disappeared.#
+副本情报#
+%s 副本正在建立#
+%s 副本开放进场#
+%s 副本正在进行#
+由于在规定时间没有人进入副本, 因此副本被销毁了.#
 Please apply for dungeon entry again to play in this dungeon.#
 Your Standby Priority: ^ff0000%d^000000#
-The requested dungeon will be removed if you do not enter within ^ff0000%s^000000.#
-Dungeon Mission Time Limit:#
+若在 ^ff0000%s^000000 前还没进场, 那么此副本将被销毁.#
+副本终止时间：#
 The Memorial Dungeon reservation has been canceled.#
 The Memorial Dungeon duration expired; it has been destroyed.#
 The Memorial Dungeon's entry time limit expired; it has been destroyed.#
@@ -1365,7 +1365,7 @@ This service is only available for premium users.#
 Free Trial users can only hold up to 50,000 zeny.#
 Battlefield Chat has been activated.#
 Battlefield Chat has been deactivated.#
-Mercenary Info - Monster Type#
+佣兵信息: 魔物型#
 World Map#
 The Memorial Dungeon is now closed.#
 ^ff0000Deleting a Mercenary Soldier^000000 will also delete his growth history. Do you really want to proceed with the deletion?#
@@ -1375,17 +1375,17 @@ The number of accounts connected to this IP has exceeded the limit.#
 You have received a new quest.#
 ^777777Acquirement conditions:#
 显示技能说明#
-Once used, skill points cannot be re-allocated. Would you like to use the skill points?#
+您确认要进行技能点分配吗? 您一旦确认, 技能点数将无法被重新分配到其他技能上.#
 初心者&一转技能#
 二转&转生技能#
 This account has been used for illegal program or hacking program. Block Time: %s#
 The possibility of exposure to illegal program, PC virus infection or Hacking Tool has been detected. Please execute licensed client. Our team is trying to make a best environment for Ro players.#
 You are currently playing in the best game environment. Please enjoy the Ragnarok.#
-Job Exp points from hunting monsters are increased by 50%% for 30 minutes.#
-Exp points from hunting monsters are increased by 25%% for 30 minutes.#
-EXP points from hunting monsters are increased by 100%% for 30 minutes.#
-EXP points from hunting monsters are increased by 50%% for 60 minutes.#
-Unable to organize a party in this map.#
+接下来的30分钟内, 狩猎魔物所得到的职业经验值将会增加为150%%.#
+接下来的30分钟内, 狩猎魔物所得到的基础经验值和职业经验值将会增加为125%%.#
+接下来的30分钟内, 狩猎魔物所得到的基础经验值和职业经验值将会增加为200%%.#
+接下来的60分钟内, 狩猎魔物所得到的基础经验值和职业经验值将会增加为150%%.#
+无法在此地图建立队伍.#
 (%s) are currently in restricted map to join a party.#
 Simple Item Shop#
 Han Coin: %d Han Coin#
@@ -1464,11 +1464,11 @@ Can't be used while on Magic Gear.#
 Dismount Dragon#
 Dismount Magic Gear#
 消耗#
-Cash#
-Armors#
-Weapons#
-Ammo#
-Card#
+商城#
+防具#
+武器#
+箭矢、子弹、飞镖、飞刀或加农炮弹#
+卡片#
 其它#
 Client response time has passed so connection is terminated#
 Incorrect version of hack shield file. Please reinstall the client#
@@ -1603,16 +1603,16 @@ Does not display the icon field.#
 Field notification was moved.#
 Admission pending notification of the battlefield#
 Someone#
- [%s] deal '%d' damage on you.#
- [%s] received a damage from [%s] with '%d' damage.#
- [%s] received '%d' damage.#
- [%s] deal damage to [%s] with '%d' damage.#
+[%s] 对您造成 %d 点伤害.#
+[%s] 从 [%s] 那受到 %d 点伤害.#
+[%s] 受到 %d 点伤害.#
+[%s] 对 [%s] 造成了 %d 点伤害.#
 You dropped %s (%d).#
 [%s] Quest - defeated [%s] progress (%d/%d)#
 The Quest %s has been removed.#
 [%s] has #
-%d Base Experience#
-%d Job Experience#
+获得 %d 点基础经验值#
+获得 %d 点职业经验值#
  gained.#
  has lost.#
 From [%s], '%d' coins were stolen.#
@@ -1687,7 +1687,7 @@ Wedding#
 拳圣#
 悟灵士#
 Party Recruitment#
-Party Booking List#
+组队招募列表#
 Recruiting Party#
 [Bow] must be equipped.#
 [Musical Instrument/Whip] must be equipped.#
