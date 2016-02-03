@@ -11144,7 +11144,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MC_CARTDECORATE] = {
 		"MC_CARTDECORATE";
-		SkillName = "眉牢瘤 墨飘 2",
+		SkillName = "装饰手推车",
 		MaxLv = 1, 
 		SpAmount = {40},
 		bSeperateLv = false, 
