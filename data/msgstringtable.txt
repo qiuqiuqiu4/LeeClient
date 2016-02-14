@@ -448,11 +448,11 @@ Double#
 Triple#
 Quadruple#
 You are prohibited to log in until %s.#
-'s #
-'s Fire #
-'s Ice #
-'s Wind #
-'s Earth #
+制造的 #
+的火属性 #
+的水属性 #
+的风属性 #
+的地属性 #
 211.239.161.246#
 6900#
 http://www.ragnarok.co.kr#
@@ -579,7 +579,7 @@ Your connection is terminated because your IP doesn't match the authorized IP fr
 Your connection is terminated to prevent charging from your account's play time.#
 您已经被游戏管理员强制结束游戏.#
 您的负重量已经超过90%, 无法使用技能了, 将暂时不用的物品存到仓库吧.#
-Nameless#
+无名#
 Congratulations! %s's rank has gone up to %d.#
 What a pity! %s's rank has gone down to %d.#
 宠物信息#
@@ -1093,7 +1093,7 @@ Armor#
 Card#
 其他#
 Bid#
-Search#
+搜索 - 最后一次搜索的结果#
 You have ended the auction.#
 You cannot end the auction.#
 Bid Number is incorrect.#
@@ -1323,8 +1323,8 @@ Memorial Dungeon, '%s' is already booked.#
 Memorial Dungeon, '%s' is created.\n Please enter in 5 minutes.#
 Failed to create Memorial Dungeon, '%s'.\n Please try again.#
 对方不希望加入任何队伍#
-拒绝所有组队邀请#
-询问所有组队邀请#
+收到组队邀请时, 自动拒绝邀请#
+收到组队邀请时, 询问我进行选择#
 This item will be permanently bound to this character once it is equipped. Do you really want to equip this item?#
 %s is now permanently bound to this character.#
 You do not have enough Kafra Credit Points. Please enter whether you have free credit points.#
@@ -1844,14 +1844,14 @@ Buy#
 Empty shopping cart#
 First page#
 Last page#
-New Items#
-Hot Items#
-Limited Sell#
-Rental Equipment#
-Permanent Equipment#
-Scrolls#
-Consumables#
-Other#
+新品 - 最新上架的物品#
+热门 - 最近卖得最好的物品#
+限时 - 限时售卖, 过时不候#
+租赁装备 - 使用一段时间后会自动消失的装备#
+永久装备 - 购买之后永久有效的装备#
+卷轴 - 技能卷轴和传送卷轴等物品#
+消耗 - 料理等特色的消耗品#
+其他 - 无法进行归类的物品#
 Cost#
 Quantity#
 Total#
@@ -2518,7 +2518,7 @@ Registration failure. Please try again later.#
 Item has already been registered. Please try again later.#
 Failed to delete the item. Please try again later.#
 %s item has been deleted.#
-Special#
+特殊 - 一些很神奇的物品#
 Sales limited sale item update# 
 Discontinued#
 Quantity update is required #
