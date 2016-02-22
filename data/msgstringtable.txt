@@ -47,14 +47,14 @@ BGM Off#
 /exall: Blocks whispers from everyone#
 Right click on a character and select [Register as a Friend] to add a person to your Friend List.#
 F12 Brings up a Hotkey Window which allows you to drag and drop Recovery Items, Equipment and Skills into it for faster access.#
-同一句话您不能重复发送超过 3 次.#
+同一句话不能连续重复发送超过 3 次.#
 内容含有不雅的词语, 将其发送出去将有碍和谐...#
 You cannot overlap items on a window.#
 超过最大负重量, 无法取得物品#
 You cannot get the item.#
 您的交易已经顺利完成#
 您没有足够的金钱.#
-You are over your Weight Limit.#
+您的负重能力不足以带动这些东西, 交易失败了.#
 很遗憾, 交易失败了.#
 You've blocked whispers from everyone.#
 You've failed to block all whispers.#
@@ -65,18 +65,18 @@ You have no Block List.#
 Room has been successfully created.#
 Room Limit Exceeded.#
 Same Room exists.#
-The Room is full.#
-You have been kicked out of this room.#
-您的交易请求被对方拒绝了.#
+此聊天室已经满员, 无法进入.#
+您被踢出了聊天室.#
+对方拒绝了您的交易请求.#
 You are too far away from the person to trade.#
 The Character is not currently online or does not exist.#
-The person is in another deal.#
+对方正在和其他玩家交易, 或者正在使用仓库...#
 You cannot trade because this character will exceed his weight limit.#
-The deal has been canceled.#
-The deal has successfully completed.#
-The deal has failed.#
-Party has successfully been organized.#
-That Party Name already exists.#
+交易已被取消.#
+交易已完成.#
+交易失败了.#
+已经成功建立了队伍.#
+这个队伍名称已经有人使用了, 换个名字试试吧.#
 The Character is already in a party.#
 The Character already joined another party.#
 Request for party rejected.#
@@ -141,9 +141,9 @@ View Information#
 [Alt] + [End]: Turns HP/SP Bar On or Off#
 [Alt] + [Home]: Turns Ground Cursor On or Off#
 [Insert]: Makes you sit or stand. (Hotkey to toggle between /sit and /stand)#
-Congratulations! You are the MVP! Your reward item is #
+恭喜您杀死了强大的魔物! 成为了荣耀的 MVP! 您的奖励物品为 #
 !!#
-Congratulations! You are the MVP! Your reward EXP Points are #
+恭喜您杀死了强大的魔物! 成为了荣耀的 MVP! 您的奖励经验为 #
 !!#
 You are the MVP, but you can't take the reward because you are over your weight limit.#
 There is no such character name or the user is offline.#
@@ -189,7 +189,7 @@ Unknown Area#
 Your Client language doesn't match the Server language.#
 Please move your equipment to the inventory. And close the equipment window.#
 This server provides English Text Characters Only.#
-This is not implemented yet.#
+此功能尚未实装.#
 No Whisper List.#
 : Whispering Blocked.#
 : Whispering Block has failed.#
@@ -204,7 +204,7 @@ SP不足, 无法使用技能#
 HP不足, 无法使用技能#
 Skill has failed.#
 Steal has failed.#
-Trade#
+交易#
 Envenom skill has failed.#
 You cannot use this ID on this server.#
 Speed has increased.#
@@ -308,7 +308,7 @@ You are underaged and cannot join this server.#
 您的负重量已达到90%以上了, 无法攻击和使用技能#
 现在负重量已经低于50%, HP与SP可以自然恢复了#
 现在负重量已经低于90%, 可以攻击或使用技能了#
-Your Game's Exe File is not the latest version.#
+您的游戏客户端程序已经太旧啦, 请更新至最新版本.#
 商品已全部卖光, 收摊咯~#
 Save Chat as Text File#
 /savechat: Save a Chat Log#
@@ -520,7 +520,7 @@ Guild Lvl#
 Guildsmen#
 Ranking#
 可鉴定的物品#
-Insert Card#
+插入卡片#
 Please enter the reason of Secession.#
 Please enter the reason of Expulsion.#
 Please close Shop.#
@@ -699,8 +699,8 @@ Spell List#
 /minimize#
 This item has been damaged.#
 /noshift: You may use your ''force heal'' ability without the Shift key. On | Off#
-[no shift] option activated. [ON]#
-[no shift] option deactivated. [OFF]#
+不用按Shift键, 也可以向敌方使用辅助技能. [/ns 已启用]#
+需要按Shift键, 才可以向敌方使用辅助技能. [/ns 已禁用]#
 MSI_REFUSE_BAN_BY_DBA#
 MSI_REFUSE_EMAIL_NOT_CONFIRMED#
 MSI_REFUSE_BAN_BY_GM#
@@ -715,8 +715,8 @@ Chat block record %d times#
 Chat block list#
 /showname: Change the name font type.#
 /noctrl | /nc: Auto attack without pressing ctrl key. On | Off#
-不用按Ctrl键, 也可以自动连续攻击魔物. [自动攻击已启用]#
-需要按Ctrl键, 才可以自动连续攻击魔物. [自动攻击已禁用]#
+不用按Ctrl键, 也可以自动连续攻击魔物. [/nc 已启用]#
+需要按Ctrl键, 才可以自动连续攻击魔物. [/nc 已禁用]#
 Mute this player.#
 Unmute player & Erase mute time.#
 Decrease Player Mute time.#
