@@ -1,54 +1,31 @@
--- Decompiled using luadec 2.2 rev:  for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: skill_exmacro.lub 
-
--- params : ...
--- function num : 0
 FirstAttackSkillList = {}
 AttackSkillList = {}
 BuffSkillList = {}
-InsertNewSkillInfo = function(self, skillID, level, nTime)
-  -- function num : 0_0
+function InsertNewSkillInfo(self, skillID, level, nTime)
   local nListSize = getTableSize(self)
   self[nListSize + 1] = {}
-  -- DECOMPILER ERROR at PC8: Confused about usage of register: R5 in 'UnsetPending'
-
-  ;
-  (self[nListSize + 1]).nSkillID = skillID
-  -- DECOMPILER ERROR at PC11: Confused about usage of register: R5 in 'UnsetPending'
-
-  ;
-  (self[nListSize + 1]).nSkillLevel = level
-  -- DECOMPILER ERROR at PC14: Confused about usage of register: R5 in 'UnsetPending'
-
-  ;
-  (self[nListSize + 1]).nReuseTime = nTime
+  self[nListSize + 1].nSkillID = skillID
+  self[nListSize + 1].nSkillLevel = level
+  self[nListSize + 1].nReuseTime = nTime
 end
-
-GetFirstAttackSkillInfo = function(nIndex)
-  -- function num : 0_1
+function GetFirstAttackSkillInfo(nIndex)
   local obj = FirstAttackSkillList[nIndex]
   if obj ~= nil then
     return obj.nSkillID, obj.nSkillLevel
   end
   return -1, 1
 end
-
-GetAttackSkillInfo = function(nIndex)
-  -- function num : 0_2
+function GetAttackSkillInfo(nIndex)
   local obj = AttackSkillList[nIndex]
   if obj ~= nil then
     return obj.nSkillID, obj.nSkillLevel
   end
   return -1, 1
 end
-
-GetBuffSkillInfo = function(nIndex)
-  -- function num : 0_3
+function GetBuffSkillInfo(nIndex)
   local obj = BuffSkillList[nIndex]
   if obj ~= nil then
     return obj.nSkillID, obj.nSkillLevel, obj.nReuseTime
   end
   return -1, 1, -1
 end
-
-

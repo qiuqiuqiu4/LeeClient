@@ -1,8 +1,3 @@
--- Decompiled using luadec 2.2 rev:  for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: efstids.lub 
-
--- params : ...
--- function num : 0
 EFST_IDs = {
 	EFST_PROVOKE = 0,
 	EFST_ENDURE = 1,

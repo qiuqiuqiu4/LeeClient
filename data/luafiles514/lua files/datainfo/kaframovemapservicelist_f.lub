@@ -1,22 +1,12 @@
--- Decompiled using luadec 2.2 rev:  for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: kaframovemapservicelist_f.lub 
-
--- params : ...
--- function num : 0
-ReadKafraMoveMapServiceInfo = function()
-  -- function num : 0_0
-  for startMapName,table in pairs(KafraMoveMapServiceList) do
-    for key,destMapName in pairs(table) do
+function ReadKafraMoveMapServiceInfo()
+  for startMapName, table in pairs(KafraMoveMapServiceList) do
+    for key, destMapName in pairs(table) do
       AddItmeTokafraServiceMapList(startMapName, destMapName)
     end
   end
 end
-
-ReadKafraMiniMapPosInfo = function()
-  -- function num : 0_1
-  for k,v in pairs(KafraMiniMapPos) do
+function ReadKafraMiniMapPosInfo()
+  for k, v in pairs(KafraMiniMapPos) do
     AddItmeToExceptionMiniMapPosList(k, v[1], v[2])
   end
 end
-
-

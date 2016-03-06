@@ -1,28 +1,18 @@
--- Decompiled using luadec 2.2 rev:  for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: jobname_f.lub 
-
--- params : ...
--- function num : 0
-ReqJobName = function(jobID)
-  -- function num : 0_0
+function ReqJobName(jobID)
   if JobNameTable[jobID] ~= nil then
     return JobNameTable[jobID]
   end
   return ""
 end
-
-GetJobString = function(jobID)
-  -- function num : 0_1
-  for k,v in pairs(jobtbl) do
+function GetJobString(jobID)
+  for k, v in pairs(jobtbl) do
     if v == jobID then
       return k
     end
   end
   return ""
 end
-
-GetPetIllustName = function(jobID)
-  -- function num : 0_2
+function GetPetIllustName(jobID)
   filePath = "유저인터페이스\\illust\\"
   fileName = "펫_포링.bmp"
   if PetIllustNameTable[jobID] ~= nil then
@@ -30,22 +20,19 @@ GetPetIllustName = function(jobID)
   end
   return filePath .. fileName
 end
-
-GetPetIllustName_V2 = function(jobID, in_bResEnglishName)
-  -- function num : 0_3
+function GetPetIllustName_V2(jobID, in_bResEnglishName)
   local filePath = "UserInterface\\illust\\"
   local fileName = "PET_PORING.bmp"
-  -- DECOMPILER ERROR at PC9: Unhandled construct in 'MakeBoolean' P1
-
-  if in_bResEnglishName == true and PetIllustNameTable_Eng[jobID] ~= nil then
-    fileName = PetIllustNameTable_Eng[jobID]
+  if in_bResEnglishName == true then
+    if PetIllustNameTable_Eng[jobID] ~= nil then
+      fileName = PetIllustNameTable_Eng[jobID]
+    end
+  else
+    return GetPetIllustName(jobID)
   end
-  do return GetPetIllustName(jobID) end
   return filePath .. fileName
 end
-
-GetPetIllustName_V3 = function(jobID)
-  -- function num : 0_4
+function GetPetIllustName_V3(jobID)
   local filePath = "UserInterface\\illust\\"
   local fileName = "PET_NOIMAGE.bmp"
   if PetIllustNameTable_Eng[jobID] ~= nil then
@@ -53,9 +40,7 @@ GetPetIllustName_V3 = function(jobID)
   end
   return filePath .. fileName
 end
-
-GetPetAccActName = function(accID)
-  -- function num : 0_5
+function GetPetAccActName(accID)
   local filePath = "몬스터\\"
   local fileName = "chocho_방독면.act"
   if PetAccActNameTable[accID] ~= nil then
@@ -63,59 +48,46 @@ GetPetAccActName = function(accID)
   end
   return filePath .. fileName
 end
-
-GetPetAccActName_V2 = function(accID, in_bResEnglishName)
-  -- function num : 0_6
+function GetPetAccActName_V2(accID, in_bResEnglishName)
   local filePath = "Monster\\"
   local fileName = "ACC_CHOCHO.act"
-  -- DECOMPILER ERROR at PC9: Unhandled construct in 'MakeBoolean' P1
-
-  if in_bResEnglishName == true and PetAccActNameTable_Eng[accID] ~= nil then
-    fileName = PetAccActNameTable_Eng[accID]
+  if in_bResEnglishName == true then
+    if PetAccActNameTable_Eng[accID] ~= nil then
+      fileName = PetAccActNameTable_Eng[accID]
+    end
+  else
+    return GetPetAccActName(accID)
   end
-  do return GetPetAccActName(accID) end
   return filePath .. fileName
 end
-
-IsPetAccessory = function(accID)
-  -- function num : 0_7
-  if PetAccIDs.ACC_FIRST < accID and accID < PetAccIDs.ACC_LAST then
+function IsPetAccessory(accID)
+  if accID > PetAccIDs.ACC_FIRST and accID < PetAccIDs.ACC_LAST then
     return true
   end
   return false
 end
-
-GetPetName = function(jobID)
-  -- function num : 0_8
+function GetPetName(jobID)
   petName = "poring"
   if PetNameTable[jobID] ~= nil then
     petName = PetNameTable[jobID]
   end
   return petName
 end
-
-GetPetString = function(jobID)
-  -- function num : 0_9
+function GetPetString(jobID)
   if PetStringTable[jobID] ~= nil then
     return PetStringTable[jobID]
   end
   return ""
 end
-
-GetPetJTID_by_PetEggITID = function(petEggITID)
-  -- function num : 0_10
+function GetPetJTID_by_PetEggITID(petEggITID)
   if PetEggItemID_PetJobID[petEggITID] ~= nil then
     return PetEggItemID_PetJobID[petEggITID]
   end
   return -1
 end
-
-GetPetFood = function(jobID)
-  -- function num : 0_11
+function GetPetFood(jobID)
   if PetFoodTable[jobID] ~= nil then
     return PetFoodTable[jobID]
   end
   return -1
 end
-
-

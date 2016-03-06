@@ -1,10 +1,4 @@
--- Decompiled using luadec 2.2 rev:  for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: spriterobename_f.lub 
-
--- params : ...
--- function num : 0
-ReqRobSprName = function(index)
-  -- function num : 0_0
+function ReqRobSprName(index)
   if RobeNameTable[index] == nil then
     return ""
   end
@@ -15,24 +9,20 @@ ReqRobSprName = function(index)
     return ""
   end
 end
-
-ReqRobSprName_V2 = function(index, in_bResEnglishName)
-  -- function num : 0_1
+function ReqRobSprName_V2(index, in_bResEnglishName)
   if in_bResEnglishName == true then
     if RobeNameTable_Eng[index] == nil then
       return ""
     end
-    local NameMsg = RobeNameTable_Eng[index]
-    if NameMsg ~= nil then
-      return NameMsg
-    else
-      return ""
+    do
+      local NameMsg = RobeNameTable_Eng[index]
+      if NameMsg ~= nil then
+        return NameMsg
+      else
+        return ""
+      end
     end
   else
-    do
-      do return ReqRobSprName(index) end
-    end
+    return ReqRobSprName(index)
   end
 end
-
-

@@ -1,10 +1,4 @@
--- Decompiled using luadec 2.2 rev:  for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: weapontable_f.lub 
-
--- params : ...
--- function num : 0
-ReqWeaponName = function(index)
-  -- function num : 0_0
+function ReqWeaponName(index)
   if WeaponNameTable == nil then
     return ""
   end
@@ -15,9 +9,7 @@ ReqWeaponName = function(index)
     return ""
   end
 end
-
-ReqWeaponNameByClassNum = function(classNum)
-  -- function num : 0_1
+function ReqWeaponNameByClassNum(classNum)
   if classNum == nil then
     return ""
   end
@@ -28,9 +20,7 @@ ReqWeaponNameByClassNum = function(classNum)
     return ""
   end
 end
-
-GetRealWeaponId = function(weaponId)
-  -- function num : 0_2
+function GetRealWeaponId(weaponId)
   if weaponId == nil then
     return 0
   end
@@ -41,9 +31,7 @@ GetRealWeaponId = function(weaponId)
     return weaponId
   end
 end
-
-ReqWeaponHitWaveName = function(index)
-  -- function num : 0_3
+function ReqWeaponHitWaveName(index)
   if WeaponHitWaveNameTable == nil then
     return ""
   end
@@ -54,5 +42,3 @@ ReqWeaponHitWaveName = function(index)
     return ""
   end
 end
-
-

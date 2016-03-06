@@ -1,8 +1,3 @@
--- Decompiled using luadec 2.2 rev:  for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: signboardlist_f.lub 
-
--- params : ...
--- function num : 0
 local MAPNAME = 1
 local CELLX = 2
 local CELLY = 3
@@ -11,9 +6,6 @@ local ICONID = 5
 local FILEPATH = 6
 local CONTENTS = 7
 local CHARCOLOR = 8
-GetSignBoardListTable = function(idx)
-  -- function num : 0_0 , upvalues : MAPNAME, CELLX, CELLY, HEIGHT, ICONID, FILEPATH, CONTENTS, CHARCOLOR
-  return (SignBoardList[idx])[MAPNAME], (SignBoardList[idx])[CELLX], (SignBoardList[idx])[CELLY], (SignBoardList[idx])[HEIGHT], (SignBoardList[idx])[ICONID], (SignBoardList[idx])[FILEPATH], (SignBoardList[idx])[CONTENTS], (SignBoardList[idx])[CHARCOLOR]
+function GetSignBoardListTable(idx)
+  return SignBoardList[idx][MAPNAME], SignBoardList[idx][CELLX], SignBoardList[idx][CELLY], SignBoardList[idx][HEIGHT], SignBoardList[idx][ICONID], SignBoardList[idx][FILEPATH], SignBoardList[idx][CONTENTS], SignBoardList[idx][CHARCOLOR]
 end
-
-

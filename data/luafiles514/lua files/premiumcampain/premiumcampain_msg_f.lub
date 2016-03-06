@@ -1,10 +1,4 @@
--- Decompiled using luadec 2.2 rev:  for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: premiumcampain_msg_f.lub 
-
--- params : ...
--- function num : 0
-GetPremiumCampain_Bar_Color = function()
-  -- function num : 0_0
+function GetPremiumCampain_Bar_Color()
   local r = PREMIUM_CAMPAIN_BAR_COLOR[1]
   if r == nil then
     r = 255
@@ -19,28 +13,22 @@ GetPremiumCampain_Bar_Color = function()
   end
   return r, g, b
 end
-
-GetPremiumCampain = function(idx)
-  -- function num : 0_1
-  local msg = (PREMIUM_CAMPAIN_MSG[idx])[1]
+function GetPremiumCampain(idx)
+  local msg = PREMIUM_CAMPAIN_MSG[idx][1]
   if msg ~= nil then
-    local r = (PREMIUM_CAMPAIN_MSG[idx])[2]
+    local r = PREMIUM_CAMPAIN_MSG[idx][2]
     if r == nil then
       r = 255
     end
-    local g = (PREMIUM_CAMPAIN_MSG[idx])[3]
+    local g = PREMIUM_CAMPAIN_MSG[idx][3]
     if g == nil then
       g = 0
     end
-    local b = (PREMIUM_CAMPAIN_MSG[idx])[4]
+    local b = PREMIUM_CAMPAIN_MSG[idx][4]
     if b == nil then
       b = 0
     end
     return msg, r, g, b
   end
-  do
-    return "The grade is not exist", 255, 0, 0
-  end
+  return "The grade is not exist", 255, 0, 0
 end
-
-

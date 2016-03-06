@@ -1,8 +1,3 @@
--- Decompiled using luadec 2.2 rev:  for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: ridingspreditinfo.lub 
-
--- params : ...
--- function num : 0
 SetHeadSprEditInfo(pcJobTbl.JT_NOVICE, 4, 4, 0, 2, 0, 35)
 SetHeadSprEditInfo(pcJobTbl.JT_NOVICE_B, 4, 4, 0, 2, 0, 35)
 SetHeadSprEditInfo(4124, 4, 4, 0, 2, 0, 35)
@@ -29,4 +24,3 @@ SetBodySprEditInfo(pcJobTbl.JT_ARCHER_H, 4, 4, 0, 2, 0, 5)
 SetBodySprEditInfo(pcJobTbl.JT_ARCHER_H, 12, 12, 0, 7, 0, 5)
 SetBodySprEditInfo(4186, 4, 4, 0, 2, 0, 5)
 SetBodySprEditInfo(4186, 12, 12, 0, 7, 0, 5)
-

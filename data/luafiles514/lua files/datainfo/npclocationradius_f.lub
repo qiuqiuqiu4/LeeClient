@@ -1,14 +1,6 @@
--- Decompiled using luadec 2.2 rev:  for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: npclocationradius_f.lub 
-
--- params : ...
--- function num : 0
-GetNpcLocationRadius = function(jobID)
-  -- function num : 0_0
+function GetNpcLocationRadius(jobID)
   if NpcLocationRadius[jobID] ~= nil then
     return NpcLocationRadius[jobID]
   end
   return 0
 end
-
-

@@ -1,10 +1,4 @@
--- Decompiled using luadec 2.2 rev:  for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: accname_f.lub 
-
--- params : ...
--- function num : 0
-ReqAccName = function(index)
-  -- function num : 0_0
+function ReqAccName(index)
   if AccNameTable == nil then
     return ""
   end
@@ -15,9 +9,7 @@ ReqAccName = function(index)
     return ""
   end
 end
-
-ReqAccName_V2 = function(index)
-  -- function num : 0_1
+function ReqAccName_V2(index)
   if iAccNameTable_Eng == nil then
     return ReqAccName(index)
   else
@@ -29,5 +21,3 @@ ReqAccName_V2 = function(index)
     end
   end
 end
-
-

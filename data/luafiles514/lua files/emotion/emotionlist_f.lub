@@ -1,93 +1,64 @@
--- Decompiled using luadec 2.2 rev:  for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: emotionlist_f.lub 
-
--- params : ...
--- function num : 0
-InsertEmotionListTable = function(emotionType, MsgStrID, actionNum)
-  -- function num : 0_0
-  -- DECOMPILER ERROR at PC2: Confused about usage of register: R3 in 'UnsetPending'
-
+function InsertEmotionListTable(emotionType, MsgStrID, actionNum)
   EmotionList[emotionType] = {}
-  -- DECOMPILER ERROR at PC5: Confused about usage of register: R3 in 'UnsetPending'
-
-  ;
-  (EmotionList[emotionType]).actionNum = actionNum
+  EmotionList[emotionType].actionNum = actionNum
   if MsgStrID ~= -1 then
     msgStr = c_GetMsgString(MsgStrID)
-    -- DECOMPILER ERROR at PC21: Confused about usage of register: R3 in 'UnsetPending'
-
     if msgStr ~= nil and msgStr ~= "" then
-      (EmotionList[emotionType]).msgStr = msgStr
+      EmotionList[emotionType].msgStr = msgStr
     end
   end
 end
-
-InsertEmotionMsgListTable = function(emotionType, MsgStr)
-  -- function num : 0_1
-  -- DECOMPILER ERROR at PC6: Confused about usage of register: R2 in 'UnsetPending'
-
+function InsertEmotionMsgListTable(emotionType, MsgStr)
   if MsgStr ~= nil and MsgStr ~= "" then
     EmotionMsgList[MsgStr] = {}
-    -- DECOMPILER ERROR at PC8: Confused about usage of register: R2 in 'UnsetPending'
-
     EmotionMsgList[MsgStr] = emotionType
   end
 end
-
-GetEmotionMsg = function(index)
-  -- function num : 0_2
+function GetEmotionMsg(index)
   local emotionType = EMOTION_ORDERLIST[index + 1]
   if emotionType ~= nil then
-    local emotionMsg = (EmotionList[emotionType]).msgStr
-    if emotionMsg ~= nil then
-      return emotionMsg
-    else
-      return ""
+    do
+      local emotionMsg = EmotionList[emotionType].msgStr
+      if emotionMsg ~= nil then
+        return emotionMsg
+      else
+        return ""
+      end
     end
   else
-    do
-      do return "" end
-    end
+    return ""
   end
 end
-
-GetEmotionActionByWndIdx = function(index)
-  -- function num : 0_3
+function GetEmotionActionByWndIdx(index)
   local emotionType = EMOTION_ORDERLIST[index + 1]
   if emotionType ~= nil then
-    local emotionAction = (EmotionList[emotionType]).actionNum
-    if emotionAction ~= nil then
-      return emotionAction
-    else
-      return -1
+    do
+      local emotionAction = EmotionList[emotionType].actionNum
+      if emotionAction ~= nil then
+        return emotionAction
+      else
+        return -1
+      end
     end
   else
-    do
-      do return -1 end
-    end
+    return -1
   end
 end
-
-GetEmotionAction = function(emotionType)
-  -- function num : 0_4
-  local emotionAction = (EmotionList[emotionType]).actionNum
+function GetEmotionAction(emotionType)
+  local emotionAction = EmotionList[emotionType].actionNum
   if emotionAction ~= nil then
     return emotionAction
   else
     return -1
   end
 end
-
-ReqEmotionByIndex = function(index)
-  -- function num : 0_5
+function ReqEmotionByIndex(index)
   local emotionType = EMOTION_ORDERLIST[index + 1]
   if emotionType ~= nil and emotionType >= 0 then
     c_ReqEmotion(emotionType)
   end
 end
-
-ReqEmotionByMsgStr = function(msgStr)
-  -- function num : 0_6
+function ReqEmotionByMsgStr(msgStr)
   local emotionType = EmotionMsgList[msgStr]
   if emotionType ~= nil and emotionType >= 0 then
     c_ReqEmotion(emotionType)
@@ -96,10 +67,6 @@ ReqEmotionByMsgStr = function(msgStr)
     return -1
   end
 end
-
-GetEmotionOrderListSize = function()
-  -- function num : 0_7
+function GetEmotionOrderListSize()
   return getTableSize(EMOTION_ORDERLIST)
 end
-
-

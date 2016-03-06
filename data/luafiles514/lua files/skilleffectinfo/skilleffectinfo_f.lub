@@ -1,31 +1,21 @@
--- Decompiled using luadec 2.2 rev:  for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: skilleffectinfo_f.lub 
-
--- params : ...
--- function num : 0
-LaunchZC_USE_SKILL = function(SKID)
-  -- function num : 0_0
+function LaunchZC_USE_SKILL(SKID)
   local effectInfo = SKILL_EFFECT_INFO_LIST[SKID]
-  if effectInfo == nil then
+  if nil == effectInfo then
     return false
   end
-  if effectInfo.LaunchZC_USE_SKILL == nil then
+  if nil == effectInfo.LaunchZC_USE_SKILL then
     return false
   end
   return effectInfo.LaunchZC_USE_SKILL
 end
-
-HaveSkillEffectInfo = function(SKID)
-  -- function num : 0_1
+function HaveSkillEffectInfo(SKID)
   local effectInfo = SKILL_EFFECT_INFO_LIST[SKID]
   if effectInfo ~= nil then
     return true
   end
   return false
 end
-
-GetEffectWaveFileName = function(SKID)
-  -- function num : 0_2
+function GetEffectWaveFileName(SKID)
   local effectInfo = SKILL_EFFECT_INFO_LIST[SKID]
   local fileName = ""
   if effectInfo ~= nil and effectInfo.waveFileName ~= nil then
@@ -33,9 +23,7 @@ GetEffectWaveFileName = function(SKID)
   end
   return fileName
 end
-
-GetEffectNum = function(SKID)
-  -- function num : 0_3
+function GetEffectNum(SKID)
   local effectInfo = SKILL_EFFECT_INFO_LIST[SKID]
   local effectNum = 0
   if effectInfo ~= nil and effectInfo.effectNum ~= nil then
@@ -43,19 +31,15 @@ GetEffectNum = function(SKID)
   end
   return effectNum
 end
-
-GetEffectID = function(SKID, idx)
-  -- function num : 0_4
+function GetEffectID(SKID, idx)
   local effectInfo = SKILL_EFFECT_INFO_LIST[SKID]
   local effectID = -1
-  if effectInfo ~= nil and effectInfo.effectID ~= nil and (effectInfo.effectID)[idx] ~= nil then
-    effectID = (effectInfo.effectID)[idx]
+  if effectInfo ~= nil and effectInfo.effectID ~= nil and effectInfo.effectID[idx] ~= nil then
+    effectID = effectInfo.effectID[idx]
   end
   return effectID
 end
-
-IsOnTarget = function(SKID)
-  -- function num : 0_5
+function IsOnTarget(SKID)
   local effectInfo = SKILL_EFFECT_INFO_LIST[SKID]
   local bIsOnTarget = false
   if effectInfo ~= nil and effectInfo.onTarget ~= nil then
@@ -63,9 +47,7 @@ IsOnTarget = function(SKID)
   end
   return bIsOnTarget
 end
-
-GetTargetEffectWaveFileName = function(SKID)
-  -- function num : 0_6
+function GetTargetEffectWaveFileName(SKID)
   local effectInfo = SKILL_EFFECT_INFO_LIST[SKID]
   local fileName = ""
   if effectInfo ~= nil and effectInfo.targetWaveFileName ~= nil then
@@ -73,9 +55,7 @@ GetTargetEffectWaveFileName = function(SKID)
   end
   return fileName
 end
-
-GetTargetEffectNum = function(SKID)
-  -- function num : 0_7
+function GetTargetEffectNum(SKID)
   local effectInfo = SKILL_EFFECT_INFO_LIST[SKID]
   local targetEffectNum = 0
   if effectInfo ~= nil and effectInfo.targetEffectNum ~= nil then
@@ -83,19 +63,15 @@ GetTargetEffectNum = function(SKID)
   end
   return targetEffectNum
 end
-
-GetTargetEffectID = function(SKID, idx)
-  -- function num : 0_8
+function GetTargetEffectID(SKID, idx)
   local effectInfo = SKILL_EFFECT_INFO_LIST[SKID]
   local targetEffectID = -1
-  if effectInfo ~= nil and effectInfo.targetEffectID ~= nil and (effectInfo.targetEffectID)[idx] ~= nil then
-    targetEffectID = (effectInfo.targetEffectID)[idx]
+  if effectInfo ~= nil and effectInfo.targetEffectID ~= nil and effectInfo.targetEffectID[idx] ~= nil then
+    targetEffectID = effectInfo.targetEffectID[idx]
   end
   return targetEffectID
 end
-
-GetGroundEffectNum = function(SKID)
-  -- function num : 0_9
+function GetGroundEffectNum(SKID)
   local effectInfo = SKILL_EFFECT_INFO_LIST[SKID]
   local groundEffectNum = 0
   if effectInfo ~= nil and effectInfo.groundEffectNum ~= nil then
@@ -103,19 +79,15 @@ GetGroundEffectNum = function(SKID)
   end
   return groundEffectNum
 end
-
-GetGroundEffectID = function(SKID, idx)
-  -- function num : 0_10
+function GetGroundEffectID(SKID, idx)
   local effectInfo = SKILL_EFFECT_INFO_LIST[SKID]
   local groundEffectID = -1
-  if effectInfo ~= nil and effectInfo.groundEffectID ~= nil and (effectInfo.groundEffectID)[idx] ~= nil then
-    groundEffectID = (effectInfo.groundEffectID)[idx]
+  if effectInfo ~= nil and effectInfo.groundEffectID ~= nil and effectInfo.groundEffectID[idx] ~= nil then
+    groundEffectID = effectInfo.groundEffectID[idx]
   end
   return groundEffectID
 end
-
-GetBeginEffectID = function(SKID)
-  -- function num : 0_11
+function GetBeginEffectID(SKID)
   local effectInfo = SKILL_EFFECT_INFO_LIST[SKID]
   local beginEffectID = -1
   if effectInfo ~= nil and effectInfo.beginEffectID ~= nil then
@@ -123,9 +95,7 @@ GetBeginEffectID = function(SKID)
   end
   return beginEffectID
 end
-
-GetBeginMotionType = function(SKID)
-  -- function num : 0_12
+function GetBeginMotionType(SKID)
   local effectInfo = SKILL_EFFECT_INFO_LIST[SKID]
   local beginMotionType = -1
   if effectInfo ~= nil and effectInfo.beginMotionType ~= nil then
@@ -133,5 +103,3 @@ GetBeginMotionType = function(SKID)
   end
   return beginMotionType
 end
-
-

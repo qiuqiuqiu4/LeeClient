@@ -1,11 +1,5 @@
--- Decompiled using luadec 2.2 rev:  for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: spreditinfo_f.lub 
-
--- params : ...
--- function num : 0
 SprEditInfoList = {}
-GetSprEditInfo = function(strJobIDnSprName, nCurAction, nCurMotion)
-  -- function num : 0_0
+function GetSprEditInfo(strJobIDnSprName, nCurAction, nCurMotion)
   obj = SprEditInfoList[strJobIDnSprName]
   local x = 0
   local y = 0
@@ -37,9 +31,7 @@ GetSprEditInfo = function(strJobIDnSprName, nCurAction, nCurMotion)
   end
   return x, y, oow, bFlip, bHide
 end
-
-GetRecommendList = function(nIdx)
-  -- function num : 0_1
+function GetRecommendList(nIdx)
   obj = SprRecommendList
   if obj ~= nil then
     obj = obj[nIdx]
@@ -51,18 +43,14 @@ GetRecommendList = function(nIdx)
   end
   return false
 end
-
-IsExistTable = function(strJobIDnSprName)
-  -- function num : 0_2
+function IsExistTable(strJobIDnSprName)
   obj = SprEditInfoList[strJobIDnSprName]
   if obj ~= nil then
     return true
   end
   return false
 end
-
-GetSavedActionNum = function(strJobIDnSprName)
-  -- function num : 0_3
+function GetSavedActionNum(strJobIDnSprName)
   obj = SprEditInfoList[strJobIDnSprName]
   if obj ~= nil then
     obj = obj.savedActionNum
@@ -72,61 +60,36 @@ GetSavedActionNum = function(strJobIDnSprName)
   end
   return 0
 end
-
-SetSavedActionNum = function(strJobIDnSprName, savedActionNum)
-  -- function num : 0_4
-  -- DECOMPILER ERROR at PC6: Confused about usage of register: R2 in 'UnsetPending'
-
+function SetSavedActionNum(strJobIDnSprName, savedActionNum)
   if SprEditInfoList[strJobIDnSprName] == nil then
     SprEditInfoList[strJobIDnSprName] = {}
   end
-  -- DECOMPILER ERROR at PC9: Confused about usage of register: R2 in 'UnsetPending'
-
-  ;
-  (SprEditInfoList[strJobIDnSprName]).savedActionNum = savedActionNum
+  SprEditInfoList[strJobIDnSprName].savedActionNum = savedActionNum
 end
-
-SetSprEditInfo = function(strJobIDnSprName, nActionNum, nMotionNum, xGap, yGap, oowGap, bFlip, bHide)
-  -- function num : 0_5
+function SetSprEditInfo(strJobIDnSprName, nActionNum, nMotionNum, xGap, yGap, oowGap, bFlip, bHide)
   objTable = SprEditInfoList[strJobIDnSprName]
   if objTable == nil then
     objTable = {}
   end
-  -- DECOMPILER ERROR at PC14: Confused about usage of register: R8 in 'UnsetPending'
-
   if objTable[nActionNum] == nil then
     objTable[nActionNum] = {}
   end
-  -- DECOMPILER ERROR at PC23: Confused about usage of register: R8 in 'UnsetPending'
-
-  if (objTable[nActionNum])[nMotionNum] == nil then
-    (objTable[nActionNum])[nMotionNum] = {}
+  if objTable[nActionNum][nMotionNum] == nil then
+    objTable[nActionNum][nMotionNum] = {}
   end
-  -- DECOMPILER ERROR at PC31: Confused about usage of register: R8 in 'UnsetPending'
-
   if xGap ~= nil and xGap ~= 0 then
-    ((objTable[nActionNum])[nMotionNum]).x = xGap
+    objTable[nActionNum][nMotionNum].x = xGap
   end
-  -- DECOMPILER ERROR at PC39: Confused about usage of register: R8 in 'UnsetPending'
-
   if yGap ~= nil and yGap ~= 0 then
-    ((objTable[nActionNum])[nMotionNum]).y = yGap
+    objTable[nActionNum][nMotionNum].y = yGap
   end
-  -- DECOMPILER ERROR at PC47: Confused about usage of register: R8 in 'UnsetPending'
-
   if oowGap ~= nil and oowGap ~= 0 then
-    ((objTable[nActionNum])[nMotionNum]).oow = oowGap
+    objTable[nActionNum][nMotionNum].oow = oowGap
   end
-  -- DECOMPILER ERROR at PC55: Confused about usage of register: R8 in 'UnsetPending'
-
   if bFlip ~= nil and bFlip == true then
-    ((objTable[nActionNum])[nMotionNum]).bFlip = bFlip
+    objTable[nActionNum][nMotionNum].bFlip = bFlip
   end
-  -- DECOMPILER ERROR at PC63: Confused about usage of register: R8 in 'UnsetPending'
-
   if bHide ~= nil and bHide == true then
-    ((objTable[nActionNum])[nMotionNum]).bHide = bHide
+    objTable[nActionNum][nMotionNum].bHide = bHide
   end
 end
-
-

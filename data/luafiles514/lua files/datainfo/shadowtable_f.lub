@@ -1,10 +1,4 @@
--- Decompiled using luadec 2.2 rev:  for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: shadowtable_f.lub 
-
--- params : ...
--- function num : 0
-ReqshadowFactor = function(shadowID)
-  -- function num : 0_0
+function ReqshadowFactor(shadowID)
   if ShadowFactorTable == nil then
     return -1
   end
@@ -14,5 +8,3 @@ ReqshadowFactor = function(shadowID)
     return -1
   end
 end
-
-

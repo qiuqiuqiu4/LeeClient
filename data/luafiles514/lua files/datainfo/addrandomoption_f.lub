@@ -1,31 +1,19 @@
--- Decompiled using luadec 2.2 rev:  for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: addrandomoption_f.lub 
-
--- params : ...
--- function num : 0
-GetVarOptionName = function(varID)
-  -- function num : 0_0
-  if varID < (EnumVAR.EnumVAR_LAST)[1] then
-    for k,v in pairs(EnumVAR) do
-      if varID == v[1] and NameTable_VAR[varID] ~= nil then
+function GetVarOptionName(varID)
+  if varID < EnumVAR.EnumVAR_LAST[1] then
+    for k, v in pairs(EnumVAR) do
+      if varID == v[1] and nil ~= NameTable_VAR[varID] then
         return NameTable_VAR[varID]
       end
     end
   end
-  do
-    return ""
-  end
+  return ""
 end
-
-SetPercentValue = function(varID)
-  -- function num : 0_1
-  if (EnumVAR.RACE_CRI_PERCENT_NOTHING)[1] <= varID and varID <= (EnumVAR.RACE_CRI_PERCENT_DRAGON)[1] then
+function SetPercentValue(varID)
+  if varID >= EnumVAR.RACE_CRI_PERCENT_NOTHING[1] and varID <= EnumVAR.RACE_CRI_PERCENT_DRAGON[1] then
     return true
   end
-  if (EnumVAR.VAR_CRITICALSUCCESSVALUE)[1] == varID then
+  if EnumVAR.VAR_CRITICALSUCCESSVALUE[1] == varID then
     return true
   end
   return false
 end
-
-
