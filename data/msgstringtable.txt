@@ -297,7 +297,7 @@ You cannot use an NPC shop while in a trade.#
 Character will be deleted after ^ff0000%d^000000 seconds. Press Cancel to quit.#
 每次交易您不能交换超过 10 种物品.#
 You are underaged.#
-Please enter the deletion password.#
+请输入您的生日 (格式:YYMMDD, 例如:910213)#
 E-mail Address (Case Sensitive).#
 Character Deletion has failed because you have entered an incorrect e-mail address.#
 Enter Second Serial Cord of your Social Security number.#
@@ -665,15 +665,15 @@ You cannot use this item while sitting.#
 Your use of skills and chat will be blocked for the next %d minutes.#
 Your use of skills and chat have been reinstated.#
 - [尚未装备]#
- 非常饥饿#
- 饥饿#
- 普通#
- 吃饱#
- 非常饱#
- Awkward#
- Shy#
- Cordial#
- Loyal#
+非常饥饿#
+饥饿#
+普通#
+吃饱#
+非常饱#
+非常陌生 - 尴尬#
+稍微陌生 - 害羞#
+有点亲密 - 亲切#
+非常亲密 - 忠诚#
 Unknown#
 Your account has play time of %d day %d hour %d minute.#
 Your account is already connected to account server.#
@@ -1605,16 +1605,16 @@ Admission pending notification of the battlefield#
 Someone#
 [%s] 对您造成 %d 点伤害.#
 [%s] 从 [%s] 那受到 %d 点伤害.#
-[%s] 受到 %d 点伤害.#
+[%s] 受到了 %d 点伤害.#
 [%s] 对 [%s] 造成了 %d 点伤害.#
-You dropped %s (%d).#
+您丢弃了 %s (%d个).#
 [%s] Quest - defeated [%s] progress (%d/%d)#
 The Quest %s has been removed.#
 [%s] has #
-获得 %d 点基础经验值#
-获得 %d 点职业经验值#
- gained.#
- has lost.#
+%d 点基础经验#
+%d 点职业经验#
+已获得.#
+已失去.#
 From [%s], '%d' coins were stolen.#
 Battle Message#
 Party Battle Message Display#
@@ -1775,7 +1775,7 @@ You cannot equip this item with your current level.#
 You cannot use this item with your current level.#
 按回车可以开/关聊天栏#
 Failed to add because you have reached the limit.#
-频道 - 内容设置#
+频道 - 设置#
 出售#
 采购#
 搜索商店#
@@ -1814,13 +1814,13 @@ The selected name or prefix/suffix does not exist.#
 You can purchase up to 10 items.#
 Some items could not be purchased.#
 Enter your 6-digit DOB(YYMMDD) (e.g: 801122)#
-Now Logging Out.#
+与服务器断开连接! 这有可能是服务器正在维护, 或者您已启用离线挂店功能!#
 A database error has occurred.#
 Please leave your guild first in order to remove your character.#
 Please leave your party first in order to remove your character.#
 You cannot delete this character because the delete time has not expired yet.#
 You cannot delete this character at the moment.#
-Your entered birthday does not match.#
+很抱歉, 您输入的生日不正确! 若您没设置过生日, 请尝试输入000000!#
 You lack of familiarity.#
 This is only available on style change for fighting classes.#
 This is only available on style change for novice.#
