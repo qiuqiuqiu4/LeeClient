@@ -670,10 +670,10 @@ Your use of skills and chat have been reinstated.#
 普通#
 吃饱#
 非常饱#
-非常陌生 - 尴尬#
-稍微陌生 - 害羞#
-有点亲密 - 亲切#
-非常亲密 - 忠诚#
+非常陌生#
+稍微陌生#
+有点亲密#
+非常亲密#
 Unknown#
 Your account has play time of %d day %d hour %d minute.#
 Your account is already connected to account server.#
