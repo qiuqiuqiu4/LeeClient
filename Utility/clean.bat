@@ -18,10 +18,11 @@ echo ---------------------------------------------------------------------------
 	echo [信息] 是否清理 LeeClient 根目录, 使其回到刚下载时的状态?
 	echo.
 	echo [注意] 此脚本将会完成以下工作:
-	echo [信息] - 移除根目录下的 _tmpEmblem、memo、Replay、savedata 文件夹
-	echo [信息] - 移除 data/luafiles514 文件夹
-	echo [信息] - 移除 data/msgstringtable.txt 文件
-	echo [信息] - 移除根目录下除了 setup.exe 之外的一切 exe 文件
+	echo.
+	echo        - 移除根目录下的 _tmpEmblem ^| memo ^| Replay ^| savedata 文件夹
+	echo        - 移除 data/luafiles514 文件夹
+	echo        - 移除 data/msgstringtable.txt 文件
+	echo        - 移除根目录下除了 setup.exe 之外的一切 exe 文件
 	echo.
 	set /p input=[选择] 确认要进行清理吗?(y/n)
 	if /i "%input%"=="n" exit
