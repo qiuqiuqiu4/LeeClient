@@ -1,3 +1,5 @@
+-- Using GRF Editor Decompiler (beta 1.0.3)
+
 ShadowFactorTable = {
 	[jobtbl.JT_FACEWORM_QUEEN_Y] = 2,
 	[jobtbl.JT_FACEWORM_QUEEN_B] = 2,
@@ -751,5 +753,7 @@ ShadowFactorTable = {
 	[jobtbl.JT_HIDDEN_MOB7] = 0,
 	[jobtbl.JT_MM_GB_MOROCC_1] = 1.5,
 	[jobtbl.JT_MM_GB_MOROCC_4] = 1.5,
-	[jobtbl.JT_GOLD_ANOPHELES] = 0.3
+	[jobtbl.JT_GOLD_ANOPHELES] = 0.3,
+	[jobtbl.JT_IMMORTAL_CO_CMDER] = 3,
+	[jobtbl.JT_MYSTCASE_GIANT] = 5
 }

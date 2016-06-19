@@ -1,3 +1,5 @@
+-- Using GRF Editor Decompiler (beta 1.0.3)
+
 ChangeDirectoryList = {
 	{ "RixSquirrel_12.eot", "data", "System\\Font" },
 	{ "RixMiniHeart_10.eot", "data", "System\\Font" },
@@ -18,14 +20,14 @@ ChangeDirectoryList = {
 	{ "UserKeys_s.lua", "data", "SaveData" }
 }
 
-function ChangeDirectoryOfFiles()
+ChangeDirectoryOfFiles = function()
 	if ChangeDirectoryList ~= nil then
 		local idx = 1
 		fileInfo = ChangeDirectoryList[idx]
-		while fileInfo do
+		while fileInfo == true do
 			c_ChangeDirectoryOfDatas(fileInfo[1], fileInfo[2], fileInfo[3])
 			idx = idx + 1
-			fileInfo = ChangeDirectoryList[idx]
+			fileInfo = ChangeDirectoryList[idx + 1]
 		end
 	end
 end

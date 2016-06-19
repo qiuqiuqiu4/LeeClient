@@ -1,2 +1,5 @@
-function DebugingInterface_UserDefine()
+-- Using GRF Editor Decompiler (beta 1.0.3)
+
+
+DebugingInterface_UserDefine = function()
 end

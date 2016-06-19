@@ -1,3 +1,5 @@
+-- Using GRF Editor Decompiler (beta 1.0.3)
+
 SPRITE_ROBE_IDs = {
 	ROBE_WINGS = 1,
 	ROBE_BAG_OF_ADVENTURER = 2,
@@ -9,5 +11,6 @@ SPRITE_ROBE_IDs = {
 	ROBE_RUDRA_WING = 8,
 	ROBE_Wing_Of_Happiness = 9,
 	ROBE_GraetDevilWing = 10,
-	ROBE_Cupid_Wing_Pink = 14
+	ROBE_Cupid_Wing_Pink = 14,
+	ROBE_Poring_Bag = 16
 }

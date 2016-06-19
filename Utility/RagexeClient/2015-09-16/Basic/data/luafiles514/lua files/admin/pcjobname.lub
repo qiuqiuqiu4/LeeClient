@@ -1,3 +1,5 @@
+-- Using GRF Editor Decompiler (beta 1.0.3)
+
 PCJobNameTable = {
 	[pcJobTbl.JT_NOVICE] = "NOVICE",
 	[pcJobTbl.JT_SWORDMAN] = "SWORDMAN",
@@ -113,14 +115,15 @@ PCJobNameTable = {
 	[pcJobTbl.JT_KAGEROU] = "KAGEROU",
 	[pcJobTbl.JT_OBORO] = "OBORO"
 }
-function ReqPCJobName(index)
+
+ReqPCJobName = function(index)
 	if PCJobNameTable[index] == nil then
 		return ""
-	end
-	local NameMsg = PCJobNameTable[index]
-	if NameMsg ~= nil then
-		return NameMsg
 	else
+		local NameMsg = PCJobNameTable[index]
+		if NameMsg ~= nil then
+			return NameMsg
+		end
 		return ""
 	end
 end

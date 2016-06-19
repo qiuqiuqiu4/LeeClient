@@ -1,3 +1,4 @@
+-- Using GRF Editor Decompiler (beta 1.0.3)
 
 PetNameTable = {
 	[jobtbl.JT_PORING] = "poring",

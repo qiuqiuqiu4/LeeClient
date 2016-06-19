@@ -1,3 +1,5 @@
+-- Using GRF Editor Decompiler (beta 1.0.3)
+
 ETC_ID_LIST = {
 	ACT_TYPE_WHEN_DIED = 1,
 	AUTO_ACCEPT_INVITED_PARTY = 2,
@@ -27,14 +29,14 @@ EtcStrListForCheckBox = {
 	MsgStrID.MSI_EX_MACRO_ETC_11,
 	MsgStrID.MSI_EX_MACRO_ETC_12
 }
-function GetStringForCheckBox(nIndex)
-  local strMsg = EtcStrListForCheckBox[nIndex]
-  if strMsg ~= nil then
-    return strMsg
-  end
-  return ""
-end
 
+GetStringForCheckBox = function(nIndex)
+	local strMsg = EtcStrListForCheckBox[nIndex]
+	if strMsg ~= nil then
+		return strMsg
+	end
+	return ""
+end
 ETC_ACT_TYPE = {
 	NONE = -1,
 	USE_RESURRECTION_ITEM = 0,
@@ -42,18 +44,13 @@ ETC_ACT_TYPE = {
 	TERMINATE_THE_CONNECTION = 2,
 	USE_BUTTERFLY_WINGS_ITEM = 3
 }
-INVITED_PARTY = {
-	NONE = -1,
-	AUTO_ACCEPT = 0,
-	REJECT = 1
-}
+INVITED_PARTY = { NONE = -1, AUTO_ACCEPT = 0, REJECT = 1 }
 EtcSettingList = {}
-function GetSettingForCheckBox(nIndex)
-  local value = EtcSettingList[nIndex]
-  if value ~= nil then
-    return value
-  end
-  return -1
+
+GetSettingForCheckBox = function(nIndex)
+	local value = EtcSettingList[nIndex]
+	if value ~= nil then
+		return value
+	end
+	return -1
 end
-
-

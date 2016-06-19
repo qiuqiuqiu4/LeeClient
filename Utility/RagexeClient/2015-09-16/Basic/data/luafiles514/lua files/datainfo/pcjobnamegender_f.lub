@@ -1,3 +1,5 @@
+-- Using GRF Editor Decompiler (beta 1.0.3)
+
 pcJobTbl2 = {
 	JT_NOVICE = 0,
 	JT_SWORDMAN = 1,
@@ -141,15 +143,17 @@ pcJobTbl2 = {
 	JT_SUPERNOVICE2 = 4190,
 	JT_SUPERNOVICE2_B = 4191
 }
-function ReqPCJobNameMan(jobID)
-  if PCJobNameTableMan[jobID] ~= nil then
-    return PCJobNameTableMan[jobID]
-  end
-  return ""
+
+ReqPCJobNameMan = function(jobID)
+	if PCJobNameTableMan[jobID] ~= nil then
+		return PCJobNameTableMan[jobID]
+	end
+	return ""
 end
-function ReqPCJobNameWoman(jobID)
-  if PCJobNameTableWoman[jobID] ~= nil then
-    return PCJobNameTableWoman[jobID]
-  end
-  return ""
+
+ReqPCJobNameWoman = function(jobID)
+	if PCJobNameTableWoman[jobID] ~= nil then
+		return PCJobNameTableWoman[jobID]
+	end
+	return ""
 end

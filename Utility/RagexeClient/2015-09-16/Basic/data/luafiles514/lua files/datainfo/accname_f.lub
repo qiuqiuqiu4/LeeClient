@@ -1,23 +1,26 @@
-function ReqAccName(index)
-  if AccNameTable == nil then
-    return ""
-  end
-  local NameMsg = AccNameTable[index]
-  if NameMsg ~= nil then
-    return NameMsg
-  else
-    return ""
-  end
+-- Using GRF Editor Decompiler (beta 1.0.3)
+
+
+ReqAccName = function(index)
+	if AccNameTable == nil then
+		return ""
+	else
+		local NameMsg = AccNameTable[index]
+		if NameMsg ~= nil then
+			return NameMsg
+		end
+		return ""
+	end
 end
-function ReqAccName_V2(index)
-  if iAccNameTable_Eng == nil then
-    return ReqAccName(index)
-  else
-    local NameMsg = AccNameTable_Eng[index]
-    if NameMsg ~= nil then
-      return NameMsg
-    else
-      return ReqAccName(index)
-    end
-  end
+
+ReqAccName_V2 = function(index)
+	if iAccNameTable_Eng == nil then
+		return ReqAccName(index)
+	else
+		local NameMsg = AccNameTable_Eng[index]
+		if NameMsg ~= nil then
+			return NameMsg
+		end
+		return ReqAccName(index)
+	end
 end
