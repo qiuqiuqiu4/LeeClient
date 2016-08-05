@@ -309,10 +309,10 @@ Passive#被动技能#
 Individual#各自取得#
 Shared#均等分配#
 Individual#各自取得#
-Party Share#均可捡取#
+Party Share#队员均可拾取#
 Party Setup#组队设置#
-How to share EXP#经验分配方式#
-How to share Items#物品分配方式#
+How to share EXP#获得经验的分配方式#
+How to share Items#谁能拾取掉落的物品#
 Only the Party Leader can change this setting.#只有队长可以改变此设置#
 Toggle Item Amount.#不询问物品数量，默认出售全部#
 Character will be deleted after ^ff0000%d^000000 seconds. Press Cancel to quit.#
@@ -757,7 +757,7 @@ Chat content will not be displayed in the chat window. [Display OFF]#
 /set1: /noctrl + /showname + /skillfail#
 /fog: Fog effect. On | Off#
 You have received a marriage proposal. Do you accept?#
-Item sharing type#物品分配方式#
+Item sharing type#拾到的物品如何分配#
 Individual#各自取得#
 Shared#均等分配#
 nProtect KeyCrypt#

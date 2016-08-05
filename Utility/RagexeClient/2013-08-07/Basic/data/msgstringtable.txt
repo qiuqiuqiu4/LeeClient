@@ -202,7 +202,7 @@ No Whisper List.#
 公开#
 SP不足, 无法使用技能#
 HP不足, 无法使用技能#
-Skill has failed.#
+很抱歉, 技能使用失败!#
 偷窃失败.#
 交易#
 Envenom skill has failed.#
@@ -288,10 +288,10 @@ You cannot use an NPC shop while in a trade.#
 各自取得#
 均等分配#
 各自取得#
-均可捡取#
+队员均可拾取#
 组队设置#
-经验分配方式#
-物品分配方式#
+获得经验的分配方式#
+谁能拾取掉落的物品#
 只有队长可以改变此设置#
 不询问物品数量，默认出售全部#
 Character will be deleted after ^ff0000%d^000000 seconds. Press Cancel to quit.#
@@ -315,7 +315,7 @@ The age limit from commandment tables cannot connect to this server.#
 注册游戏账号#
 将他加入私聊黑名单，禁止他与我私聊 #
 将他从私聊黑名单中移除，准许他与我私聊 #
-Shows ''Miss''#
+打怪未命中, 或者怪物打自己未命中时, 显示 Miss 标记#
 打怪未命中, 或者怪物打自己未命中时, 关闭 Miss 标记#
 Camera Zooming On#
 Camera Zooming Off#
@@ -390,7 +390,7 @@ Please refrain from ill-mannered conduct, thank you.#
 缩短禁止聊天时间#
 延长禁止聊天时间#
 邀请 (%s) 进行交易#
-邀请 (%s) 加入我的队伍#
+邀请 (%s) 加入队伍#
  公会送来了邀请同盟的消息, 请问您是否愿意结成公会同盟?#
 已成结成公会同盟.#
 您拒绝与对方结成公会同盟.#
@@ -481,7 +481,7 @@ Power-Thrust Canceled.#
 Maximize-Power Initiated.#
 Maximize-Power Canceled.#
 [新] #
- 目前有 %d 人在线#
+ 目前在线 %d 人#
 [正在维护] #
 公会成员 %s 上线#
 公会成员 %s 离线#
@@ -540,7 +540,7 @@ You paid with the Time Limit for Internet Cafe. Available time is xx hrs xx mins
 You are free for the test of Internet Cafe version .#
 You are free for the Internet Cafe version.#
 You paid on the Time Limit Website.#
-表情符号列表#
+表情符号#
 /emo#
 /!#
 /?#
@@ -736,7 +736,7 @@ Chat content will not be displayed in the chat window. [Display OFF]#
 /set1: /noctrl + /showname + /skillfail#
 /fog: Fog effect. On | Off#
 You have received a marriage proposal. Do you accept?#
-物品分配方式#
+拾到的物品如何分配#
 各自取得#
 均等分配#
 nProtect KeyCrypt#
