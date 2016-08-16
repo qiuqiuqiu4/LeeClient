@@ -3,7 +3,7 @@
 您已被服务器断开连接.#
 您已被服务器断开连接.#
 服务器已经关闭, 请稍候重试...#
-已经有其他人使用此账号登录游戏.#
+有人使用此账号登录了游戏.#
 尚未注册的游戏账号. 请确认您是否已经注册此账号并填写了正确的账号名称.#
 您的账号或者密码有误! 请重试...#
 此帐号已超过使用期限.#
@@ -21,53 +21,53 @@
 内容含有不雅词语.#
 请输入角色名称, 至少要输入两个汉字或者四个英文字母.#
 如需命令帮助，请在聊天栏输入: /h 并按回车#
-Effects On#
-Effects Off#
+开启视觉动画效果#
+关闭视觉动画效果#
 效果音量#
 背景音量#
 开启效果音#
 关闭效果音#
-开启跳帧#
-关闭跳帧#
+开启画面同步刷新#
+关闭画面同步刷新#
 开启背景音乐#
 关闭背景音乐#
-/h or /help: Shows this Command Help List#
-/w or /who or /player or /who : wiew current the number of player#
+/h or /help: 显示本指令列表#
+/w or /who or /player or /who: 显示服务器的线上人数#
 /music: 开启或关闭背景音乐#
 /sound: 开启或关闭效果音#
-/effect: Effects On or Off#
+/effect: 开启或关闭视觉动画效果#
 /where：显示目前所在的地图和座标#
-/skip: Turns Frame Skip On or Off#
+/skip: 开启或关闭画面同步刷新#
 /v (0~127): 调整效果音的音量大小 #
 /bv (0~127): 调整背景音乐的音量大小#
-/ex (Character Name): Blocks whispering from the Character#
-/ex: View a list of Characters you have Blocked#
-/in (Character Name): Allows whispering from the Character#
-/inall: 接受所有角色的密语#
-/exall: 拒绝所有角色的密语#
+/ex (角色名称): 拒绝接收指定角色的悄悄话#
+/ex: 显示被您拒绝悄悄话的角色清单#
+/in (角色名称): 允许接收指定角色的悄悄话#
+/inall: 允许接收所有角色的悄悄话#
+/exall: 拒绝接收所有角色的悄悄话#
 Right click on a character and select [Register as a Friend] to add a person to your Friend List.#
 F12 Brings up a Hotkey Window which allows you to drag and drop Recovery Items, Equipment and Skills into it for faster access.#
 同一句话不能重复发送超过三次.#
 内容含有不雅的词语, 将其发送出去将有碍和谐...#
 You cannot overlap items on a window.#
-超过最大负重量, 无法取得物品#
-You cannot get the item.#
+超过最大负重量, 无法取得物品.#
+无法取得物品.#
 您的交易已经顺利完成#
 您没有足够的金钱.#
 您的负重能力不足以带动这些东西, 交易失败了.#
 很遗憾, 交易失败了.#
-You've blocked whispers from everyone.#
-You've failed to block all whispers.#
-You've allowed whispers from everyone.#
-You've failed to allow all whispers.#
-You have no Block List.#
-[ Character Block List ]#
+拒绝接收所有角色的悄悄话.#
+拒绝接收所有角色的悄悄话失败了.#
+允许接收所有角色的悄悄话.#
+允许接收所有角色的悄悄话失败了.#
+您没有拒绝过任何角色的悄悄话.#
+[ 您拒绝接收以下角色的悄悄话 ]#
 已成功创建聊天室.#
 聊天室人数已超过上限.#
 这个聊天室名称已有其他人使用.#
 此聊天室已经满员, 无法进入.#
 您被聊天室管理员踢出了聊天室.#
-对方拒绝了您的交易请求.#
+交易已被拒绝.#
 超过可交易的距离, 请与目标玩家保持2格以内的距离.#
 您所指定的玩家目前并不在线, 无法完成操作.#
 对方正在和其他玩家交易, 或者正在使用仓库...#
@@ -78,15 +78,15 @@ You have no Block List.#
 已经成功建立了队伍.#
 这个队伍名称已经有人使用了, 换个名字试试吧.#
 指定的玩家已经在队伍中啦.#
-The Character already joined another party.#
+指定的玩家已经加入了其他队伍.#
 拒绝加入队伍.#
 接受组队邀请, 加入了队伍.#
 队伍已超过人数上限, 无法组队.#
 您已经离开了队伍.#
 公开发言频道#
 队伍发言频道#
-Request a deal with %s#
-Ask %s to join your party#
+%s 询问您是否愿意交易道具#
+%s 邀请您加入队伍#
 私密:#
 公开:#
 Click ''Restart'' to go back to your save point or click ''Exit'' to select another character.#
@@ -130,14 +130,14 @@ Please change your desktop Color Depth to 16-bit when running Ragnarok in window
 显示信息#
 聊天室#
 人#
-/sit: Sit command. If you are sitting, you will stand instead.#
-/stand: Stand command. If you are standing, you will sit instead.#
-/chat: Creates a Chat Room#
-/q: Leaves a Chat Room#
-/deal ''Character Name'' Requests a deal with a character#
-/organize ''Party Name'' Organizes a party#
-/leave: Leaves a party#
-/expel ''Character Name'' kicks a Character out of your party#
+/sit: 坐下. 如果已经坐下则会站起来.#
+/stand: 站立. 如果已经站立则会坐下.#
+/chat: 创建聊天室#
+/q: 离开聊天室#
+/deal [角色名称]: 邀请指定的玩家进行交易#
+/organize [队伍名称]: 创建新队伍#
+/leave: 退出队伍#
+/expel [队员名称]: 将指定的队员踢出队伍#
 [Alt] + [End]: Turns HP/SP Bar On or Off#
 [Alt] + [Home]: Turns Ground Cursor On or Off#
 [Insert]: Makes you sit or stand. (Hotkey to toggle between /sit and /stand)#
@@ -145,8 +145,8 @@ Please change your desktop Color Depth to 16-bit when running Ragnarok in window
 !!#
 恭喜您杀死了强大的魔物! 成为了荣耀的 MVP! 您的奖励经验为 #
 !!#
-You are the MVP, but you can't take the reward because you are over your weight limit.#
-There is no such character name or the user is offline.#
+很遗憾, 虽然您是 MVP, 但您的背包已经满了, 所以无法取得 MVP 奖励物品.#
+没有找到指定的角色或者对方目前不在线.#
  不希望收到您的信息.#
  不希望收到任何人发送的信息.#
 已经将目标玩家强制下线.#
@@ -167,7 +167,7 @@ How to Speak to Party: Add '%' in front of every message.(Example: \%Hello\)#
 想购买的物品#
 道具商店#
 想出售的物品#
-仓库物品清单#
+仓库物品#
  穿戴完毕#
  卸下完成#
 To add names on the Whispering List#
@@ -202,13 +202,13 @@ No Whisper List.#
 公开#
 SP不足, 无法使用技能#
 HP不足, 无法使用技能#
-很抱歉, 技能使用失败!#
+很抱歉, 技能使用失败.#
 偷窃失败.#
 交易#
-Envenom skill has failed.#
+施毒失败.#
 您无法在本服务器上使用此账号.#
-已变成[ 速度提升 ]状态, 移动速度会上升.#
-已解除[ 速度提升 ]状态, 移动速度回到原始状态.#
+已变成 [速度提升] 状态, 移动速度会上升.#
+已解除 [速度提升] 状态, 移动速度回到原始状态.#
 /memo: 记录传送点(有此传送技能时才可使用)#
 随机位置#
 请选择要传送的位置#
@@ -220,10 +220,10 @@ There are no memorized locations (Memo Points).#
 技能使用后的延迟尚未解除.#
 You can't have this item because you will exceed the weight limit.#
 Out of the maximum capacity#
-手推车物品清单#
+手推车物品#
 放弃手推车#
 开设露天商店#
-请为你的商店起个名.#
+请为您的商店起个名.#
 我的商店#
 露天商店#
 想购买的物品#
@@ -244,8 +244,8 @@ You've been disconnected due to a time gap between you and the server.#
 由于您的负重量过大, 无法攻击和使用技能#
 由于您的负重量过大, 无法使用技能#
 已装备箭矢、子弹、飞镖、飞刀或加农炮弹#
-发动此技能需要消耗红色魔力矿石#
-发动此技能需要消耗蓝色魔力矿石#
+使用此技能需要消耗 [红色魔力矿石]#
+使用此技能需要消耗 [蓝色魔力矿石]#
 Str - 力量#
 Agi - 敏捷#
 Vit - 体力#
@@ -288,10 +288,10 @@ You cannot use an NPC shop while in a trade.#
 各自取得#
 均等分配#
 各自取得#
-队员均可拾取#
+队员均可捡取#
 组队设置#
-获得经验的分配方式#
-谁能拾取掉落的物品#
+获得的经验如何分配#
+谁能捡取掉落的物品#
 只有队长可以改变此设置#
 不询问物品数量，默认出售全部#
 Character will be deleted after ^ff0000%d^000000 seconds. Press Cancel to quit.#
@@ -354,8 +354,8 @@ Close since next#
 Last Log-in Time#
 Last Log-in IP#
 好友设置#
-Are you sure that you want to delete?#
-确认要退出队伍吗?#
+确认真的要删除吗?#
+确认真的要退出队伍吗?#
 加为好友#
 对方为好友时使用一对一聊天窗口#
 打开一对一聊天窗口#
@@ -370,8 +370,8 @@ Are you sure that you want to delete?#
 售价: #
 %s 遭到公会管理层驱逐.#
 驱逐原因: %s#
-You can't put this item on.#
-You can't modify Party Setup.#
+您无法装备此道具.#
+您无法修改队伍设置.#
 恭喜您, 您的公会已经创建完毕!#
 您已经在公会中了.#
 此公会名称已被人使用#
@@ -498,7 +498,7 @@ Maximize-Power Canceled.#
 对方公会已经是您的敌对公会.#
 恭喜您, 精炼成功啦 (^_^)~~#
 真可惜, 精炼失败了 (T_T)~~#
-此地图无法使用[ 瞬间移动 ]#
+此地图无法使用 [瞬间移动]#
 Unable to memorize this place as Warp Point#
 攻击、受伤或进入地图后，必须等待 10 秒钟才能登出#
 职位#
@@ -736,7 +736,7 @@ Chat content will not be displayed in the chat window. [Display OFF]#
 /set1: /noctrl + /showname + /skillfail#
 /fog: Fog effect. On | Off#
 You have received a marriage proposal. Do you accept?#
-拾到的物品如何分配#
+捡到的物品如何分配#
 各自取得#
 均等分配#
 nProtect KeyCrypt#

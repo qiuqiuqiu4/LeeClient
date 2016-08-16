@@ -18,13 +18,14 @@
 Physical Attack#Atk - ÎïÀí¹¥»÷Á¦#
 Physical Defense#Def - ÎïÀí·ÀÓùÁ¦#
 Blacksmith#Ìú½³#
+Expel from party#Ìß³ö¶ÓÎé#
 
 Do you agree?#ÇëÎÊÄúÊÇ·ñÍ¬Òâ?#
 Failed to Connect to Server.#Á¬½Ó·şÎñÆ÷Ê§°Ü, ÇëÉÔºòÖØÊÔ...#
 Disconnected from Server.#ÄúÒÑ±»·şÎñÆ÷¶Ï¿ªÁ¬½Ó.#
 Disconnected from Server.#ÄúÒÑ±»·şÎñÆ÷¶Ï¿ªÁ¬½Ó.#
 Server Closed.#·şÎñÆ÷ÒÑ¾­¹Ø±Õ, ÇëÉÔºòÖØÊÔ...#
-Someone has Logged in with this ID.#ÒÑ¾­ÓĞÆäËûÈËÊ¹ÓÃ´ËÕËºÅµÇÂ¼ÓÎÏ·.#
+Someone has Logged in with this ID.#ÓĞÈËÊ¹ÓÃ´ËÕËºÅµÇÂ¼ÁËÓÎÏ·.#
 Unregistered ID. Please make sure you have a registered account and you have correctly typed in the user ID.#ÉĞÎ´×¢²áµÄÓÎÏ·ÕËºÅ. ÇëÈ·ÈÏÄúÊÇ·ñÒÑ¾­×¢²á´ËÕËºÅ²¢ÌîĞ´ÁËÕıÈ·µÄÕËºÅÃû³Æ.#
 Incorrect User ID or Password. Please try again.#ÄúµÄÕËºÅ»òÕßÃÜÂëÓĞÎó! ÇëÖØÊÔ...#
 This ID is expired.#´ËÕÊºÅÒÑ³¬¹ıÊ¹ÓÃÆÚÏŞ.#
@@ -42,53 +43,53 @@ Are you sure that you want to delete this character?#ÄúÈ·¶¨ÒªÉ¾³ıÕâ¸ö½ÇÉ«Âğ?#
 Foul Language Detected.#ÄÚÈİº¬ÓĞ²»ÑÅ´ÊÓï.#
 Character Name must be at least 4 characters long.#ÇëÊäÈë½ÇÉ«Ãû³Æ, ÖÁÉÙÒªÊäÈëÁ½¸öºº×Ö»òÕßËÄ¸öÓ¢ÎÄ×ÖÄ¸.#
 Command List: /h | /help#ÈçĞèÃüÁî°ïÖú£¬ÇëÔÚÁÄÌìÀ¸ÊäÈë: /h ²¢°´»Ø³µ#
-Effects On#
-Effects Off#
+Effects On#¿ªÆôÊÓ¾õ¶¯»­Ğ§¹û#
+Effects Off#¹Ø±ÕÊÓ¾õ¶¯»­Ğ§¹û#
 Sound Volume#Ğ§¹ûÒôÁ¿#
 BGM Volume#±³¾°ÒôÁ¿#
 Sound Effects On#¿ªÆôĞ§¹ûÒô#
 Sound Effects Off#¹Ø±ÕĞ§¹ûÒô#
-Frame Skip On#¿ªÆôÌøÖ¡#
-Frame Skip Off#¹Ø±ÕÌøÖ¡#
+Frame Skip On#¿ªÆô»­ÃæÍ¬²½Ë¢ĞÂ#
+Frame Skip Off#¹Ø±Õ»­ÃæÍ¬²½Ë¢ĞÂ#
 BGM On#¿ªÆô±³¾°ÒôÀÖ#
 BGM Off#¹Ø±Õ±³¾°ÒôÀÖ#
-/h or /help: Shows this Command Help List#
-/w or /who or /player or /who : wiew current the number of player#
+/h or /help: Shows this Command Help List#/h or /help: ÏÔÊ¾±¾Ö¸ÁîÁĞ±í#
+/w or /who or /player or /who : wiew current the number of player#/w or /who or /player or /who: ÏÔÊ¾·şÎñÆ÷µÄÏßÉÏÈËÊı#
 /music: Turns BGM On or Off#/music: ¿ªÆô»ò¹Ø±Õ±³¾°ÒôÀÖ#
 /sound: Turns Sound Effects On or Off#/sound: ¿ªÆô»ò¹Ø±ÕĞ§¹ûÒô#
-/effect: Effects On or Off#
+/effect: Effects On or Off#/effect: ¿ªÆô»ò¹Ø±ÕÊÓ¾õ¶¯»­Ğ§¹û#
 /where: Shows your present location#/where£ºÏÔÊ¾Ä¿Ç°ËùÔÚµÄµØÍ¼ºÍ×ù±ê#
-/skip: Turns Frame Skip On or Off#
+/skip: Turns Frame Skip On or Off#/skip: ¿ªÆô»ò¹Ø±Õ»­ÃæÍ¬²½Ë¢ĞÂ#
 /v (0~127): Controls the volume of the Sound Effects #/v (0~127): µ÷ÕûĞ§¹ûÒôµÄÒôÁ¿´óĞ¡ #
 /bv (0~127): Controls the volume of the BGM#/bv (0~127): µ÷Õû±³¾°ÒôÀÖµÄÒôÁ¿´óĞ¡#
-/ex (Character Name): Blocks whispering from the Character#
-/ex: View a list of Characters you have Blocked#
-/in (Character Name): Allows whispering from the Character#
-/inall: Allows whispers from anyone#/inall: ½ÓÊÜËùÓĞ½ÇÉ«µÄÃÜÓï#
-/exall: Blocks whispers from everyone#/exall: ¾Ü¾øËùÓĞ½ÇÉ«µÄÃÜÓï#
+/ex (Character Name): Blocks whispering from the Character#/ex (½ÇÉ«Ãû³Æ): ¾Ü¾ø½ÓÊÕÖ¸¶¨½ÇÉ«µÄÇÄÇÄ»°#
+/ex: View a list of Characters you have Blocked#/ex: ÏÔÊ¾±»Äú¾Ü¾øÇÄÇÄ»°µÄ½ÇÉ«Çåµ¥#
+/in (Character Name): Allows whispering from the Character#/in (½ÇÉ«Ãû³Æ): ÔÊĞí½ÓÊÕÖ¸¶¨½ÇÉ«µÄÇÄÇÄ»°#
+/inall: Allows whispers from anyone#/inall: ÔÊĞí½ÓÊÕËùÓĞ½ÇÉ«µÄÇÄÇÄ»°#
+/exall: Blocks whispers from everyone#/exall: ¾Ü¾ø½ÓÊÕËùÓĞ½ÇÉ«µÄÇÄÇÄ»°#
 Right click on a character and select [Register as a Friend] to add a person to your Friend List.#
 F12 Brings up a Hotkey Window which allows you to drag and drop Recovery Items, Equipment and Skills into it for faster access.#
 You can't type the same word/phrase more than 3 times.#Í¬Ò»¾ä»°²»ÄÜÖØ¸´·¢ËÍ³¬¹ıÈı´Î.#
 Chat Filter: Yeah, uh, I don't think so buddy...#ÄÚÈİº¬ÓĞ²»ÑÅµÄ´ÊÓï, ½«Æä·¢ËÍ³öÈ¥½«ÓĞ°­ºÍĞ³...#
 You cannot overlap items on a window.#
-You cannot carry more items because you are overweight.#³¬¹ı×î´ó¸ºÖØÁ¿, ÎŞ·¨È¡µÃÎïÆ·#
-You cannot get the item.#
+You cannot carry more items because you are overweight.#³¬¹ı×î´ó¸ºÖØÁ¿, ÎŞ·¨È¡µÃÎïÆ·.#
+You cannot get the item.#ÎŞ·¨È¡µÃÎïÆ·.#
 The deal has successfully completed.#ÄúµÄ½»Ò×ÒÑ¾­Ë³ÀûÍê³É#
 You do not have enough zeny.#ÄúÃ»ÓĞ×ã¹»µÄ½ğÇ®.#
 You are over your Weight Limit.#ÄúµÄ¸ºÖØÄÜÁ¦²»×ãÒÔ´ø¶¯ÕâĞ©¶«Î÷, ½»Ò×Ê§°ÜÁË.#
 The deal has failed.#ºÜÒÅº¶, ½»Ò×Ê§°ÜÁË.#
-You've blocked whispers from everyone.#
-You've failed to block all whispers.#
-You've allowed whispers from everyone.#
-You've failed to allow all whispers.#
-You have no Block List.#
-[ Character Block List ]#
+You've blocked whispers from everyone.#¾Ü¾ø½ÓÊÕËùÓĞ½ÇÉ«µÄÇÄÇÄ»°.#
+You've failed to block all whispers.#¾Ü¾ø½ÓÊÕËùÓĞ½ÇÉ«µÄÇÄÇÄ»°Ê§°ÜÁË.#
+You've allowed whispers from everyone.#ÔÊĞí½ÓÊÕËùÓĞ½ÇÉ«µÄÇÄÇÄ»°.#
+You've failed to allow all whispers.#ÔÊĞí½ÓÊÕËùÓĞ½ÇÉ«µÄÇÄÇÄ»°Ê§°ÜÁË.#
+You have no Block List.#ÄúÃ»ÓĞ¾Ü¾ø¹ıÈÎºÎ½ÇÉ«µÄÇÄÇÄ»°.#
+[ Character Block List ]#[ Äú¾Ü¾ø½ÓÊÕÒÔÏÂ½ÇÉ«µÄÇÄÇÄ»° ]#
 Room has been successfully created.#ÒÑ³É¹¦´´½¨ÁÄÌìÊÒ.#
 Room Limit Exceeded.#ÁÄÌìÊÒÈËÊıÒÑ³¬¹ıÉÏÏŞ.#
 Same Room exists.#Õâ¸öÁÄÌìÊÒÃû³ÆÒÑÓĞÆäËûÈËÊ¹ÓÃ.#
 The Room is full.#´ËÁÄÌìÊÒÒÑ¾­ÂúÔ±, ÎŞ·¨½øÈë.#
 You have been kicked out of this room.#Äú±»ÁÄÌìÊÒ¹ÜÀíÔ±Ìß³öÁËÁÄÌìÊÒ.#
-The deal has been rejected.#¶Ô·½¾Ü¾øÁËÄúµÄ½»Ò×ÇëÇó.#
+The deal has been rejected.#½»Ò×ÒÑ±»¾Ü¾ø.#
 You are too far away from the person to trade.#³¬¹ı¿É½»Ò×µÄ¾àÀë, ÇëÓëÄ¿±êÍæ¼Ò±£³Ö2¸ñÒÔÄÚµÄ¾àÀë.#
 The Character is not currently online or does not exist.#ÄúËùÖ¸¶¨µÄÍæ¼ÒÄ¿Ç°²¢²»ÔÚÏß, ÎŞ·¨Íê³É²Ù×÷.#
 The person is in another deal.#¶Ô·½ÕıÔÚºÍÆäËûÍæ¼Ò½»Ò×, »òÕßÕıÔÚÊ¹ÓÃ²Ö¿â...#
@@ -99,15 +100,15 @@ The deal has failed.#½»Ò×Ê§°ÜÁË.#
 Party has successfully been organized.#ÒÑ¾­³É¹¦½¨Á¢ÁË¶ÓÎé.#
 That Party Name already exists.#Õâ¸ö¶ÓÎéÃû³ÆÒÑ¾­ÓĞÈËÊ¹ÓÃÁË, »»¸öÃû×ÖÊÔÊÔ°É.#
 The Character is already in a party.#Ö¸¶¨µÄÍæ¼ÒÒÑ¾­ÔÚ¶ÓÎéÖĞÀ².#
-The Character already joined another party.#
+The Character already joined another party.#Ö¸¶¨µÄÍæ¼ÒÒÑ¾­¼ÓÈëÁËÆäËû¶ÓÎé.#
 Request for party rejected.#¾Ü¾ø¼ÓÈë¶ÓÎé.#
 Request for party accepted.#½ÓÊÜ×é¶ÓÑûÇë, ¼ÓÈëÁË¶ÓÎé.#
 Party Capacity exceeded.#¶ÓÎéÒÑ³¬¹ıÈËÊıÉÏÏŞ, ÎŞ·¨×é¶Ó.#
 You left the party.#ÄúÒÑ¾­Àë¿ªÁË¶ÓÎé.#
 Send to All#¹«¿ª·¢ÑÔÆµµÀ#
 Send to Party#¶ÓÎé·¢ÑÔÆµµÀ#
-Request a deal with %s#
-Ask %s to join your party#
+Request a deal with %s#%s Ñ¯ÎÊÄúÊÇ·ñÔ¸Òâ½»Ò×µÀ¾ß#
+Ask %s to join your party#%s ÑûÇëÄú¼ÓÈë¶ÓÎé#
 Pri:#Ë½ÃÜ:#
 Pub:#¹«¿ª:#
 Click ''Restart'' to go back to your save point or click ''Exit'' to select another character.#
@@ -151,14 +152,14 @@ Give Master Authority#¸øÓèÁÄÌìÊÒ¹ÜÀíÔ±µÄÈ¨ÏŞ#
 View Information#ÏÔÊ¾ĞÅÏ¢#
 Chat Room#ÁÄÌìÊÒ#
 Ppl#ÈË#
-/sit: Sit command. If you are sitting, you will stand instead.#
-/stand: Stand command. If you are standing, you will sit instead.#
-/chat: Creates a Chat Room#
-/q: Leaves a Chat Room#
-/deal ''Character Name'' Requests a deal with a character#
-/organize ''Party Name'' Organizes a party#
-/leave: Leaves a party#
-/expel ''Character Name'' kicks a Character out of your party#
+/sit: Sit command. If you are sitting, you will stand instead.#/sit: ×øÏÂ. Èç¹ûÒÑ¾­×øÏÂÔò»áÕ¾ÆğÀ´.#
+/stand: Stand command. If you are standing, you will sit instead.#/stand: Õ¾Á¢. Èç¹ûÒÑ¾­Õ¾Á¢Ôò»á×øÏÂ.#
+/chat: Creates a Chat Room#/chat: ´´½¨ÁÄÌìÊÒ#
+/q: Leaves a Chat Room#/q: Àë¿ªÁÄÌìÊÒ#
+/deal ''Character Name'' Requests a deal with a character#/deal [½ÇÉ«Ãû³Æ]: ÑûÇëÖ¸¶¨µÄÍæ¼Ò½øĞĞ½»Ò×#
+/organize ''Party Name'' Organizes a party#/organize [¶ÓÎéÃû³Æ]: ´´½¨ĞÂ¶ÓÎé#
+/leave: Leaves a party#/leave: ÍË³ö¶ÓÎé#
+/expel ''Character Name'' kicks a Character out of your party#/expel [¶ÓÔ±Ãû³Æ]: ½«Ö¸¶¨µÄ¶ÓÔ±Ìß³ö¶ÓÎé#
 [Alt] + [End]: Turns HP/SP Bar On or Off#
 [Alt] + [Home]: Turns Ground Cursor On or Off#
 [Insert]: Makes you sit or stand. (Hotkey to toggle between /sit and /stand)#
@@ -166,8 +167,8 @@ Congratulations! You are the MVP! Your reward item is #¹§Ï²ÄúÉ±ËÀÁËÇ¿´óµÄÄ§Îï! ³
 !!#
 Congratulations! You are the MVP! Your reward EXP Points are #¹§Ï²ÄúÉ±ËÀÁËÇ¿´óµÄÄ§Îï! ³ÉÎªÁËÈÙÒ«µÄ MVP! ÄúµÄ½±Àø¾­ÑéÎª #
 !!#
-You are the MVP, but you can't take the reward because you are over your weight limit.#
-There is no such character name or the user is offline.#
+You are the MVP, but you can't take the reward because you are over your weight limit.#ºÜÒÅº¶, ËäÈ»ÄúÊÇ MVP, µ«ÄúµÄ±³°üÒÑ¾­ÂúÁË, ËùÒÔÎŞ·¨È¡µÃ MVP ½±ÀøÎïÆ·.#
+There is no such character name or the user is offline.#Ã»ÓĞÕÒµ½Ö¸¶¨µÄ½ÇÉ«»òÕß¶Ô·½Ä¿Ç°²»ÔÚÏß.#
  doesn't want to receive your messages.# ²»Ï£ÍûÊÕµ½ÄúµÄĞÅÏ¢.#
  is not in the mood to talk with anyone.# ²»Ï£ÍûÊÕµ½ÈÎºÎÈË·¢ËÍµÄĞÅÏ¢.#
 Killed/Disconnected User.#ÒÑ¾­½«Ä¿±êÍæ¼ÒÇ¿ÖÆÏÂÏß.#
@@ -188,7 +189,7 @@ You haven't learned enough skills for Pking.#ÄúµÄ¡°»ù±¾¼¼ÄÜ¡±µÈ¼¶²»×ã, ÎŞ·¨ÓÚÆäË
 Buying Items#Ïë¹ºÂòµÄÎïÆ·#
 Item Shop#µÀ¾ßÉÌµê#
 Selling Items#Ïë³öÊÛµÄÎïÆ·#
-Storage#²Ö¿âÎïÆ·Çåµ¥#
+Storage#²Ö¿âÎïÆ·#
  is put on.# ´©´÷Íê±Ï#
  is taken off.# Ğ¶ÏÂÍê³É#
 To add names on the Whispering List#
@@ -223,13 +224,13 @@ Private#Ë½ÓĞ#
 Public#¹«¿ª#
 Not Enough SP#SP²»×ã, ÎŞ·¨Ê¹ÓÃ¼¼ÄÜ#
 Not Enough HP#HP²»×ã, ÎŞ·¨Ê¹ÓÃ¼¼ÄÜ#
-Skill has failed.#ºÜ±§Ç¸, ¼¼ÄÜÊ¹ÓÃÊ§°Ü!#
+Skill has failed.#ºÜ±§Ç¸, ¼¼ÄÜÊ¹ÓÃÊ§°Ü.#
 Steal has failed.#ÍµÇÔÊ§°Ü.#
 Trade#½»Ò×#
-Envenom skill has failed.#
+Envenom skill has failed.#Ê©¶¾Ê§°Ü.#
 You cannot use this ID on this server.#ÄúÎŞ·¨ÔÚ±¾·şÎñÆ÷ÉÏÊ¹ÓÃ´ËÕËºÅ.#
-Speed has increased.#ÒÑ±ä³É[ ËÙ¶ÈÌáÉı ]×´Ì¬, ÒÆ¶¯ËÙ¶È»áÉÏÉı.#
-Speed has decreased.#ÒÑ½â³ı[ ËÙ¶ÈÌáÉı ]×´Ì¬, ÒÆ¶¯ËÙ¶È»Øµ½Ô­Ê¼×´Ì¬.#
+Speed has increased.#ÒÑ±ä³É [ËÙ¶ÈÌáÉı] ×´Ì¬, ÒÆ¶¯ËÙ¶È»áÉÏÉı.#
+Speed has decreased.#ÒÑ½â³ı [ËÙ¶ÈÌáÉı] ×´Ì¬, ÒÆ¶¯ËÙ¶È»Øµ½Ô­Ê¼×´Ì¬.#
 /memo: To memorize a place as Warp Point (If you are an Acolyte Class character)#/memo: ¼ÇÂ¼´«ËÍµã(ÓĞ´Ë´«ËÍ¼¼ÄÜÊ±²Å¿ÉÊ¹ÓÃ)#
 Random Area#Ëæ»úÎ»ÖÃ#
 Select an Area to Warp#ÇëÑ¡ÔñÒª´«ËÍµÄÎ»ÖÃ#
@@ -241,10 +242,10 @@ Cancel#È¡Ïû#
 There is a Delay after using a Skill.#¼¼ÄÜÊ¹ÓÃºóµÄÑÓ³ÙÉĞÎ´½â³ı.#
 You can't have this item because you will exceed the weight limit.#
 Out of the maximum capacity#
-Cart Items#ÊÖÍÆ³µÎïÆ·Çåµ¥#
+Cart Items#ÊÖÍÆ³µÎïÆ·#
 Take off Cart#·ÅÆúÊÖÍÆ³µ#
 Opening a stall#¿ªÉèÂ¶ÌìÉÌµê#
-Please Name your Shop.#ÇëÎªÄãµÄÉÌµêÆğ¸öÃû.#
+Please Name your Shop.#ÇëÎªÄúµÄÉÌµêÆğ¸öÃû.#
 My Shop#ÎÒµÄÉÌµê#
 Merchant Shop#Â¶ÌìÉÌµê#
 Buying Items#Ïë¹ºÂòµÄÎïÆ·#
@@ -265,8 +266,8 @@ Please equip the proper ammunition first.#ÇëÏÈ×°±¸¼ıÊ¸¡¢×Óµ¯¡¢·ÉïÚ¡¢·Éµ¶»ò¼ÓÅ©ÅÚ
 You can't attack or use skills because you've exceeded the Weight Limit.#ÓÉÓÚÄúµÄ¸ºÖØÁ¿¹ı´ó, ÎŞ·¨¹¥»÷ºÍÊ¹ÓÃ¼¼ÄÜ#
 You can't use skills because you've exceeded the Weight Limit.#ÓÉÓÚÄúµÄ¸ºÖØÁ¿¹ı´ó, ÎŞ·¨Ê¹ÓÃ¼¼ÄÜ#
 Ammunition has been equipped.#ÒÑ×°±¸¼ıÊ¸¡¢×Óµ¯¡¢·ÉïÚ¡¢·Éµ¶»ò¼ÓÅ©ÅÚµ¯#
-Red Gemstone required.#·¢¶¯´Ë¼¼ÄÜĞèÒªÏûºÄºìÉ«Ä§Á¦¿óÊ¯#
-Blue Gemstone required.#·¢¶¯´Ë¼¼ÄÜĞèÒªÏûºÄÀ¶É«Ä§Á¦¿óÊ¯#
+Red Gemstone required.#Ê¹ÓÃ´Ë¼¼ÄÜĞèÒªÏûºÄ [ºìÉ«Ä§Á¦¿óÊ¯]#
+Blue Gemstone required.#Ê¹ÓÃ´Ë¼¼ÄÜĞèÒªÏûºÄ [À¶É«Ä§Á¦¿óÊ¯]#
 Strength#Str - Á¦Á¿#
 Agility#Agi - Ãô½İ#
 Vitality#Vit - ÌåÁ¦#
@@ -309,10 +310,10 @@ Passive#±»¶¯¼¼ÄÜ#
 Individual#¸÷×ÔÈ¡µÃ#
 Shared#¾ùµÈ·ÖÅä#
 Individual#¸÷×ÔÈ¡µÃ#
-Party Share#¶ÓÔ±¾ù¿ÉÊ°È¡#
+Party Share#¶ÓÔ±¾ù¿É¼ñÈ¡#
 Party Setup#×é¶ÓÉèÖÃ#
-How to share EXP#»ñµÃ¾­ÑéµÄ·ÖÅä·½Ê½#
-How to share Items#Ë­ÄÜÊ°È¡µôÂäµÄÎïÆ·#
+How to share EXP#»ñµÃµÄ¾­ÑéÈçºÎ·ÖÅä#
+How to share Items#Ë­ÄÜ¼ñÈ¡µôÂäµÄÎïÆ·#
 Only the Party Leader can change this setting.#Ö»ÓĞ¶Ó³¤¿ÉÒÔ¸Ä±ä´ËÉèÖÃ#
 Toggle Item Amount.#²»Ñ¯ÎÊÎïÆ·ÊıÁ¿£¬Ä¬ÈÏ³öÊÛÈ«²¿#
 Character will be deleted after ^ff0000%d^000000 seconds. Press Cancel to quit.#
@@ -375,8 +376,8 @@ Close since next#
 Last Log-in Time#
 Last Log-in IP#
 Friend Setup#ºÃÓÑÉèÖÃ#
-Are you sure that you want to delete?#
-Are you sure that you want to leave?#È·ÈÏÒªÍË³ö¶ÓÎéÂğ?#
+Are you sure that you want to delete?#È·ÈÏÕæµÄÒªÉ¾³ıÂğ?
+Are you sure that you want to leave?#È·ÈÏÕæµÄÒªÍË³ö¶ÓÎéÂğ?#
 Register as a Friend#¼ÓÎªºÃÓÑ#
 Open 1:1 Chat between Friends#¶Ô·½ÎªºÃÓÑÊ±Ê¹ÓÃÒ»¶ÔÒ»ÁÄÌì´°¿Ú#
 Open 1:1 Chat#´ò¿ªÒ»¶ÔÒ»ÁÄÌì´°¿Ú#
@@ -391,8 +392,8 @@ This ID has been removed.#Õâ¸öÕÊºÅÒÑ¾­±»É¾³ıÁË.#
 Price: #ÊÛ¼Û: #
 %s has been expelled from our guild.#%s Ôâµ½¹«»á¹ÜÀí²ãÇıÖğ.#
 Expulsion Reason: %s#ÇıÖğÔ­Òò: %s#
-You can't put this item on.#
-You can't modify Party Setup.#
+You can't put this item on.#ÄúÎŞ·¨×°±¸´ËµÀ¾ß.#
+You can't modify Party Setup.#ÄúÎŞ·¨ĞŞ¸Ä¶ÓÎéÉèÖÃ.#
 Guild has been Created.#¹§Ï²Äú, ÄúµÄ¹«»áÒÑ¾­´´½¨Íê±Ï!#
 You are already in a Guild.#ÄúÒÑ¾­ÔÚ¹«»áÖĞÁË.#
 That Guild Name already exists.#´Ë¹«»áÃû³ÆÒÑ±»ÈËÊ¹ÓÃ#
@@ -519,7 +520,7 @@ Guild has too many Antagonists.#µĞ¶Ô¹«»áÊıÁ¿³¬¹ıÉÏÏŞ.#
 Already set as an Antagonist#¶Ô·½¹«»áÒÑ¾­ÊÇÄúµÄµĞ¶Ô¹«»á.#
 Upgrade has been completed successfully.#¹§Ï²Äú, ¾«Á¶³É¹¦À² (^_^)~~#
 Upgrade has failed.#Õæ¿ÉÏ§, ¾«Á¶Ê§°ÜÁË (T_T)~~#
-Unavailable Area to Teleport#´ËµØÍ¼ÎŞ·¨Ê¹ÓÃ[ Ë²¼äÒÆ¶¯ ]#
+Unavailable Area to Teleport#´ËµØÍ¼ÎŞ·¨Ê¹ÓÃ [Ë²¼äÒÆ¶¯]#
 Unable to memorize this place as Warp Point#
 Please wait 10 seconds before trying to log out.#¹¥»÷¡¢ÊÜÉË»ò½øÈëµØÍ¼ºó£¬±ØĞëµÈ´ı 10 ÃëÖÓ²ÅÄÜµÇ³ö#
 Position#Ö°Î»#
@@ -757,7 +758,7 @@ Chat content will not be displayed in the chat window. [Display OFF]#
 /set1: /noctrl + /showname + /skillfail#
 /fog: Fog effect. On | Off#
 You have received a marriage proposal. Do you accept?#
-Item sharing type#Ê°µ½µÄÎïÆ·ÈçºÎ·ÖÅä#
+Item sharing type#¼ñµ½µÄÎïÆ·ÈçºÎ·ÖÅä#
 Individual#¸÷×ÔÈ¡µÃ#
 Shared#¾ùµÈ·ÖÅä#
 nProtect KeyCrypt#
