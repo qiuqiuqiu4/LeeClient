@@ -1091,7 +1091,7 @@ You have failed to place a bid.#
 You do not have enough zeny.#
 Armors#
 Card#
-Other#
+ÆäËû#
 Bid#
 Search#
 You have ended the auction.#
