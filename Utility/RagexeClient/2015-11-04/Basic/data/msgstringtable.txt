@@ -71,7 +71,7 @@ You cannot overlap items on a window.#
 超过可交易的距离, 请与目标玩家保持2格以内的距离.#
 您所指定的玩家目前并不在线, 无法完成操作.#
 对方正在和其他玩家交易, 或者正在使用仓库...#
-交易失败了, 对方可能拿不动您即将交易给他的物品, 或存在禁止交易的物品.#
+交易失败了, 对方可能拿不动您即将交易给他的物品, 或此物品禁止交易.#
 交易已被取消.#
 交易已完成.#
 交易失败了.#
@@ -297,7 +297,7 @@ You cannot use an NPC shop while in a trade.#
 Character will be deleted after ^ff0000%d^000000 seconds. Press Cancel to quit.#
 每次交易您不能交换超过 10 种物品.#
 You are underaged.#
-请输入您的生日 (格式:YYMMDD, 例如:910213)#
+请输入您的6位数生日(YYMMDD) 例如: 910213#
 E-mail Address (Case Sensitive).#
 Character Deletion has failed because you have entered an incorrect e-mail address.#
 Enter Second Serial Cord of your Social Security number.#
@@ -393,8 +393,8 @@ Please refrain from ill-mannered conduct, thank you.#
 邀请 (%s) 加入队伍#
  公会送来了邀请同盟的消息, 请问您是否愿意结成公会同盟?#
 已成结成公会同盟.#
-您拒绝与对方结成公会同盟.#
-您同意与对方结成公会同盟.#
+对方拒绝与您结成公会同盟.#
+对方同意与您结成公会同盟.#
 对方的同盟公会数量超过上限.#
 您的同盟公会数量超过上限.#
 邀请成为同盟公会#
@@ -1530,10 +1530,10 @@ Cannot be used anymore.#
 [Acid Bottle] is required.#
 [Bottom Man-Eating Plant] is required.#
 [Pot of Mandragora] is required.#
-Party delegation#
-Do you want to delegate the real party?#
-Party cannot be delegated.#
-Can't be changed because of level gap#
+将他任命为队长#
+您确定要将队长职务移交给他吗?#
+无法将他任命为队长.#
+由于队员之间的等级差距, 无法设置为均等分配#
 [%s] required '%d' amount.#
 装备的精炼值降低了.#
 Need to put on [%s] in order to use.#
@@ -1550,7 +1550,7 @@ Battlefield - [%s]#
 Search Message for Party Members#
 Message option is off the search party members.#
 10 seconds delay of party support is in effect#
-队长已经变更为 '%s'.#
+从现在开始由 '%s' 担任本队队长.#
 Unable to enter due to system error.#
 Cannot wait to enter the number of excess.#
 Has already been applied.#
@@ -2057,9 +2057,9 @@ Party Alarm#
 远程邀请组队#
 要创建的队名:#
 想邀请的玩家名称:#
- has recieved an invitation to join your party.#
- rejected your party invitation.#
- accepted your party invitation.#
+ 已经收到了您的组队邀请, 请等待对方答复.#
+ 拒绝了您的组队邀请.#
+ 接受了您的组队邀请, 已加入队伍.#
 Recruitment is already a party.#
 Same conditions such as the previous search.#
 Guild after withdrawl.#
@@ -2092,7 +2092,7 @@ The character is not online or does not exist.#
 Failed to call Falcon.#
 %d%%(default 100%%+ Premium%d%%+%s Server%d%%)#
 This user is currently participating in the siege.#
-It is only possible to change the party leader while on the same map.#
+对方必须和您处在同一张地图, 才能够将队长职务移交给他.#
 In the current region it is not possible to change the party.#
 Gryphon making#
 %d月%d日 %d:%d:%d 可删#
@@ -2549,7 +2549,7 @@ Guild Storage Logs#
 100 entries are displayed.#
 Guild Storage is open only for 2 minutes, and will close automatically.#
 Incorrect GameSamba ID. Please Try Again.#
-%s [%d Option] : %d Quantity#
+%s [属性 %d] : %d 个#
 Requires a Coin.#
 %d Coins are required.#
 Gatling Gun should be equipped with bullets.#
