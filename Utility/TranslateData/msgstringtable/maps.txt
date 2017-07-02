@@ -2534,7 +2534,7 @@ Start time does not match the scope of sales.#
 Please enter the time#
 Please enter the Item DB Name#
 Item ID lookup failed. Please try again later#
->> ItemName : %s / Price : %dc / Quantity : %d / TimeOfSale : %dMonth:%dDay:%dMinute:%dSecond ~ %dMonth:%dDay:%dMinute:%Second#
+>> ItemName : %s / Price : %dc / Quantity : %d / TimeOfSale : %dMonth:%dDay:%dMinute:%dSecond ~ %dMonth:%dDay:%dMinute:%dSecond#
 Registration successful#
 Registration failure. Please try again later.#
 Item has already been registered. Please try again later.#
@@ -2702,7 +2702,7 @@ Other#
 Feat#
 Achieved challenge#
 You cannot add anymore.#
-< %S > achieved.#
+< %s > achieved.#
 only otp user login allow#
 When this button pressed, you will receive a specified initialized roulette item.#
 When this button pressed, the flashing arrows from the lines of the roulette wheel begins.#
