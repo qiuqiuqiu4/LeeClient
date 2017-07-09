@@ -1045,21 +1045,21 @@ Hate#
 Hate with a Passion#
 Homunculus has been customized.#生命体将使用[玩家自定义AI]来行动.#
 Homunculus has been activated with the basic AI.#生命体将使用[官方原始AI]来行动.#
-Mail List#邮件列表#
-Write Mail#写邮件#
-Read Mail#读邮件#
+Mail List#信件列表#
+Write Mail#写信#
+Read Mail#内容#
 You cannot change a map's designation once it is designated. Are you sure that you want to designate this map?#
-Item has been added in the Item Window.#
-You have failed to add the item in the Item Window.#
-You have successfully mailed a message.#
-You have failed to mail a message. Recipient does not exist.#
+Item has been added in the Item Window.#物品已经被添加到邮件中.#
+You have failed to add the item in the Item Window.#很抱歉, 无法将物品添加到邮件中.#
+You have successfully mailed a message.#您已经成功发送了邮件.#
+You have failed to mail a message. Recipient does not exist.#很抱歉, 邮件发送失败. 可能是收信人不存在, 或没有足够的金钱来支付邮费.#
 [Solar, Lunar and Stellar Angel] Designated places and monsters have been reset.#
 The minimum starting bid for auctions is 10,000,000 zeny.#
 You have successfully started a new auction.#
 The auction has been canceled.#
 An auction with at least one bidder cannot be canceled.#
-Mail has been successfully deleted.#
-You have failed to delete the mail.#
+Mail has been successfully deleted.#信件已被成功删除.#
+You have failed to delete the mail.#很抱歉, 您的信件删除失败.#
 You have equipped throwing daggers.#
 %s has logged in.#好友 %s 已经上线.#
 %s has logged out.#好友 %s 已经离线.#
@@ -1073,8 +1073,8 @@ API Hooking has been detected.#
 Message Hooking has been detected.#
 Module has been modified or damaged or its version does not match.#
 (Thailand) You have logged in game with PC cafe payment.#
-Prev#
-Next#
+Prev#上页#
+Next#下页#
 Auction#
 Product List#
 Register#
@@ -1119,9 +1119,9 @@ Search#
 You have ended the auction.#
 You cannot end the auction.#
 Bid Number is incorrect.#
-To#
-Title#
-You have received a message in the mail.#
+To#收信人#
+Title#标题#
+You have received a message in the mail.#您收到了一封信邮件, 请注意查收.#
 Searching...#
 You cannot register more than 5 items in an auction at a time.#
 You cannot place more than 5 bids at a time.#
@@ -2483,9 +2483,9 @@ You cannot hold more than 2,147,483,647 Zeny#
 your account is lock by mobile otp#
 MOTP auth fail#
 JOB EXP from Monsters will increase %d%% for %dmins.#
-Current Zeny: %s Zeny#
+Current Zeny: %s Zeny#持有金钱: %s Zeny#
 Zeny#
-The Maximum amount is 2,147,483,647 Zeny#
+The Maximum amount is 2,147,483,647 Zeny#银行最多只能存放 2,147,483,647 Zeny#
 Your bullet is not enough#
 You entered more than 1 Billion Zeny, the price will be set to 1 Billion Zeny.#
 AuthTicket is Not Valid#
@@ -2602,23 +2602,23 @@ Feeding the pet. %s %d remaining#
 Feeding the pet. %d '%s' remaining#
 Automatic feeding turned On#
 Automatic feeding turned Off#
-Update#
-%d minutes ago#
-%d hours ago#
-%d days ago#
+Update#刷新#
+%d minutes ago#%d分钟前#
+%d hours ago#%d小时前#
+%d days ago#%d天前#
 %d%% ( Premium %d%% + %s Server )#
 Mailed#
-Your mail has been sent.#
-This item has been moved to the inventory.#
-Failed to get items.#
+Your mail has been sent.#您的邮件已被成功发送.#
+This item has been moved to the inventory.#附在邮件中的物品已放到您的背包中.#
+Failed to get items.#无法获取附在邮件上的物品.#
 Please empty your inventory.#
 Zeny received.#
 Failed to get zeny.#
 Exceeded the limits of zenny.#
-Items attached success#
-The name of the recipient must be included.#
-The length of the title must be 4 to 50 characters long.#
-Mail delivery failed.#
+Items attached success#物品已经被添加到邮件中.#
+The name of the recipient must be included.#请输入收信人的名称, 收信人不能为空.#
+The length of the title must be 4 to 50 characters long.#信件标题的长度在 4 ~ 50 个字符之间.#
+Mail delivery failed.#邮件发送失败.#
 Transmission has failed to inappropriate items.#
 Information of the recipient does not exist.#
 %s [%d Option]#
@@ -2664,7 +2664,7 @@ Failed to open stalls.#
 The roulette wheel is spinning. Please try again after checking with prizes.#
 Lucky Roulette#
 Notify when item sell out#
-Please check the fees.#
+Please check the fees.#请确保您的金钱足以支付邮费.#
 Verify user name#
 Schedule deletion#
 Achievable challenge#
@@ -2722,9 +2722,9 @@ The number of items that can be attached is exceeded.#
 Notify when item purchased#
 Unable to attach the items.#
 Because you can not win a slam room and turn the roulette of the next higher step.#
-Replying#
-Read more#
-Delete message#
+Replying#给他回信#
+Read more#阅读此信件#
+Delete message#删除信件#
 Crackers  : %d#
 %s %s crackers #
 Crackers #
@@ -2748,9 +2748,9 @@ Over than 10billions secure check#
 力茄 陛咀 : %s 喙#
 %s %s 喙 %d 俺#
 %s %d俺甫 %d 喙俊 魄概 窍看嚼聪促. 荐荐丰绰 3%% 涝聪促.#
-RODEX#
-SEND#
-RECEIVE#
+RODEX#RODEX信箱#
+SEND#写信#
+RECEIVE#信件内容#
 Please close the mail compose window.#
 Server access denied(A)#
 Server access denied(B)#
