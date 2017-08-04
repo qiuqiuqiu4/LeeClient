@@ -2576,7 +2576,7 @@ Evolution material is low.#
 Lack the necessary material for evolution.#
 Only evolve when intimacy is Loyal.#
 Automatic feeding#
-Feeding the pet. %s %d remaining#
+已给宠物喂食. 您背包中的 '%s' 还剩 %d 个#
 Automatic feeding turned On#
 Automatic feeding turned Off#
 刷新#
@@ -2606,9 +2606,9 @@ You can not open the mail.#
 You are currently joined in Clan !!#
 Gold PC rooms mileage information#
 Unequip pet accessories first to start evolution#
-%d minutes later#
-%d hours later#
-%d days later#
+%d分钟后#
+%d小时后#
+%d天后#
 Press the OK button to confirm the C-CODE.#
 After obtaining the attached article can be deleted.#
 You can not send any more zeny.#
@@ -2643,7 +2643,7 @@ Lucky Roulette#
 Notify when item sell out#
 请确保您的金钱足以支付邮费.#
 Verify user name#
-Schedule deletion#
+将被删除#
 Achievable challenge#
 Achieve overall#
 Achieve rank#
