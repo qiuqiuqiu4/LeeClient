@@ -1,0 +1,57 @@
+窗口标题
+--------
+欢迎使用 rAthenaCN 配套客户端 此客户端版本为 20170614 正常版
+欢迎使用 rAthenaCN 配套客户端 此客户端版本为 20170614 调试版
+
+混淆密钥
+--------
+默认启用封包混淆
+使用密钥: 0x5ED10A48,0x667F4301,0x2E5D761F
+注意: 这组官方密钥在发送第2880封包开始, 将不再起到混淆作用, 为了安全可以自己重新生成密钥.
+
+配置说明
+--------
+rAthenaCN.log 是正常版的配置文件
+rAthenaCN_ReportError.log 是调试版的配置文件
+
+DIFF说明
+--------
+使用NEMO作为DIFF工具，请使用最新版本的NEMO
+需要编辑一下NEMO目录下的 Patches\TranslateClient.qs 文件, 将下面这几行删掉, 否则会报错:
+
+  //==================================//
+  // Now for the TaeKwon Job name fix //
+  //==================================//
+  
+  Step 4a - Find the Langtype Check
+  var LANGTYPE = GetLangType();//Langtype value overrides Service settings hence they use the same variable - g_serviceType
+  if (LANGTYPE.length === 1)
+    return "Failed in Step 4 - " + LANGTYPE[0];
+   
+  var code = 
+    " 83 3D" + LANGTYPE + " 00"   //CMP DWORD PTR DS:[g_serviceType], 0
+  + " B9 AB AB AB 00"             //MOV ECX, addr1
+  + " 75"                         //JNZ SHORT addr2
+  ;
+  offset = exe.findCode(code, PTYPE_HEX, true, "\xAB");//VC9+ Clients
+  
+  if (offset === -1) {
+    code = 
+      LANGTYPE            //MOV reg32_A, DWORD PTR DS:[g_serviceType] ; Usually reg32_A is EAX
+    + " B9 AB AB AB 00"   //MOV ECX, addr1
+    + " 85 AB"            //TEST reg32_A, reg32_A
+    + " 75"               //JNZ SHORT addr2
+    ;
+    offset = exe.findCode(code, PTYPE_HEX, true, "\xAB");//Older Clients
+  }
+  
+  if (offset === -1)
+    return "Failed in Step 4 - Translate Taekwon Job";
+  
+  //Step 4b - Change the JNZ to JMP so that Korean names never get assigned.
+  exe.replace(offset + code.hexlength() - 1, "EB", PTYPE_HEX);
+
+
+最后更新
+--------
+2017-08-20 18:05:52 By CairoLee
