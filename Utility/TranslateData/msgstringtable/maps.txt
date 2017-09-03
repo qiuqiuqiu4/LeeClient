@@ -1049,7 +1049,7 @@ Mail List#信件列表#
 Write Mail#写信#
 Read Mail#内容#
 You cannot change a map's designation once it is designated. Are you sure that you want to designate this map?#
-Item has been added in the Item Window.#物品已经被添加到邮件中.#
+Item has been added in the Item Window.#已成功提取邮件中的附件.#
 You have failed to add the item in the Item Window.#很抱歉, 无法将物品添加到邮件中.#
 You have successfully mailed a message.#您已经成功发送了邮件.#
 You have failed to mail a message. Recipient does not exist.#很抱歉, 邮件发送失败. 可能是收信人不存在, 或没有足够的金钱来支付邮费.#
