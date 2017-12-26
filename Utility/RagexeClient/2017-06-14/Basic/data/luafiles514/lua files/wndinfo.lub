@@ -69,21 +69,22 @@ end
 
 -- Function #1
 GetWindowInfo = function(windowID)
+	local wnd
 	local wndStr = GetWindowString(windowID)
 	if wndStr ~= nil then
-		local wnd = _G[wndStr]
+		wnd = _G[wndStr]
 	end
 	if wnd ~= nil then
 		return wnd.width, wnd.height, wnd.x, wnd.y
 	end
-	return
 end
 
 -- Function #2
 GetSysButtonInfo = function(windowID)
+	local wnd
 	local wndStr = GetWindowString(windowID)
 	if wndStr ~= nil then
-		local wnd = _G[wndStr]
+		wnd = _G[wndStr]
 	end
 	if wnd ~= nil then
 		return wnd.baseButton, wnd.closeButton
