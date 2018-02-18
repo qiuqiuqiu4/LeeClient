@@ -1,3 +1,5 @@
+/AI
+/AI_sakray
 /savedata
 /memo
 /Replay
@@ -8,3 +10,5 @@
 /data/msgstringtable.txt
 /data/clientinfo.xml
 /Utility/__pycache__
+/*_patched.exe
+/*_ReportError.exe
