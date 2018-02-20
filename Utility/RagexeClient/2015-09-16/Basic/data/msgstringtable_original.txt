@@ -11,7 +11,7 @@ Rejected from Server.#
 Character Name already exists.#
 Character Creation is denied.#
 Character Deletion is denied.#
-Please Enter Room Title.#c
+Please Enter Room Title.#
 Foul Language Detected.#
 Please enter Password.#
 Please enter Password. Passwords must be at least 4 characters long.#
