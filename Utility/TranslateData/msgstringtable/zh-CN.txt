@@ -21,9 +21,9 @@ Blacksmith#Ìú½³#
 Expel from party#Ìß³ö¶ÓÎé#
 
 Do you agree?#ÇëÎÊÄúÊÇ·ñÍ¬Òâ?#
-Failed to Connect to Server.#Á¬½Ó·þÎñÆ÷Ê§°Ü, ÇëÉÔºòÖØÊÔ...#
-Disconnected from Server.#ÄúÒÑ±»·þÎñÆ÷¶Ï¿ªÁ¬½Ó.#
-Disconnected from Server.#ÄúÒÑ±»·þÎñÆ÷¶Ï¿ªÁ¬½Ó.#
+Failed to Connect to Server.#Á¬½Ó·þÎñÆ÷Ê§°Ü, ÇëÉÔºóÖØÊÔ...#
+Disconnected from Server.#·þÎñÆ÷Á¬½ÓÖÐ¶Ï, ÇëÉÔºóÖØÐÂµÇÂ½.#
+Disconnected from Server.#Óë·þÎñÆ÷ÖÐ¶ÏÁ¬½Ó.#
 Server Closed.#·þÎñÆ÷ÒÑ¾­¹Ø±Õ, ÇëÉÔºòÖØÊÔ...#
 Someone has Logged in with this ID.#ÓÐÈËÊ¹ÓÃ´ËÕËºÅµÇÂ¼ÁËÓÎÏ·.#
 Unregistered ID. Please make sure you have a registered account and you have correctly typed in the user ID.#ÉÐÎ´×¢²áµÄÓÎÏ·ÕËºÅ. ÇëÈ·ÈÏÄúÊÇ·ñÒÑ¾­×¢²á´ËÕËºÅ²¢ÌîÐ´ÁËÕýÈ·µÄÕËºÅÃû³Æ.#
@@ -2673,9 +2673,9 @@ Achieve rank#
 The following compensation box until [% 5d] point#
 Progress#
 Recent Achievements#
-à¹ø¯  Item#
-à¹ø¯  : %d / %d #
-à¹ø¯  is low.#
+à¹??  Item#
+à¹??  : %d / %d #
+à¹??  is low.#
 %s#
 Overview#
 General#
@@ -2739,15 +2739,15 @@ Total : %s Crackers#
 The Crackers.#
 ^0000ff more than crackers^000000Did you enter the correct amount?#
 Over than 10billions secure check#
-10¾ï à¹ø¯ ÀÌ»ó ÀÔ·ÂÇÏ¼Åµµ °¡°ÝÀº 10¾ï à¹ø¯·Î ÆÇ¸ÅµË´Ï´Ù.#
-9,999à¹ø¯ ÀÌ»ó ÀÔ·ÂÇÏ¼Åµµ °¡°ÝÀº 9,999à¹ø¯·Î ÆÇ¸ÅµË´Ï´Ù.#
-°¡°ÝÀÌ 0 à¹ø¯ÀÎ ¾ÆÀÌÅÛÀÌ Á¸Àç ÇÕ´Ï´Ù. »óÁ¡À» ¿­¼ö ¾ø½À´Ï´Ù!#
-»ó´ë Ä³¸¯ÅÍ°¡ ÃÖ´ë º¸À¯ à¹ø¯·®À» ÃÊ°úÇÏ¿© °Å·¡°¡ ºÒ°¡´É ÇÕ´Ï´Ù.#
-%s ¾ÆÀÌÅÛÀÇ °¡°ÝÀ» 10¾ïà¹ø¯ ÀÌÇÏ·Î ÀÔ·ÂÇØ ÁÖ¼¼¿ä.#
-%s  :  %s  à¹ø¯ => %s EA#
-Á¦ÇÑ ±Ý¾× : %s à¹ø¯#
-%s %s à¹ø¯ %d °³#
-%s %d°³¸¦ %d à¹ø¯¿¡ ÆÇ¸Å ÇÏ¿´½À´Ï´Ù. ¼ö¼ö·á´Â 3%% ÀÔ´Ï´Ù.#
+10¾ï à¹?? ÀÌ»ó ÀÔ·ÂÇÏ¼Åµµ °¡°ÝÀº 10¾ï à¹??·Î ÆÇ¸ÅµË´Ï´Ù.#
+9,999à¹?? ÀÌ»ó ÀÔ·ÂÇÏ¼Åµµ °¡°ÝÀº 9,999à¹??·Î ÆÇ¸ÅµË´Ï´Ù.#
+°¡°ÝÀÌ 0 à¹??ÀÎ ¾ÆÀÌÅÛÀÌ Á¸Àç ÇÕ´Ï´Ù. »óÁ¡À» ¿­¼ö ¾ø½À´Ï´Ù!#
+»ó´ë Ä³¸¯ÅÍ°¡ ÃÖ´ë º¸À¯ à¹??·®À» ÃÊ°úÇÏ¿© °Å·¡°¡ ºÒ°¡´É ÇÕ´Ï´Ù.#
+%s ¾ÆÀÌÅÛÀÇ °¡°ÝÀ» 10¾ïà¹?? ÀÌÇÏ·Î ÀÔ·ÂÇØ ÁÖ¼¼¿ä.#
+%s  :  %s  à¹?? => %s EA#
+Á¦ÇÑ ±Ý¾× : %s à¹??#
+%s %s à¹?? %d °³#
+%s %d°³¸¦ %d à¹??¿¡ ÆÇ¸Å ÇÏ¿´½À´Ï´Ù. ¼ö¼ö·á´Â 3%% ÀÔ´Ï´Ù.#
 RODEX#RODEXÐÅÏä#
 SEND#Ð´ÐÅ#
 RECEIVE#ÐÅ¼þÄÚÈÝ#
@@ -2758,7 +2758,7 @@ Unequipped Arrow/Ammunition.#
 Consuming item in inventory will close mail compose window.#
 Do not have Magnifier.#
 Close email window if you want to discard item.#
-¹ï¤èÁÜ½Ð§A¥[¤J¦n¤Í¤¤.#
+¹ï¤èÁÜ½Ð?A?[?J?n¤Í¤¤.#
 SCRIPT ERROR AID#
 \nErrorfile : %s\nErrorLine : %d item\nErrorContext: %s#
 ^ff0000Are you sure want to purchase the item? after confirmation will consume %d point and %d crackers.#
